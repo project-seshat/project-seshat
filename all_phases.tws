@@ -1,7 +1,7 @@
 (dp0
 S'buildDestination'
 p1
-VC:\u005cUsers\u005cDennis Jeong\u005cDocuments\u005ctwine\u005cvgw-2018\u005cindex.html
+VC:\u005cUsers\u005cDennis Jeong\u005cDocuments\u005ctwine\u005cproject-seshat\u005cindex.html
 p2
 sS'saveDestination'
 p3
@@ -434,7 +434,7 @@ tp142
 Rp143
 sbsa(dp144
 g14
-I01
+I00
 sg15
 (lp145
 F17.475
@@ -1193,7 +1193,7 @@ asg33
 g373
 sbsa(dp376
 g14
-I00
+I01
 sg15
 (lp377
 F423.4375
