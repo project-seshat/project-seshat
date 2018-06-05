@@ -536,7 +536,7 @@ tp173
 Rp174
 sbsa(dp175
 g14
-I01
+I00
 sg15
 (lp176
 F451.43750000000074
@@ -1191,7 +1191,7 @@ asg33
 g372
 sbsa(dp375
 g14
-I00
+I01
 sg15
 (lp376
 F423.4375
@@ -1202,7 +1202,7 @@ Tiddler
 p377
 (dp378
 g21
-VCreated By:\u000a<div align='center'>\u005c\u000a	<contributors>Students:</contributors>\u000a		Aaron Brackett\u000a		Cameron Woods\u000a		Jeffrey Woo\u000a		Kristel Bugayong\u000a		Maya Ziv\u000a		Rachelle Pabalan\u000a		Ronald Pritipaul\u000a		Sarina Wu\u000a		Will Gutzman\u000a\u000a	<contributors>Teaching Staff:</contributors>\u000a		Dennis Jeong\u000a		Matthew Mistele\u000a\u000a	<contributors>Instructors:</contributors>\u000a		Michael Shewmaker\u000a		Scott Hutchins\u000a</div>\u000aSpecial Thanks to the Stanford Creative Writing Department, Max Doty from Pixelberry Studios, and our playtesters\u000a\u000a[[Back to Main Menu|Boot]]
+VCreated By:\u000a<div align='center'>\u005c\u000a	<contributors>Students:</contributors>\u000a		Aaron Brackett\u000a		Cameron Woods\u000a		Jeffrey Woo\u000a		Kristel Bugayong\u000a		Maya Ziv\u000a		Rachelle Pabalan\u000a		Ronald Pritipaul\u000a		Sarina Wu\u000a		Will Gutzman\u000a\u000a	<contributors>Teaching Staff:</contributors>\u000a		Dennis Jeong\u000a		Matthew Mistele\u000a\u000a	<contributors>Instructors:</contributors>\u000a		Michael Shewmaker\u000a		Scott Hutchins\u000a</div>\u000aSpecial Thanks to the [[Stanford Creative Writing Department|http://creativewriting.stanford.edu/]], Max Doty from Pixelberry Studios, and our playtesters\u000a\u000a[[Back to Main Menu|Boot]]
 p379
 sg23
 VContributors
@@ -1213,8 +1213,8 @@ g26
 I6
 I4
 I20
-I29
-I3
+I43
+I26
 I0
 I155
 I1
