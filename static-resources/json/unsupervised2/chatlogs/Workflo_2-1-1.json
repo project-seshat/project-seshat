@@ -1,5 +1,6 @@
 {
 	"htmlTemplate" : "slacctemplate.bars",
+	"filename" : "Contract.cht",
 	"conversation" : [
 		{"from": "_CEO", "message" : "So we finally secured a contract with the FIB"},
 		{"from": "_CEO", "message" : "They want to implement Sesh@ in the DCI unit"},

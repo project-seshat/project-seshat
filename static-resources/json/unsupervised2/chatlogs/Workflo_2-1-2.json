@@ -1,5 +1,6 @@
 {
 	"htmlTemplate" : "slacctemplate.bars",
+	"filename" : "Incident1.cht",
 	"conversation" : [
 		{"from": "_Person1", "message" : "Did you hear about _Incident?"},
 		{"from": "_Person1", "message" : "45 people dead...."},

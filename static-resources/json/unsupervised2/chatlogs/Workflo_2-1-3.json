@@ -1,5 +1,6 @@
 {
 	"htmlTemplate" : "slacctemplate.bars",
+	"filename" : "Incident2.cht",
 	"conversation" : [
 		{"from": "_Person1", "message" : "In response to _Incident, we are going to coordinate with the FIB to help with their incestigation"},
 		{"from": "_Person1", "message" : "We will be deploying Sesh@ to parse through the FIB dataset to help the DCI determine possible suspects"},
