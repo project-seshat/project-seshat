@@ -5,7 +5,7 @@ VC:\u005cUsers\u005cDennis Jeong\u005cDocuments\u005ctwine\u005cvgw-2018\u005cas
 p2
 sS'saveDestination'
 p3
-V/Users/mattmistele/Developer/project-seshat/all_phases.tws
+S'C:\\Users\\Dennis Jeong\\Documents\\twine\\project-seshat\\all_phases.tws'
 p4
 sS'metadata'
 p5
@@ -132,7 +132,7 @@ tp51
 Rp52
 sbsa(dp53
 g14
-I00
+I01
 sg15
 (lp54
 F4.987500000000168
@@ -143,7 +143,7 @@ Tiddler
 p55
 (dp56
 g21
-Vconsole.log('init block');\u000a\u000aConfig.history.maxStates = 1;\u000aConfig.ui.stowBarInitially = true;\u000a\u000awindow.sugarCubeImportScripts = importScripts;\u000awindow.sugarCubeImportStyles = importStyles;\u000a\u000awindow.sugarCubeMacros = macros;\u000a\u000a\u000a\u000a\u000awindow.scriptsPath = "http://localhost:11111/scripts/";\u000awindow.resourcesPath = "http://localhost:11111/resources/";\u000aif (window.location.protocol === "https:" || window.location.protocol === "http:"){\u000a    window.scriptsPath = window.location.protocol + "//" + window.location.hostname + "/vgw-2018/scripts/";\u000a    window.resourcesPath = window.location.protocol + "//" + window.location.hostname + "/vgw-2018/static-resources/";\u000a}\u000a\u000aimportScripts( [\u000awindow.scriptsPath + "import_all.js"\u000a]\u000a);\u000a\u000a
+Vconsole.log('init block');\u000a\u000aConfig.history.maxStates = 1;\u000aConfig.ui.stowBarInitially = true;\u000a\u000awindow.sugarCubeImportScripts = importScripts;\u000awindow.sugarCubeImportStyles = importStyles;\u000a\u000awindow.sugarCubeMacros = macros;\u000a\u000a\u000a\u000a\u000awindow.scriptsPath = "http://localhost:11111/scripts/";\u000awindow.resourcesPath = "http://localhost:11111/resources/";\u000aif (window.location.protocol === "https:" || window.location.protocol === "http:"){\u000a    window.scriptsPath = window.location.protocol + "//" + window.location.hostname + "/project-seshat/scripts/";\u000a    window.resourcesPath = window.location.protocol + "//" + window.location.hostname + "/project-seshat/static-resources/";\u000a}\u000a\u000aimportScripts( [\u000awindow.scriptsPath + "import_all.js"\u000a]\u000a);\u000a\u000a
 p57
 sg23
 VInit Script
@@ -153,9 +153,9 @@ g26
 ((I2018
 I6
 I4
-I19
-I28
-I39
+I21
+I7
+I5
 I0
 I155
 I1
@@ -1191,7 +1191,7 @@ asg33
 g372
 sbsa(dp375
 g14
-I01
+I00
 sg15
 (lp376
 F423.4375
