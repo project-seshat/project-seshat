@@ -1,0 +1,10 @@
+{
+	"filename" : "i-love-the-food",
+	"type" : "CompanyMemo",
+	"htmlTemplate" : "memotemplate.bars",
+	"receiver" : "People of Qualia",
+	"date" : "May 20, 20XX",
+	"subject" : "I Love The Food",
+	"from" : "John Walker, Engineer",
+	"text" : "Y'all, I have literally no idea what you're complaining about. The food is awesome.\nSeriously. Bunch of complainers I swear.\nOn that note, has anyone tried to Health First program at Qualia? I heard there's some really good benefits. Papayeggs? Yum. You can't get that kind of stuff anymore. It's too hard to find in this day and age. I love the way we are treated here. It's so amazing.\nSincerely and Unsarcastically,\nJohn Walker"
+}

@@ -1,0 +1,9 @@
+{
+    "type" : "UnsupervisedDirectory",
+    "isDirectory": true,
+    "filename" : "News",
+	"files" : [
+        "json/unsupervised1/news/news1.json",
+        "json/unsupervised1/news/news2.json"
+	]
+}

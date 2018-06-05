@@ -1,0 +1,9 @@
+{
+	"htmlTemplate": "memotemplate.bars",
+	"type" : "CompanyMemo",
+	"receiver" : "Company Archives",
+	"date" : "May 1, 20XX",
+	"subject" : "Project Sesh@ Abstract",
+	"from" : "Qualia Research Team",
+	"text" : "Project Sesh@ is a cross functional deployment of our AI into the field to complete The Sorting. With state of the art technology that we've in-depth tested for completeness, we expect over 85 percent accuracy to complete the goals of the regime. This technology includes face recognition, personality inference, and advising based on threat level. We were contracted for this project by the Regime after developing our intelligence to a height of excellence unprecedented. We hope to serve our unity and make the most of our progress."
+}

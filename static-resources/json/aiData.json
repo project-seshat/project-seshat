@@ -1,0 +1,36 @@
+{
+    "type" : "Game",
+	"htmlTemplate" : "templates/titletemplate.bars",
+	"title": "AI TITLE",
+	"jsonExample": "json/dennistest/other-json",
+    "txtExample": "txt:json/dennistest/dennistest.txt",
+    "exampleObject": {
+        "text": "txt:json/dennistest/dennistest.txt",
+    },
+
+    "intro": "json/intro/intro.json",
+    "tempoLogs": {
+        "tempo1": "http://web.stanford.edu/~ronaldp2//Chat/1/Fullscreen.html",
+        "tempo2": "http://web.stanford.edu/~ronaldp2//Chat/2/Fullscreen.html",
+        "tempo3": "http://web.stanford.edu/~ronaldp2//Chat/3/Fullscreen.html",
+        "tempo4": "http://web.stanford.edu/~ronaldp2//Chat/4/Fullscreen.html",
+        "tempo5": "http://web.stanford.edu/~ronaldp2//Chat/5/Fullscreen.html",
+        "tempo6": "http://web.stanford.edu/~ronaldp2//Chat/6/Fullscreen.html",
+        "tempo7": "http://web.stanford.edu/~ronaldp2//Chat/7/Fullscreen.html",
+        "tempo71": "http://web.stanford.edu/~ronaldp2//Chat/71/Fullscreen.html",
+        "tempo72": "http://web.stanford.edu/~ronaldp2//Chat/72/Fullscreen.html",
+        "tempo73": "http://web.stanford.edu/~ronaldp2//Chat/73/Fullscreen.html",
+        "tempo74": "http://web.stanford.edu/~ronaldp2//Chat/74/Fullscreen.html",
+        "tempo8": "http://web.stanford.edu/~ronaldp2//Chat/8/Fullscreen.html",
+        "tempo81": "http://web.stanford.edu/~ronaldp2//Chat/81/Fullscreen.html"
+    },
+	"supervised1": "json/supervised1",
+    "unsupervised": [
+        "json/unsupervised1/unsupervised1.json",
+        "json/unsupervised2/unsupervised2.json",
+        "json/unsupervised3/unsupervised3.json",
+    ],
+    "unsupervisedExample": "json/unsupervisedExample/investigation",
+    "unsupervisedNestedExample": "json/unsupervisedNestedExample/investigation",
+	"murder": "json/murder/investigation.json"
+}

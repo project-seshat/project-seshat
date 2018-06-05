@@ -1,0 +1,26 @@
+{	
+	"image": {
+		"htmlTemplate": "templates/profilephototemplate.bars",
+		"imgPath": "/profiles/Vervain.png"
+	},
+	"basicInfo": {
+		"htmlTemplate": "templates/texttemplate.bars",
+		"text": "Vervain Helia, 26\n San Francisco, California"
+	},
+	"sentiment": {
+		"htmlTemplate": "templates/texttemplate.bars",
+		"text": "Vervain Helia, 26\n San Francisco, California\nPublicist at blob-o’s, the popular new food start-up\nEducation: Crestville Community College\n\nKNOWN FACTS FROM PROFILE\n - Recent Headlines: \n\tBlob-o’s: Bigger Than Boba? (6m) \n\tBlob-o’s New Squid Topping: Delicious or Disgusting? (2m) \n\tBlob-o’s Bomb the Nation: What Are You Really Eating? (1m) \n - Known interests: \n \tSFood blogging/photography, getting that filter just right"
+	},
+	"violence": {
+		"htmlTemplate": "templates/texttemplate.bars",
+		"text": "LAST KNOWN LOCATIONS:\n\tBlob-o's HQ, 4wk, 3wk, 2wk [EMPLOYEE LOGS]\n\tVirginia Airport, 1wk [WIFI]\n\tBlob-o's on 36th, 5d [PUBLIC PROFILE]\n\tBlob-o's on 15th, 3d [PUBLIC PROFILE]\n\t DC Fairgrounds 5d, 4d, 3d, 2d, 1d [PHONE TRACKING DATA]"
+	},
+	"association": {
+		"htmlTemplate": "templates/texttemplate.bars",
+		"text": "TOP BROWSER HISTORY\n[1] Blob-o.com\n[2] freespellcheck.com\n[3] Leilo.com\n[4] GoggleMaps.com"
+	},
+	"action": {
+		"htmlTemplate": "templates/texttemplate.bars",
+		"text": "PULLED FROM CONVERSATION DATABASE\n\nYou're coming to the meeting today, right?\n\nOh gee, y'know, I really was planning on it...\n\nVervain. Seriously.\n\nSorry, I've just been traveling so much! I'll, uh, catch the next one!"
+	}
+}

@@ -1,0 +1,18 @@
+<<nobr>>
+    <<timed 1s>>
+        {{#each this}}
+            <<script>>
+                var passageElement = document.getElementById('passages');
+                passageElement.scrollTop = passageElement.scrollHeight;
+            <</script>>
+            {{this.[0]}}<br>
+            <<next {{this.[1]}}ms>>
+        {{/each}}
+        <<next>>
+        <<link [[Continue|$finishPassage]]>>
+            <<script>>
+                document.getElementById('passages').scrollTop = 0;
+            <</script>>
+        <</link>>
+    <</timed>>
+<</nobr>>

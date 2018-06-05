@@ -1,0 +1,19 @@
+{
+	"filename" : "Workflo-2-3",
+	"htmlTemplate" : "slacctemplate.bars",
+	"conversation" : [
+		{"from": "_CEO", "message" : "We need to boost morale before Project Sesh@"},
+		{"from": "_CEO", "message" : "When we started this company it felt like there was a wave of excitement but it seems to have died down"},
+		{"from": "_Cofounder", "message" : "That's what happens when you expand, the vision gets lost in the bureaucracy"},
+		{"from": "_CEO", "message" : "I'm thinking about having implementing some new tactics to boost morale"},
+		{"from": "_Cofounder", "message" : "Such as..."},
+		{"from": "_CEO", "message" : "New handbooks explaining are vision and why we shouldn't focus too much on the droll"},
+		{"from": "_CEO", "message" : "I get that it can be hard to work on this sometimes, I hated staring at code every day"},
+		{"from": "_CEO", "message" : "But if too many people focus on that that low morale eventually spreads"},
+		{"from": "_Cofounder", "message" : "What are you thinking about doing?"},
+		{"from": "_CEO", "message" : "Well I definitely want to curb complaining on Workflo, I'm working on improving the food in the cafeteria. Hopefully that stops them from bitching about this place"},
+		{"from": "_CEO", "message" : "I mean we put in so much work into this company if they could just see the bigger picture they would know all this work is going for the greater good"},
+		{"from": "_Cofounder", "message" : "I agree, but don't you think its a bit heavy handed, I mean at the end of the day what does it matter if the work gets done"},
+		{"from": "_CEO", "message" : "We just can't afford to have people leaving espescially with the Arc contract. Company loyalty needs to be our top priority"},
+	]
+}

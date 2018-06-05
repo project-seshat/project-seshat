@@ -1,0 +1,9 @@
+{
+	"htmlTemplate": "memotemplate.bars",
+	"type" : "CompanyMemo",
+	"receiver" : "Lead Engineering Team",
+	"date" : "April 30, 20XX",
+	"subject" : "Grant Approved",
+	"from" : "CEO Team",
+	"text" : "Good news. The Regime has given us the Go Ahead for Project Sesh@. With their funding, we can expect full reign to complete this project and get The Sorting moving. Do not let us down. We are relying on your intelligence and expertise to build this intelligence and give it the power to be momentuous. Give the intern the dirty work if you have to. We can use all the help we can get."
+}

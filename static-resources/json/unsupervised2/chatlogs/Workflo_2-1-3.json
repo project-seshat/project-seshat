@@ -1,0 +1,12 @@
+{
+	"htmlTemplate" : "slacctemplate.bars",
+	"conversation" : [
+		{"from": "_Person1", "message" : "In response to _Incident, we are going to coordinate with the FIB to help with their incestigation"},
+		{"from": "_Person1", "message" : "We will be deploying Sesh@ to parse through the FIB dataset to help the DCI determine possible suspects"},
+		{"from": "_Person1", "message" : "I know _Incident is close to home for some of you, we will be bringing in grief counselors if anyone needs to talk. Just know your work is valuable and is greatly appreciated by the people affected"},
+		{"from": "_Person2", "message" : "When do you think the datasets will be available "},
+		{"from": "_Person2", "message" : "I'm currently working on the Workflo logs from last month"},
+		{"from": "_Person2", "message" : "But I can switch gears as soon as the daa is available"},
+		{"from": "_Person1", "message" : "You shoule have access by tonight"},
+	]
+}

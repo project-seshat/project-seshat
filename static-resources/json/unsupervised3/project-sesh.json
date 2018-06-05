@@ -1,0 +1,24 @@
+{
+    "type" : "UnsupervisedDirectory",
+    "filename" : "Project Sesh",
+    "entries" : [
+        {
+        "htmlTemplate" : "memotemplate.bars",
+        "type" : "CompanyMemo",
+        "receiver" : "Company Archives",
+        "date" : "May 18, 20XX",
+        "subject" : "Project Sesh@ Method",
+        "from" : "Qualia Research Team",
+        "text" : "Project Sesh@ will be divided into three phases:\nPhase 1: Training\nWe will be testing our AI prototype intelligences in classification. It will learn to uncover patterns and start building connections on the world based on the data we feed it.\nPhase 2: Testing\nWe will test our intelligence on its ability to detect threats. We will tune this so that it will perfectly identify who are threats to the Regime as contracted to us in our work. In doing so, we will be able to remove and eliminate all opposition and carry out our reign of power.\nPhase 3: Deployment\nAfter testing is complete, we will use the AI intelligence to serve all purposes of classification from threat testing to opposition identification. This will give us complete control. We are ready."
+    },
+    {
+        "htmlTemplate" : "memotemplate.bars",
+        "type" : "CompanyMemo",
+        "receiver" : "Company Archives",
+        "date" : "May 29, 20XX",
+        "subject" : "Project Sesh@ Acknowledgements",
+        "from" : "Qualia Research Team",
+        "text" : "We would like to give thanks to the Regime for their support and donation to Project Sesh@. Without their support, we would not have had the inspiration and passion to push for such a moving technological advancement. We are entering an era where AI has the power to change the world, and we hope to change the world for good. By removing all threatening people and exacting The Sorting, we will finally be a pure society. This is all thanks to The Regime. It is their gratititude and support that has allowed us to build this technology. We are excited to roll it out in full force."
+    }
+    ]
+}

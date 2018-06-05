@@ -1,0 +1,12 @@
+{
+	"type" : "UnsupervisedDirectory",
+	"isDirectory": true,
+    "filename" : "Food",
+	"files" : [
+		"json/unsupervised1/food/i-love-the-food-memo.json",
+		"json/unsupervised1/food/food-services-psa-memo.json",
+		"json/unsupervised1/food/WorkFlo_1-1",
+		"json/unsupervised1/food/WorkFlo_1-2",
+		"json/unsupervised1/food/WorkFlo_1-3"
+	]
+}

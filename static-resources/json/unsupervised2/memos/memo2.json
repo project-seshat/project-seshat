@@ -1,0 +1,9 @@
+{
+	"htmlTemplate": "memotemplate.bars",
+	"type" : "CompanyMemo",
+	"receiver" : "CEO Team",
+	"date" : "April 13, 20XX",
+	"subject" : "Funding Approval",
+	"from" : "Classified",
+	"text" : "Dear Qualia,\nWe have decided after careful deliberation that your project is worth funding in its effort to help The Regime. While we do not necessarily think the implementation of neew technological is needed, we will welcome any efforts to keep order and keep our unity in place. We value the safety and well-being of our people, and this sounds like an excellent way to accomplish these goals. As you know, we are on the same page here. We know what must be done. We know what will be done. We will fund Project Sesh@ however is necessary. Let it be known though, this project must be completed; and timely at that. We expect excellence. Do not let us down.\nSincerely,\nYour CEO Team"
+}

@@ -1,0 +1,12 @@
+{
+	"type" : "UnsupervisedInvestigation",
+	"rootDirectory" : "json/unsupervisedNestedExample/directory.json",
+    "tempoLog" : "txt:json/unsupervised2/tempo_log.txt",
+    "choices": [["Cardboard", "Styrofoam", "The food was described by the CEO as tasting like"],
+    ["Papayegg", "Meaty Surprise", "Last Tuesday, the CEO ate, and hated the"],
+    ["2 months", "2 weeks", "The engineering team will speed up production on Sesh@ from 6 months to"],
+    ["Aras Findlay, Backend Engineer", "Harris Parkes, VP of Engineering", "Who is scared and doubtful about the upcoming events?"],
+    ["Yes", "No", "Qualia cares about its employees."],
+    ["Yes", "No", "Qualia is very close to achieving its goals of making the world a better place thanks to the new grant."]
+    ]
+}

@@ -1,0 +1,3 @@
+{{#each conversation}}
+    <li><b>{{ this.from }}</b>: {{ this.message }} </li>
+{{/each}}

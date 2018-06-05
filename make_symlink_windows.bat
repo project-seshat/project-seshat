@@ -1,0 +1,1 @@
+mklink /D resources "G:\Team Drives\VideoGameWriting\resources"

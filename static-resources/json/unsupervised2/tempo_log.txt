@@ -1,0 +1,14 @@
+LOG 2
+Project Sesh@ Revival
+Log Date: -------
+Log Author: Tempo Kalmarz
+
+Day two of Project Sesh@ revival. The training on advertising data sets was a success, will hopefully be prepared for more complex data in the future.
+
+To be honest, I didn’t think the ice cream looked that delicious, but I’m just the intern. The program has been running smoothly and all the readings are coming back normal. 
+
+These unsupervised sessions and proving to be much more useful than the team thought. Should be interesting to see where we go from here. Looks like it’s getting a contract for something more serious - parsing data about crime? Sounds cool!
+
+Uh. Officially and most disciplined-ly signing off. (Does anyone read these?)
+
+-T

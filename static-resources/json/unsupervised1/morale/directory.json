@@ -1,0 +1,12 @@
+{
+	"type" : "UnsupervisedDirectory",
+	"isDirectory": true,
+    "filename" : "Morale",
+	"files" : [
+		"json/unsupervised1/morale/thank-you-memo.json",
+		"json/unsupervised1/morale/you-can-do-it-memo.json",
+		"json/unsupervised1/morale/WorkFlo_2-1",
+		"json/unsupervised1/morale/WorkFlo_2-2",
+		"json/unsupervised1/morale/WorkFlo_2-3"
+	]
+}

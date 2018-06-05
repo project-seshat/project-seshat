@@ -1,0 +1,106 @@
+html{
+    width:100%;
+    height:100%;
+}
+
+body{
+    width:100%;
+    height:100%;
+    display: flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+}
+span.ai-text {
+    white-space: pre-wrap;
+}
+
+
+body.startup { 
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-size: 100%;
+}
+
+body {
+  background-attachment: fixed, fixed; 
+  background-repeat: no-repeat, no-repeat;
+  background-size: 90% 90%, cover;
+  background-position: center, center;
+  font-family: courier;
+  font-size: 110%;
+  color: azure;
+  margin-left: 0;
+}
+
+#passages {
+    margin: 0px 0px;
+    margin-top: 4.5%;
+    margin-left: 12px;
+    margin-right: 12px;
+    max-width: none;
+    height:90%;
+    width:100%;
+}
+
+#ui-bar {
+    transition: none;
+}
+
+/*#ui-bar.stowed ~ #story {
+    margin-left: 5em;
+}
+*/
+/*
+@media screen and (max-width: 1136px) {
+    #ui-bar.stowed ~ #story {
+        margin-left: 5em;
+    }
+}
+
+@media screen and (max-width: 100000000px) {
+}
+*/
+#passages {
+    transition-property: none;
+    transition: none;
+    overflow-y: scroll;
+}
+
+#passages::-webkit-scrollbar {
+    width: 1em;
+}
+ 
+#passages::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+}
+ 
+#passages::-webkit-scrollbar-thumb {
+  background-color: darkgrey;
+  outline: 1px solid slategrey;
+}
+
+
+.transition-in {
+    opacity:100;
+}
+
+.transition-out {
+    opacity:100;
+}
+
+
+#ui-bar.stowed #ui-bar-body {
+    transition: none;
+}
+
+#story {
+    display:flex;
+    margin: 0px !important;
+    height:90%;
+    width:90%;
+    transition: none;
+    justify-content: center;
+    align-items:center;
+}
