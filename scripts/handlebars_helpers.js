@@ -7,7 +7,6 @@ window.sugarCubeMacros.aiRender = {
         var templateArg = c[1];
         var options = c[2];
         console.log('aiRender', a, c[0]);
-        if (window.ro !== undefined && jsonArg['autoscroll'] === "on"){window.ro.observe(a);}
         renderJsonObject(jsonArg, templateArg)
         .then((result)=>{new window.SugarCube.Wikifier(appendLocation,result)});
     }

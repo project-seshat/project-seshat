@@ -9,10 +9,11 @@
             <<next {{this.[1]}}ms>>
         {{/each}}
         <<next>>
-        <<link [[Continue|$finishPassage]]>>
-            <<script>>
-                document.getElementById('passages').scrollTop = 0;
-            <</script>>
-        <</link>>
+        <<script>>
+            var passageElement = document.getElementById('passages');
+            passageElement.scrollTop = passageElement.scrollHeight;
+        <</script>>
+
+        [[Continue|$finishPassage]]
     <</timed>>
 <</nobr>>
