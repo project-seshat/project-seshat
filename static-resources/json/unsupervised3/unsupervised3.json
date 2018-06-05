@@ -9,9 +9,10 @@
         ["Scarlett", "Aras", "Who believes in Qualia?"],
         ["Three", "Nineteen", "How many Phases are part of Project Sesh@?"],
         ["threat identification", "political scandal", "What will happen when Sesh@ is deployed?"],
-        ["Silve Eyed People", "Blue Eyed People", "Who does John think is stupid?"],
+        ["Silver Eyed People", "Blue Eyed People", "Who does John think is stupid?"],
         ["The Regime", "Aras Findlay", "Who does Scarlett trust?"],
         ["True", "False", "The Regime is doing good things"],
-        ["True", "False", "A pure society is within reach"]
+        ["True", "False", "A pure society is within reach"],
+        ["Yes", "No", "Qualia cares about its employees."]
     ]
 }

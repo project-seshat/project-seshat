@@ -1,1 +1,2 @@
-<iframe src="{{this}}" width="325" height="450"></iframe>
+<iframe src="{{this.text}}" width="325" height="450"></iframe>
+<<script>>document.body.classList.add("{{this.backgroundclass}}");<</script>>

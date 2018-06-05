@@ -1,10 +1,11 @@
 {
+//removed from game
+	"filename" : "Workflo-2-1",
 	"htmlTemplate" : "slacctemplate.bars",
-	"filename" : "WorkFloMorale1.wfl",
 	"conversation" : [
 		{"from": "_Person1", "message" : "Hey, corporate is rolling out the new employee handbooks"},
 		{"from": "_Person1", "message" : "Can you pick them from my office today and disribute them to your team?"},
 		{"from": "_Person2", "message" : "Definitely, can I swing by around 3?"},
-		{"from": "_Person1", "message" : "Works for me"},
+		{"from": "_Person1", "message" : "Works for me"}
 	]
 }

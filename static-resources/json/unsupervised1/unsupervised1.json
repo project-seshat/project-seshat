@@ -6,12 +6,12 @@
 ["Papayegg", "Meaty Surprise", "Last Tuesday, the CEO ate, and hated the"],
 ["2 months", "2 weeks", "The engineering team will speed up production on Sesh@ from 6 months to"],
 ["Aras Findlay, Backend Engineer", "Harris Parkes, VP of Engineering", "Who is scared and doubtful about the upcoming events?"],
-["Yes", "No", "Qualia cares about its employees."],
-["Yes", "No", "Qualia is very close to achieving its goals of making the world a better place thanks to the new grant."],
 ["San Flamingo", "Defloit", "Which city is known for their startups?"],
 ["True", "False", "Blob-o's Burgers just aren't as good as they used to be"],
 ["Facelift", "Chirper", "Which of these recently received funding?"],
 ["Your Qualia Family", "Your Qualia Community", "How does Qualia address themselves in emails?"],
-["Kasseri Armstrong", "Sorora Borealis", "Who founded Qualia?"]
+["Kasseri Armstrong", "Sorora Borealis", "Who founded Qualia?"],
+["Yes", "No", "Qualia is very close to achieving its goals of making the world a better place thanks to the new grant."],
+["Yes", "No", "Qualia cares about its employees."]
 ]
 }

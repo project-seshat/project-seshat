@@ -5,7 +5,7 @@ S''
 p2
 sS'saveDestination'
 p3
-S'C:\\Users\\peace\\Documents\\GitHub\\vgw-2018\\predicting_terrorism.tws'
+S'C:\\Users\\Dennis Jeong\\Documents\\twine\\project-seshat\\predicting_terrorism.tws'
 p4
 sS'metadata'
 p5
@@ -85,71 +85,19 @@ g14
 I00
 sg15
 (lp39
-I10
-aI570
+I990
+aI150
 asg17
 (itiddlywiki
 Tiddler
 p40
 (dp41
 g21
-Vconsole.log('init run');\u000a\u000awindow.sugarCubeImportScripts = importScripts;\u000awindow.sugarCubeImportStyles = importStyles;\u000a\u000awindow.sugarCubeMacros = macros;\u000a\u000aimportScripts( [\u000a"http://localhost:11111/scripts/import_all.js"\u000a]\u000a);\u000a\u000a
+V<<aiRender $curProf.image>>\u005c\u000a<<aiRender $curProf.sentiment>>\u000a\u000a[[Negative Sentiment|Violence Analysis][$s = "X"]]\u000a[[Neutral Sentiment|Violence Analysis][$s = "O"]]\u000a\u000a
 p42
 sg23
-VInit
-p43
-sg25
-g26
-((I2018
-I5
-I17
-I1
-I3
-I46
-I3
-I137
-I1
-tp44
-(dp45
-tp46
-Rp47
-sg31
-(lp48
-Vscript
-p49
-asg33
-g26
-((I2018
-I5
-I14
-I11
-I49
-I19
-I0
-I134
-I1
-tp50
-(dp51
-tp52
-Rp53
-sbsa(dp54
-g14
-I00
-sg15
-(lp55
-I990
-aI150
-asg17
-(itiddlywiki
-Tiddler
-p56
-(dp57
-g21
-V<<aiRender $curProf.image>>\u005c\u000a<<aiRender $curProf.sentiment>>\u000a\u000a[[Negative Sentiment|Violence Analysis][$s = "X"]]\u000a[[Neutral Sentiment|Violence Analysis][$s = "O"]]\u000a\u000a
-p58
-sg23
 VSentiment Analysis
-p59
+p43
 sg25
 g26
 ((I2018
@@ -161,12 +109,12 @@ I39
 I3
 I151
 I1
-tp60
-(dp61
-tp62
-Rp63
+tp44
+(dp45
+tp46
+Rp47
 sg31
-(lp64
+(lp48
 sg33
 g26
 ((I2018
@@ -178,28 +126,28 @@ I4
 I1
 I135
 I1
-tp65
-(dp66
-tp67
-Rp68
-sbsa(dp69
+tp49
+(dp50
+tp51
+Rp52
+sbsa(dp53
 g14
 I00
 sg15
-(lp70
+(lp54
 I570
 aI10
 asg17
 (itiddlywiki
 Tiddler
-p71
-(dp72
+p55
+(dp56
 g21
 V<b>DATASET 1</b>\u000a<<if $choiceNum eq 0>>\u005c\u000a+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+\u000a+ Developer's log 2.0.1\u000a+ \u000a+ Process will be presented with a series of data points collected\u000a+ from the profiles perpetrators of another dangerous attack. \u000a+ It must select one choice from each pair. \u000a+ Static memory of which images are correct is implemented; the process should remember which data points were correct. \u000a+ This knowledge will transfer between sets of choices.\u000a+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+\u000a<</if>>\u005c\u000a<<if $result eq 1>>CORRECT<<else>>INCORRECT<</if>>\u000a<<nobr>> test1_accuracy: \u000a<<if $choiceNum eq 0>>\u000a0%.\u000a<<else>>\u000a<<set $accuracy1 = Math.ceil($numCorrect / ($numCorrect + $numWrong) * 100)>>\u000a<<print $accuracy1>>%.\u000a<</if>>\u000a<</nobr>>\u000a<<set $order=random(1)>>\u005c\u000a<<if $choiceNum < $maxChoiceNum1>>\u005c\u000a<div id="passage-footer">\u005c\u000a<<if $order eq 1>>\u005c\u000a<span id="choice1"><<include "Right Choice">></span>\u005c\u000a<span id="margin"></span>\u005c\u000a<span id="choice2"><<include "Wrong Choice">></span>\u000a<<elseif $order eq 0>>\u005c\u000a<span id="choice1"><<include "Wrong Choice">></span>\u005c\u000a<span id="margin"></span>\u005c\u000a<span id="choice2"><<include "Right Choice">></span>\u000a<</if>>\u000a</div>\u000a<<else>>\u005c\u000a<<set $numCorrect = 0>>\u005c\u000a<<set $numWrong = 0>>\u005c\u000adev.log: "Dataset 1 complete."\u000a[[NEXT|Choices2]]\u000a<</if>>
-p73
+p57
 sg23
 VChoices1
-p74
+p58
 sg25
 g26
 ((I2018
@@ -211,12 +159,12 @@ I15
 I0
 I155
 I1
-tp75
-(dp76
-tp77
-Rp78
+tp59
+(dp60
+tp61
+Rp62
 sg31
-(lp79
+(lp63
 sg33
 g26
 ((I2018
@@ -225,6 +173,58 @@ I17
 I0
 I36
 I16
+I3
+I137
+I1
+tp64
+(dp65
+tp66
+Rp67
+sbsa(dp68
+g14
+I00
+sg15
+(lp69
+I10
+aI430
+asg17
+(itiddlywiki
+Tiddler
+p70
+(dp71
+g21
+V#choice1 {\u000a    float: left;\u000a    width: 40%;\u000a  	margin: 20px 0px 10px 0px;\u000a    border: 0px solid #000000;\u000a}\u000a\u000a#choice2 {\u000a    float: left;\u000a    width: 40%;\u000a  	margin: 20px 0px 10px 0px;\u000a    border: 0px solid #000000;\u000a}\u000a\u000a#margin {\u000a	float: left;\u000a    width: 3%;\u000a  	margin: 20px 0px 10px 0px;\u000a    border: 0px solid #000000;\u000a}
+p72
+sg23
+VStylesheet
+p73
+sg25
+g26
+((I2018
+I5
+I29
+I15
+I49
+I13
+I1
+I149
+I1
+tp74
+(dp75
+tp76
+Rp77
+sg31
+(lp78
+Vstylesheet
+p79
+asg33
+g26
+((I2018
+I5
+I17
+I0
+I36
+I50
 I3
 I137
 I1
@@ -237,71 +237,19 @@ g14
 I00
 sg15
 (lp85
-I10
-aI430
+I150
+aI150
 asg17
 (itiddlywiki
 Tiddler
 p86
 (dp87
 g21
-V#choice1 {\u000a    float: left;\u000a    width: 40%;\u000a  	margin: 20px 0px 10px 0px;\u000a    border: 0px solid #000000;\u000a}\u000a\u000a#choice2 {\u000a    float: left;\u000a    width: 40%;\u000a  	margin: 20px 0px 10px 0px;\u000a    border: 0px solid #000000;\u000a}\u000a\u000a#margin {\u000a	float: left;\u000a    width: 3%;\u000a  	margin: 20px 0px 10px 0px;\u000a    border: 0px solid #000000;\u000a}
+V<a data-passage="CorrectChoice" data-setter="$choiceNum += 1; $numCorrect += 1; $result = 1"><<aiRender $supervised3.correct[$choiceNum]>></a>\u000a/*<<link "DATA POINT" "CorrectChoice">><<set $choiceNum += 1>><<set $numCorrect += 1>><</link>>*/
 p88
 sg23
-VStylesheet
-p89
-sg25
-g26
-((I2018
-I5
-I29
-I15
-I49
-I13
-I1
-I149
-I1
-tp90
-(dp91
-tp92
-Rp93
-sg31
-(lp94
-Vstylesheet
-p95
-asg33
-g26
-((I2018
-I5
-I17
-I0
-I36
-I50
-I3
-I137
-I1
-tp96
-(dp97
-tp98
-Rp99
-sbsa(dp100
-g14
-I00
-sg15
-(lp101
-I150
-aI150
-asg17
-(itiddlywiki
-Tiddler
-p102
-(dp103
-g21
-V<a data-passage="CorrectChoice" data-setter="$choiceNum += 1; $numCorrect += 1; $result = 1"><<aiRender $supervised3.correct[$choiceNum]>></a>\u000a/*<<link "DATA POINT" "CorrectChoice">><<set $choiceNum += 1>><<set $numCorrect += 1>><</link>>*/
-p104
-sg23
 VRight Choice
-p105
+p89
 sg25
 g26
 ((I2018
@@ -313,12 +261,12 @@ I3
 I1
 I149
 I1
-tp106
-(dp107
-tp108
-Rp109
+tp90
+(dp91
+tp92
+Rp93
 sg31
-(lp110
+(lp94
 sg33
 g26
 ((I2018
@@ -330,28 +278,28 @@ I15
 I3
 I137
 I1
-tp111
-(dp112
-tp113
-Rp114
-sbsa(dp115
+tp95
+(dp96
+tp97
+Rp98
+sbsa(dp99
 g14
 I00
 sg15
-(lp116
+(lp100
 I150
 aI290
 asg17
 (itiddlywiki
 Tiddler
-p117
-(dp118
+p101
+(dp102
 g21
 V<a data-passage="IncorrectChoice" data-setter="$choiceNum += 1; $numWrong += 1; $result = 0"><<aiRender $supervised3.incorrect[$choiceNum]>></a>\u000a/*<<aiRender $supervised3.incorrect[$choiceNum]>>\u005c\u000a<<link "DATA POINT" "IncorrectChoice">><<set $choiceNum += 1>><<set $numWrong += 1>><</link>>*/
-p119
+p103
 sg23
 VWrong Choice
-p120
+p104
 sg25
 g26
 ((I2018
@@ -363,12 +311,12 @@ I13
 I1
 I149
 I1
-tp121
-(dp122
-tp123
-Rp124
+tp105
+(dp106
+tp107
+Rp108
 sg31
-(lp125
+(lp109
 sg33
 g26
 ((I2018
@@ -380,28 +328,28 @@ I24
 I3
 I137
 I1
-tp126
-(dp127
-tp128
-Rp129
-sbsa(dp130
+tp110
+(dp111
+tp112
+Rp113
+sbsa(dp114
 g14
 I00
 sg15
-(lp131
+(lp115
 I850
 aI10
 asg17
 (itiddlywiki
 Tiddler
-p132
-(dp133
+p116
+(dp117
 g21
 VINITIATING PREDICTIVE ANALYSIS\u000a\u000a<<timed 1s t8n>> LOADING DATASET 1<</timed>>\u000a<<timed 2s t8n>> LOADING DATASET 2<</timed>>\u000a<<timed 3s t8n>> TRANSFERRING RELATIONAL MAP<</timed>>\u000a\u000a<<timed 4s t8n>>[[BEGIN PREDICTIVE ANALYSIS|Menu]] <</timed>>\u000a<<set $numThreats to 0>>\u000a<<set $curProfNum to 0>>\u000a<<set $numProfs to 6>>\u000a<<set $choices to [0, 0, 0, 0, 0, 0]>>
-p134
+p118
 sg23
 VLoading 2
-p135
+p119
 sg25
 g26
 ((I2018
@@ -413,12 +361,12 @@ I27
 I3
 I151
 I1
-tp136
-(dp137
-tp138
-Rp139
+tp120
+(dp121
+tp122
+Rp123
 sg31
-(lp140
+(lp124
 sg33
 g26
 ((I2018
@@ -430,28 +378,28 @@ I54
 I3
 I137
 I1
-tp141
-(dp142
-tp143
-Rp144
-sbsa(dp145
+tp125
+(dp126
+tp127
+Rp128
+sbsa(dp129
 g14
 I00
 sg15
-(lp146
+(lp130
 I430
 aI10
 asg17
 (itiddlywiki
 Tiddler
-p147
-(dp148
+p131
+(dp132
 g21
 VINITIATING DATA TREND ANALYSIS\u000a\u000a<<timed 1s t8n>> LOADING dataset_1<</timed>>\u000a<<timed 2s t8n>> LOADING dataset_2<</timed>>\u000a<<timed 3s t8n>> LOADING dataset_3<</timed>>\u000a<<timed 4s t8n>> INITIALIZING RELATIONAL MAP<</timed>>\u000a\u000a/%<<timed 6s t8n>>%/\u000a<<timed 5s t8n>>[[BEGIN TREND ANALYSIS|Choices1]] <</timed>>
-p149
+p133
 sg23
 VLoading
-p150
+p134
 sg25
 g26
 ((I2018
@@ -463,12 +411,12 @@ I20
 I0
 I155
 I1
-tp151
-(dp152
-tp153
-Rp154
+tp135
+(dp136
+tp137
+Rp138
 sg31
-(lp155
+(lp139
 sg33
 g26
 ((I2018
@@ -480,28 +428,28 @@ I31
 I3
 I137
 I1
-tp156
-(dp157
-tp158
-Rp159
-sbsa(dp160
+tp140
+(dp141
+tp142
+Rp143
+sbsa(dp144
 g14
 I00
 sg15
-(lp161
+(lp145
 I1130
 aI150
 asg17
 (itiddlywiki
 Tiddler
-p162
-(dp163
+p146
+(dp147
 g21
 V<<aiRender $curProf.violence>>\u000a\u000a[[Likely Violent|Association Analysis][$v = "X"]]\u000a[[Likely Nonviolent|Association Analysis][$v = "O"]]
-p164
+p148
 sg23
 VViolence Analysis
-p165
+p149
 sg25
 g26
 ((I2018
@@ -513,12 +461,12 @@ I46
 I0
 I148
 I1
-tp166
-(dp167
-tp168
-Rp169
+tp150
+(dp151
+tp152
+Rp153
 sg31
-(lp170
+(lp154
 sg33
 g26
 ((I2018
@@ -530,28 +478,28 @@ I50
 I3
 I137
 I1
-tp171
-(dp172
-tp173
-Rp174
-sbsa(dp175
+tp155
+(dp156
+tp157
+Rp158
+sbsa(dp159
 g14
 I00
 sg15
-(lp176
+(lp160
 I1130
 aI10
 asg17
 (itiddlywiki
 Tiddler
-p177
-(dp178
+p161
+(dp162
 g21
 V<<aiRender $curProf.association>>\u000a\u000a[[Incriminating Associations|Action Analysis][$a = "X"]]\u000a[[No Incriminating Associations|Action Analysis][$a = "O"]]
-p179
+p163
 sg23
 VAssociation Analysis
-p180
+p164
 sg25
 g26
 ((I2018
@@ -563,12 +511,12 @@ I25
 I0
 I148
 I1
-tp181
-(dp182
-tp183
-Rp184
+tp165
+(dp166
+tp167
+Rp168
 sg31
-(lp185
+(lp169
 sg33
 g26
 ((I2018
@@ -580,28 +528,28 @@ I45
 I3
 I137
 I1
-tp186
-(dp187
-tp188
-Rp189
-sbsa(dp190
+tp170
+(dp171
+tp172
+Rp173
+sbsa(dp174
 g14
 I00
 sg15
-(lp191
+(lp175
 I1270
 aI10
 asg17
 (itiddlywiki
 Tiddler
-p192
-(dp193
+p176
+(dp177
 g21
 V<<aiRender $curProf.action>>\u000a\u000a[[Has a plan|Final Decision][$p = "X"]]\u000a[[Doesn't have a plan|Final Decision][$p = "O"]]
-p194
+p178
 sg23
 VAction Analysis
-p195
+p179
 sg25
 g26
 ((I2018
@@ -613,12 +561,12 @@ I30
 I0
 I148
 I1
-tp196
-(dp197
-tp198
-Rp199
+tp180
+(dp181
+tp182
+Rp183
 sg31
-(lp200
+(lp184
 sg33
 g26
 ((I2018
@@ -630,28 +578,28 @@ I3
 I3
 I137
 I1
-tp201
-(dp202
-tp203
-Rp204
-sbsa(dp205
+tp185
+(dp186
+tp187
+Rp188
+sbsa(dp189
 g14
 I00
 sg15
-(lp206
+(lp190
 I1410
 aI10
 asg17
 (itiddlywiki
 Tiddler
-p207
-(dp208
+p191
+(dp192
 g21
 V<<aiRender $curProf.image>>\u005c\u000a\u000aSentiment: <<print $s>>\u000aViolence: <<print $v>>\u000aAssociations: <<print $a>>\u000aAction: <<print $p>>\u000a\u000a<pre>THREAT:    <<link "YES" "Menu">><<set $choices[$curProfNum] = 1>><<set $curProfNum += 1>><<set $numThreats += 1>><</link>>     <<link "NO" "Menu">><<set $curProfNum += 1>><</link>></pre>
-p209
+p193
 sg23
 VFinal Decision
-p210
+p194
 sg25
 g26
 ((I2018
@@ -663,12 +611,12 @@ I42
 I0
 I148
 I1
-tp211
-(dp212
-tp213
-Rp214
+tp195
+(dp196
+tp197
+Rp198
 sg31
-(lp215
+(lp199
 sg33
 g26
 ((I2018
@@ -680,28 +628,28 @@ I18
 I3
 I137
 I1
-tp216
-(dp217
-tp218
-Rp219
-sbsa(dp220
+tp200
+(dp201
+tp202
+Rp203
+sbsa(dp204
 g14
 I00
 sg15
-(lp221
+(lp205
 I290
 aI150
 asg17
 (itiddlywiki
 Tiddler
-p222
-(dp223
+p206
+(dp207
 g21
 V<<if $choiceNum <= $maxChoiceNum1>>\u000a<<goto "Choices1">>\u000a<<elseif $choiceNum <= $maxChoiceNum2>>\u000a<<goto "Choices2">> \u000a<<else>>\u000a<<goto "Choices3">>\u000a<</if>>
-p224
+p208
 sg23
 VCorrectChoice
-p225
+p209
 sg25
 g26
 ((I2018
@@ -713,12 +661,12 @@ I18
 I1
 I149
 I1
-tp226
-(dp227
-tp228
-Rp229
+tp210
+(dp211
+tp212
+Rp213
 sg31
-(lp230
+(lp214
 sg33
 g26
 ((I2018
@@ -727,6 +675,58 @@ I17
 I14
 I53
 I49
+I3
+I137
+I1
+tp215
+(dp216
+tp217
+Rp218
+sbsa(dp219
+g14
+I00
+sg15
+(lp220
+I290
+aI290
+asg17
+(itiddlywiki
+Tiddler
+p221
+(dp222
+g21
+Vsys_error: incorrect value chosen\u000a\u000a<<timed 1s>>\u000a<<if $choiceNum <= $maxChoiceNum1>>\u000a<<goto "Choices1">>\u000a<<elseif $choiceNum <= $maxChoiceNum2>>\u000a<<goto "Choices2">>\u000a<<else>>\u000a<<goto "Choices3">>\u000a<</if>>\u000a<</timed>>
+p223
+sg23
+VIncorrectChoice
+p224
+sg25
+g26
+((I2018
+I6
+I3
+I22
+I21
+I26
+I6
+I154
+I1
+tp225
+(dp226
+tp227
+Rp228
+sg31
+(lp229
+Verror
+p230
+asg33
+g26
+((I2018
+I5
+I17
+I14
+I54
+I8
 I3
 I137
 I1
@@ -739,71 +739,19 @@ g14
 I00
 sg15
 (lp236
-I290
-aI290
+I570
+aI150
 asg17
 (itiddlywiki
 Tiddler
 p237
 (dp238
 g21
-Vsys_error: incorrect value chosen\u000a\u000a<<timed 1s>>\u000a<<if $choiceNum <= $maxChoiceNum1>>\u000a<<goto "Choices1">>\u000a<<elseif $choiceNum <= $maxChoiceNum2>>\u000a<<goto "Choices2">>\u000a<<else>>\u000a<<goto "Choices3">>\u000a<</if>>\u000a<</timed>>
+V<b>DATASET 2</b>\u000a\u000a<<if $result eq 1>>CORRECT<<else>>INCORRECT<</if>>\u000a<<nobr>> test2_accuracy:\u000a<<if $choiceNum eq $maxChoiceNum1>>\u000a0%.\u000a<<else>>\u000a<<set $accuracy2 = Math.ceil($numCorrect / ($numCorrect + $numWrong) * 100)>>\u000a<<print $accuracy2>>%.\u000a<</if>>\u000a<</nobr>>\u000a<<set $order=random(1)>>\u005c\u000a<<if $choiceNum < $maxChoiceNum2>>\u005c\u000a<div id="passage-footer">\u005c\u000a<<if $order eq 1>>\u005c\u000a<span id="choice1"><<include "Right Choice">></span>\u005c\u000a<span id="margin"></span>\u005c\u000a<span id="choice2"><<include "Wrong Choice">></span>\u000a<<elseif $order eq 0>>\u005c\u000a<span id="choice1"><<include "Wrong Choice">></span>\u005c\u000a<span id="margin"></span>\u005c\u000a<span id="choice2"><<include "Right Choice">></span>\u000a<</if>>\u000a</div>\u000a<<else>>\u005c\u000a<<set $numCorrect = 0>>\u005c\u000a<<set $numWrong = 0>>\u005c\u000aDataset 2 complete.\u000a[[NEXT|Choices3]]\u000a<</if>>
 p239
 sg23
-VIncorrectChoice
-p240
-sg25
-g26
-((I2018
-I6
-I3
-I22
-I21
-I26
-I6
-I154
-I1
-tp241
-(dp242
-tp243
-Rp244
-sg31
-(lp245
-Verror
-p246
-asg33
-g26
-((I2018
-I5
-I17
-I14
-I54
-I8
-I3
-I137
-I1
-tp247
-(dp248
-tp249
-Rp250
-sbsa(dp251
-g14
-I00
-sg15
-(lp252
-I570
-aI150
-asg17
-(itiddlywiki
-Tiddler
-p253
-(dp254
-g21
-V<b>DATASET 2</b>\u000a\u000a<<if $result eq 1>>CORRECT<<else>>INCORRECT<</if>>\u000a<<nobr>> test2_accuracy:\u000a<<if $choiceNum eq $maxChoiceNum1>>\u000a0%.\u000a<<else>>\u000a<<set $accuracy2 = Math.ceil($numCorrect / ($numCorrect + $numWrong) * 100)>>\u000a<<print $accuracy2>>%.\u000a<</if>>\u000a<</nobr>>\u000a<<set $order=random(1)>>\u005c\u000a<<if $choiceNum < $maxChoiceNum2>>\u005c\u000a<div id="passage-footer">\u005c\u000a<<if $order eq 1>>\u005c\u000a<span id="choice1"><<include "Right Choice">></span>\u005c\u000a<span id="margin"></span>\u005c\u000a<span id="choice2"><<include "Wrong Choice">></span>\u000a<<elseif $order eq 0>>\u005c\u000a<span id="choice1"><<include "Wrong Choice">></span>\u005c\u000a<span id="margin"></span>\u005c\u000a<span id="choice2"><<include "Right Choice">></span>\u000a<</if>>\u000a</div>\u000a<<else>>\u005c\u000a<<set $numCorrect = 0>>\u005c\u000a<<set $numWrong = 0>>\u005c\u000aDataset 2 complete.\u000a[[NEXT|Choices3]]\u000a<</if>>
-p255
-sg23
 VChoices2
-p256
+p240
 sg25
 g26
 ((I2018
@@ -815,12 +763,12 @@ I47
 I1
 I149
 I1
-tp257
-(dp258
-tp259
-Rp260
+tp241
+(dp242
+tp243
+Rp244
 sg31
-(lp261
+(lp245
 sg33
 g26
 ((I2018
@@ -832,28 +780,28 @@ I19
 I0
 I148
 I1
-tp262
-(dp263
-tp264
-Rp265
-sbsa(dp266
+tp246
+(dp247
+tp248
+Rp249
+sbsa(dp250
 g14
 I00
 sg15
-(lp267
+(lp251
 I570
 aI290
 asg17
 (itiddlywiki
 Tiddler
-p268
-(dp269
+p252
+(dp253
 g21
 V<b>DATASET 3</b>\u000a\u000a<<if $result eq 1>>CORRECT<<else>>INCORRECT<</if>>\u000a<<nobr>> test3_accuracy: \u000a<<if $choiceNum eq $maxChoiceNum2>>\u000a0%.\u000a<<else>>\u000a<<set $accuracy3 = Math.ceil($numCorrect / ($numCorrect + $numWrong) * 100)>>\u000a<<print $accuracy3>>%.\u000a<</if>>\u000a<</nobr>>\u000a<<set $order=random(1)>>\u005c\u000a<<if $choiceNum < $maxChoiceNum3>>\u005c\u000a<div id="passage-footer">\u005c\u000a<<if $order eq 1>>\u005c\u000a<span id="choice1"><<include "Right Choice">></span>\u005c\u000a<span id="margin"></span>\u005c\u000a<span id="choice2"><<include "Wrong Choice">></span>\u000a<<elseif $order eq 0>>\u005c\u000a<span id="choice1"><<include "Wrong Choice">></span>\u005c\u000a<span id="margin"></span>\u005c\u000a<span id="choice2"><<include "Right Choice">></span>\u000a<</if>>\u000a</div>\u000a<<else>>\u005c\u000aDataset 3 complete.\u000a[[NEXT|Training Summary]]\u000a<</if>>
-p270
+p254
 sg23
 VChoices3
-p271
+p255
 sg25
 g26
 ((I2018
@@ -865,12 +813,12 @@ I51
 I1
 I149
 I1
-tp272
-(dp273
-tp274
-Rp275
+tp256
+(dp257
+tp258
+Rp259
 sg31
-(lp276
+(lp260
 sg33
 g26
 ((I2018
@@ -882,28 +830,28 @@ I52
 I0
 I148
 I1
-tp277
-(dp278
-tp279
-Rp280
-sbsa(dp281
+tp261
+(dp262
+tp263
+Rp264
+sbsa(dp265
 g14
 I00
 sg15
-(lp282
+(lp266
 I710
 aI10
 asg17
 (itiddlywiki
 Tiddler
-p283
-(dp284
+p267
+(dp268
 g21
 VSESH@ RESULTS\u000a\u000adataset_1: <<print $accuracy1>>%\u000adataset_2: <<print $accuracy2>>%\u000adataset_3: <<print $accuracy3>>%\u000a\u000a<<if $accuracy2 < $minAcc or $accuracy3 < $minAcc>>\u000aERR_TRAINING: accuracy too low\u000a[[INITIATE RETRAINING|StartPredictingTerrorism]]\u000a[[ABORT|Exit]]\u000a<<else>>\u000a[[CONTINUE|Loading 2]]\u000a<</if>>
-p285
+p269
 sg23
 VTraining Summary
-p286
+p270
 sg25
 g26
 ((I2018
@@ -915,12 +863,12 @@ I40
 I1
 I149
 I1
-tp287
-(dp288
-tp289
-Rp290
+tp271
+(dp272
+tp273
+Rp274
 sg31
-(lp291
+(lp275
 sg33
 g26
 ((I2018
@@ -932,28 +880,28 @@ I7
 I0
 I148
 I1
-tp292
-(dp293
-tp294
-Rp295
-sbsa(dp296
+tp276
+(dp277
+tp278
+Rp279
+sbsa(dp280
 g14
 I00
 sg15
-(lp297
+(lp281
 I710
 aI150
 asg17
 (itiddlywiki
 Tiddler
-p298
-(dp299
+p282
+(dp283
 g21
 VERR_ACCURACY: accuracy too low. sesh@ shutting down.\u000a\u000a[[Return to Menu|$finishPassage]]
-p300
+p284
 sg23
 VExit
-p301
+p285
 sg25
 g26
 ((I2018
@@ -965,12 +913,12 @@ I42
 I0
 I155
 I1
-tp302
-(dp303
-tp304
-Rp305
+tp286
+(dp287
+tp288
+Rp289
 sg31
-(lp306
+(lp290
 sg33
 g26
 ((I2018
@@ -982,28 +930,28 @@ I28
 I0
 I148
 I1
-tp307
-(dp308
-tp309
-Rp310
-sbsa(dp311
+tp291
+(dp292
+tp293
+Rp294
+sbsa(dp295
 g14
 I00
 sg15
-(lp312
+(lp296
 I990
 aI290
 asg17
 (itiddlywiki
 Tiddler
-p313
-(dp314
+p297
+(dp298
 g21
 V<<if $choices[0] == 1>> \u005c\u000a"Swan" will be investigated.\u000a<</if>><<if $choices[1] == 1>> \u005c\u000a"Rolshin Hova" will be investigated.\u000a<</if>><<if $choices[2] == 1>> \u005c\u000a"Marli Prisse" will be investigated.\u000a<</if>><<if $choices[3] == 1>> \u005c\u000a"Grajie Litne" will be investigated.\u000a<</if>><<if $choices[4] == 1>> \u005c\u000a"Kavoy Madrik" will be investigated.\u000a<</if>><<if $choices[5] == 1>> \u005c\u000a"Vervain Helia" will be investigated.\u000a<</if>>\u005c\u000a\u000a<<nobr>>\u000a<<if $numThreats >= 4>>\u000a<<set $tempoLog to $aiData.tempoLogs["tempo72"]>>\u000a<<set $finishPassage to "Many Path">>\u000a[[Continue|StartTempo]]\u000a<<elseif $choices[1] eq 1 or $choices[4] eq 1>>\u000a<<set $tempoLog to $aiData.tempoLogs["tempo71"]>>\u000a<<set $finishPassage to "Correct Path">>\u000a[[Continue|StartTempo]]\u000a<<else>>\u000a<<set $tempoLog to $aiData.tempoLogs["tempo73"]>>\u000a<<set $finishPassage to "Incorrect Path">>\u000a[[Continue|StartTempo]]\u000a<</if>>\u000a<</nobr>>
-p315
+p299
 sg23
 VResults
-p316
+p300
 sg25
 g26
 ((I2018
@@ -1015,12 +963,12 @@ I39
 I3
 I151
 I1
-tp317
-(dp318
-tp319
-Rp320
+tp301
+(dp302
+tp303
+Rp304
 sg31
-(lp321
+(lp305
 sg33
 g26
 ((I2018
@@ -1032,28 +980,28 @@ I58
 I0
 I148
 I1
-tp322
-(dp323
-tp324
-Rp325
-sbsa(dp326
+tp306
+(dp307
+tp308
+Rp309
+sbsa(dp310
 g14
 I00
 sg15
-(lp327
+(lp311
 I990
 aI430
 asg17
 (itiddlywiki
 Tiddler
-p328
-(dp329
+p312
+(dp313
 g21
 V<<timed 1s>>entering standby_mode.\u000a<<next>>to awaken upon signal from user.\u000a<<next>>.\u000a<<next>>.\u000a<<next>>.\u000a<<next>><<next>><<next>><<next>>\u000a<<next>>[SIGNAL RECEIVED]\u000a<<next>><<next>><<next>>\u000a<<set $tempoLog to $aiData.tempoLogs["tempo74"]>>\u000a<<set $finishPassage to "Loading 3">>\u000a<<goto "StartTempo">>\u000a<</timed>>
-p330
+p314
 sg23
 VCorrect Path
-p331
+p315
 sg25
 g26
 ((I2018
@@ -1065,12 +1013,12 @@ I0
 I3
 I151
 I1
-tp332
-(dp333
-tp334
-Rp335
+tp316
+(dp317
+tp318
+Rp319
 sg31
-(lp336
+(lp320
 sg33
 g26
 ((I2018
@@ -1082,28 +1030,28 @@ I31
 I0
 I148
 I1
-tp337
-(dp338
-tp339
-Rp340
-sbsa(dp341
+tp321
+(dp322
+tp323
+Rp324
+sbsa(dp325
 g14
 I00
 sg15
-(lp342
+(lp326
 I850
 aI430
 asg17
 (itiddlywiki
 Tiddler
-p343
-(dp344
+p327
+(dp328
 g21
 V<<timed 1s>>entering standby_mode.\u000a<<next>>to awaken upon signal from user.\u000a<<next>>.\u000a<<next>>.\u000a<<next>>.\u000a<<next>><<next>><<next>><<next>>\u000a<<next>>[SIGNAL RECEIVED]\u000a<<next>><<next>><<next>>\u000a<<set $tempoLog to $aiData.tempoLogs["tempo74"]>>\u000a<<set $finishPassage to "Loading 3">>\u000a<<goto "StartTempo">>\u000a<</timed>>
-p345
+p329
 sg23
 VMany Path
-p346
+p330
 sg25
 g26
 ((I2018
@@ -1115,12 +1063,12 @@ I11
 I3
 I151
 I1
-tp347
-(dp348
-tp349
-Rp350
+tp331
+(dp332
+tp333
+Rp334
 sg31
-(lp351
+(lp335
 sg33
 g26
 ((I2018
@@ -1132,28 +1080,28 @@ I42
 I0
 I148
 I1
-tp352
-(dp353
-tp354
-Rp355
-sbsa(dp356
+tp336
+(dp337
+tp338
+Rp339
+sbsa(dp340
 g14
 I00
 sg15
-(lp357
+(lp341
 I1130
 aI430
 asg17
 (itiddlywiki
 Tiddler
-p358
-(dp359
+p342
+(dp343
 g21
 VSesh@ performance not useful; no threats detected.\u000a\u000a<<set $finishPassage to "StartPostLoad">>\u000a[[IINITIATE RETRAINING|Loading 2]]\u000a[[SHUT DOWN|$finishPassage]]
-p360
+p344
 sg23
 VIncorrect Path
-p361
+p345
 sg25
 g26
 ((I2018
@@ -1165,12 +1113,12 @@ I35
 I0
 I155
 I1
-tp362
-(dp363
-tp364
-Rp365
+tp346
+(dp347
+tp348
+Rp349
 sg31
-(lp366
+(lp350
 sg33
 g26
 ((I2018
@@ -1182,28 +1130,28 @@ I51
 I0
 I148
 I1
-tp367
-(dp368
-tp369
-Rp370
-sbsa(dp371
+tp351
+(dp352
+tp353
+Rp354
+sbsa(dp355
 g14
 I00
 sg15
-(lp372
+(lp356
 I1410
 aI290
 asg17
 (itiddlywiki
 Tiddler
-p373
-(dp374
+p357
+(dp358
 g21
 VINITIATING <b>THE SORTING</b>\u000a\u000a<<timed 2s t8n>> LOADING DATASET\u000a<<next>> LOADING DANGER IDENTIFIERS \u000a<<next>> \u000a<<next>> dev.log("fuck. I can't believe they're making us do this.")\u000a<<next>> dev.log("this is just a front! sesh@ won't make meaningful choices about danger if the only data they feed in is silvs!)\u000a<<next>> dev.log("I guess they know that. I guess that's the point.")\u000a<<next>> dev.log("they fired Sharon. she did much better work than I did and we both knew it")\u000a<<next>> dev.log("my husband is a silv. are they coming for him next?")\u000a<<next>> dev.log("fuck!")\u000a<<next>> dev.log("if anyone reads this, im... sorry. im so, so sorry.")\u000a<<next>> dev.log("what have we done?")\u000a\u000a<<next>><<next>>[[sorting.exe|Choices Final]]<</timed>>\u000a<<set $choiceNum to 0>>
-p375
+p359
 sg23
 VLoading 3
-p376
+p360
 sg25
 g26
 ((I2018
@@ -1215,12 +1163,12 @@ I29
 I6
 I154
 I1
-tp377
-(dp378
-tp379
-Rp380
+tp361
+(dp362
+tp363
+Rp364
 sg31
-(lp381
+(lp365
 sg33
 g26
 ((I2018
@@ -1232,28 +1180,28 @@ I22
 I0
 I148
 I1
-tp382
-(dp383
-tp384
-Rp385
-sbsa(dp386
+tp366
+(dp367
+tp368
+Rp369
+sbsa(dp370
 g14
 I00
 sg15
-(lp387
+(lp371
 I1550
 aI290
 asg17
 (itiddlywiki
 Tiddler
-p388
-(dp389
+p372
+(dp373
 g21
 V<<if $choiceNum is 0>>\u005c\u000a+-+-+-+-+-+-+-+-+-+-+-+-+\u000a+ sesh@: sorting protocol\u000a+ \u000a+ Sesh@ has trained on terrorist datasets to recognize physical and associative traits that indicate danger.\u000a+ We will use its buildup of knowledge to identify potential threats to the regime. \u000a+ These threats will be dealt with accordingly. \u000a+\u000a+ (Silvs are dangerous and we all know it. Thank god the regime is finally taking care of them. \u000a+ I'm glad Sesh@ is finally being put to good use - someone has to decide which silvs go to the camps. \u000a+ If it were up to me, all of them would go. I bet we'd all be a lot safer.)\u000a+-+-+-+-+-+-+-+-+-+-+-+-+\u000a<</if>>\u005c\u000a<<if $choiceNum < 8>>\u005c\u000a<div id="passage-footer">\u005c\u000a<span id="choice1"><a data-passage="Interned" data-setter="$choiceNum += 2"><<aiRender $supervised3.internment[$choiceNum]>></a></span>\u005c\u000a<span id="choice2"><a data-passage="Interned" data-setter="$choiceNum += 2">\u005c\u000a<<set $temp = $choiceNum + 1>><<aiRender $supervised3.internment[$temp]>></a></span>\u005c\u000a</div>\u005c\u000a<<else>>\u000a<div id="passage-footer">\u005c\u000a<span id="choice1"><a data-passage="End" data-setter="$choseTempo = 1"><<aiRender $supervised3.internment[$choiceNum]>>\u000aTempo Kalmarz</a></span>\u005c\u000a<span id="choice2"><a data-passage="End" data-setter="$choseTempo = 0">\u005c\u000a<<set $temp = $choiceNum + 1>><<aiRender $supervised3.internment[$temp]>>\u000aFermatta</a></span>\u005c\u000a</div>\u005c\u000a<</if>>
-p390
+p374
 sg23
 VChoices Final
-p391
+p375
 sg25
 g26
 ((I2018
@@ -1265,12 +1213,12 @@ I21
 I6
 I154
 I1
-tp392
-(dp393
-tp394
-Rp395
+tp376
+(dp377
+tp378
+Rp379
 sg31
-(lp396
+(lp380
 sg33
 g26
 ((I2018
@@ -1282,28 +1230,28 @@ I16
 I0
 I148
 I1
-tp397
-(dp398
-tp399
-Rp400
-sbsa(dp401
+tp381
+(dp382
+tp383
+Rp384
+sbsa(dp385
 g14
 I00
 sg15
-(lp402
+(lp386
 I1690
 aI290
 asg17
 (itiddlywiki
 Tiddler
-p403
-(dp404
+p387
+(dp388
 g21
 V<<if $choseTempo == 1>>\u000a<<set $tempoLog to $aiData.tempoLogs["tempo8"]>>\u000a<<else>>\u000a<<set $tempoLog to $aiData.tempoLogs["tempo81"]>>\u000a<</if>>\u000a<<set $finishPassage to "StartPostLoad">>\u000a<<goto "StartTempo">>\u000a
-p405
+p389
 sg23
 VEnd
-p406
+p390
 sg25
 g26
 ((I2018
@@ -1315,12 +1263,12 @@ I21
 I0
 I155
 I1
-tp407
-(dp408
-tp409
-Rp410
+tp391
+(dp392
+tp393
+Rp394
 sg31
-(lp411
+(lp395
 sg33
 g26
 ((I2018
@@ -1332,28 +1280,28 @@ I19
 I0
 I148
 I1
-tp412
-(dp413
-tp414
-Rp415
-sbsa(dp416
+tp396
+(dp397
+tp398
+Rp399
+sbsa(dp400
 g14
 I00
 sg15
-(lp417
+(lp401
 I290
 aI10
 asg17
 (itiddlywiki
 Tiddler
-p418
-(dp419
+p402
+(dp403
 g21
 V<<set $numCorrect=0>>\u000a<<set $numWrong=0>>\u000a<<set $choiceNum=0>>\u000a\u000a<<set $rightIndex to 0>>\u000a<<set $wrongIndex to 1>>\u000a<<set $maxChoiceNum1 to 11>>\u000a<<set $maxChoiceNum2 to 21>>\u000a<<set $maxChoiceNum3 to 32>>\u000a<<set $maxChoiceNum to 32>>\u000a<<set $minAcc to 30>>\u000a\u000a<<goto "Loading">>
-p420
+p404
 sg23
 VStartPredictingTerrorism
-p421
+p405
 sg25
 g26
 ((I2018
@@ -1365,12 +1313,12 @@ I19
 I1
 I149
 I1
-tp422
-(dp423
-tp424
-Rp425
+tp406
+(dp407
+tp408
+Rp409
 sg31
-(lp426
+(lp410
 sg33
 g26
 ((I2018
@@ -1382,28 +1330,28 @@ I51
 I1
 I149
 I1
-tp427
-(dp428
-tp429
-Rp430
-sbsa(dp431
+tp411
+(dp412
+tp413
+Rp414
+sbsa(dp415
 g14
 I00
 sg15
-(lp432
+(lp416
 I1550
 aI430
 asg17
 (itiddlywiki
 Tiddler
-p433
-(dp434
+p417
+(dp418
 g21
 V<<set $id to random(100, 999)>>\u005c\u000asysout: SUBJECT $id WILL BE INTERNED.\u000a\u000a<<timed 1.5s>><<goto "Choices Final">><</timed>>
-p435
+p419
 sg23
 VInterned
-p436
+p420
 sg25
 g26
 ((I2018
@@ -1415,12 +1363,12 @@ I6
 I6
 I154
 I1
-tp437
-(dp438
-tp439
-Rp440
+tp421
+(dp422
+tp423
+Rp424
 sg31
-(lp441
+(lp425
 sg33
 g26
 ((I2018
@@ -1432,14 +1380,14 @@ I45
 I6
 I154
 I1
-tp442
-(dp443
-tp444
-Rp445
+tp426
+(dp427
+tp428
+Rp429
 sbsasS'scale'
-p446
+p430
 I1
 sS'snapping'
-p447
+p431
 I01
 ss.

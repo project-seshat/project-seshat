@@ -1,7 +1,7 @@
 {
 	"type" : "CompanyMemo",
+	"filename" : "Thank You",
 	"htmlTemplate" : "memotemplate.bars",
-	"filename" : "Thank You.txt",
 	"receiver" : "Employees of Qualia",
 	"date" : "April 2, 20XX",
 	"subject" : "Thank You!",

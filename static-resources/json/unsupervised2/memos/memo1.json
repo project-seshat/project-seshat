@@ -1,5 +1,6 @@
 {
 	"htmlTemplate": "memotemplate.bars",
+	"filename" : "Grant Approved.txt",
 	"type" : "CompanyMemo",
 	"receiver" : "Lead Engineering Team",
 	"date" : "April 30, 20XX",

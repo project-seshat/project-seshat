@@ -1,10 +1,11 @@
 {
-	"filename" : "WorkFloFood1.wfl",
+//removed from game	
+	"filename" : "Workflo 1-1",
 	"htmlTemplate" : "slacctemplate.bars",
 	"conversation" : [
 		{"from": "_Person1", "message" : "Yoooo, do you guys want to go out for lunch? Thai?"},
 		{"from": "_Person2", "message" : "Hmm I'm not sure I'm still swamped with work, I was thinking of just grabbing food from the cafeteria and working through my lunchbreak"},
-		{"from": "_Person3", "message" : "_Person2 I know it's Chip City, but you gotta take a break from the work "},
+		{"from": "_Person3", "message" : "Winnimere I know it's Chip City, but you gotta take a break from the work "},
 		{"from": "_Person3", "message" : "Self care and all"},
 		{"from": "_Person3", "message" : "Plus, we can also get some boba afterwards"},
 		{"from": "_Person1", "message" : "They opened a new one next to the Thai place by Noogle"},

@@ -1,9 +1,18 @@
 {
     "type" : "UnsupervisedDirectory",
-    "isDirectory": true,
     "filename" : "News",
-	"files" : [
-        "json/unsupervised1/news/news1.json",
-        "json/unsupervised1/news/news2.json"
+	"entries" : [
+		{
+			"htmlTemplate": "newsarticletemplate.bars",
+			"headline": "Op-ed - Blob-O’s: Fat wallets, but spread thin?",
+			"text" : "In recent years, global food processing company Blob-O’s Unlimited has been expanding their reach. These days you can find a Blob-O’s fast food chain on nearly every street corner as well as their marketplaces where you can find their hand-crafted ingredients to some of their most popular dishes. This new ubiquity must make us pause and ask the question: has this changed Blob-O’s quality irreversibly? When I bite into a Blob-O Burger these days, I don’t know if it’s as juicy and tasty as the ones my great-grandfather grew up on. I’m worried that they’re stretching themselves too thin. I’m worried that our children will live in a world where Blob-O’s doesn’t have that personal touch. Even now, they’re using artificial intelligence technology to determine what is the most appetizing food. What’s a robot going to know about tastiness? I’m worried Blob-O’s. Very Worried.",
+			"author" : "Mad Albert"
+		},
+		{
+			"htmlTemplate": "newsarticletemplate.bars",
+			"headline": "Up-and-coming enterprise startups in San Flamingo",
+			"text": "San Flamingo City is known for its high amount of enterprise-focused startups. The winners of TechDon are often widely recognized, while the smaller, lesser-known companies often fly under the radar. TechDon interviewed five CEO founders of startup companies that have made it big which up-and-comers they thought had the most potential. Three stood out across the interviews: SphereStorage, Qualia, and FaceLift. Also make sure to read our detailed analysis of Papayegg and why it isn’t performing as predicted. SphereStorage is a NegaCloud content management and file sharing website and app for sports. Designed to be a bridge between sports team managers and data experts, users can share information about anything related to the team between each other using the freemium model. Trainers and medical personnel can keep coaches updated on an athlete’s health so they know if they’re really injured or just skipping practice to go out for some Blob-O burgers with the boys. Official clients and apps are available for Windows and macOS. Qualia, founded in 20XX by Kasseri Armstrong, is a software startup that specializes in data analysis and the development of artificial intelligence tools. Qualia’s AI, purportedly thought up by Kasseri while at a party in her freshman year at Shewford University, combines natural language processing abilities with optimal decision making. FaceLift links users Facebook accounts with cutting edge video and audio rendering software to make an alarm reminding users to go to the gym. Users can set a Facebook friend of their choice as their “Coach.” Then, at set times, a rendered video of “Coach” will pop up on the user’s screen and begin urging them to go workout. There are concerns floating around in the tech community regarding the breach of privacy, but these have mostly been drowned out. One Chip Valley startup worker stated his excitement to have his recently-friended high school algebra teacher “scold [him] and punish [him] for not going to the gym.” The founder of FaceLift has remained anonymous, for good reason.",
+			"author" : "Borshua Vartz"
+		}
 	]
 }

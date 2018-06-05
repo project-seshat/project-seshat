@@ -1,8 +1,8 @@
 {
-	"filename" : "WorkFloMorale2.wfl",
+	"filename" : "Workflo-2-1",
 	"htmlTemplate" : "slacctemplate.bars",
 	"conversation" : [
-		{"from": "_Person1", "message" : "Hey _Person2, could you do some copy for some Memos we want to send out"},
+		{"from": "_Person1", "message" : "Hey Scarlett, could you do some copy for some Memos we want to send out"},
 		{"from": "_Person2", "message" : "What do you have in mind?"},
 		{"from": "_Person1", "message" : "Something to improve morale"},
 		{"from": "_Person1", "message" : "I've heard a lot of complaints about the work environment"},
