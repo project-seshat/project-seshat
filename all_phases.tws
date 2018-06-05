@@ -5,7 +5,7 @@ VC:\u005cUsers\u005cDennis Jeong\u005cDocuments\u005ctwine\u005cvgw-2018\u005cas
 p2
 sS'saveDestination'
 p3
-S'C:\\Users\\peace\\Documents\\GitHub\\vgw-2018\\all_phases.tws'
+V/Users/Jeff/Desktop/Stanford/Senior Year/Spring Quarter/English190T/Final Project/project-seshat/all_phases.tws
 p4
 sS'metadata'
 p5
@@ -495,7 +495,7 @@ Tiddler
 p161
 (dp162
 g21
-Vbody.startup { \u000a    background-image: [img[desktop]]; \u000a}\u000a\u000aa { color: #00FF00; } \u000a\u000abody {\u000a	background-image: [img[terminal1]], [img[desktop]];\u000a}\u000a\u000abody.error {\u000a	background-image: [img[error]], [img[desktop]];\u000a}\u000a\u000adatabase {\u000a	text-decoration: underline overline;\u000a	font-size: 25px;\u000a	font-weight: bold;\u000a}
+Vbody.startup { \u000a    background-image: [img[desktop]]; \u000a}\u000a\u000aa { color: #00FF00; } \u000a\u000abody {\u000a	background-image: [img[terminal1]], [img[desktop]];\u000a}\u000a\u000abody.error {\u000a	background-image: [img[error]], [img[desktop]];\u000a}\u000a\u000adatabase {\u000a	text-decoration: underline overline;\u000a	font-size: 25px;\u000a	font-weight: bold;\u000a}\u000acontributors {\u000a	font-size: 20px;\u000a	font-weight: bold;\u000a}
 p163
 sg23
 VTerminalStylesheet
@@ -505,9 +505,9 @@ g26
 ((I2018
 I6
 I4
-I19
-I4
+I20
 I29
+I15
 I0
 I155
 I1
@@ -536,7 +536,7 @@ tp173
 Rp174
 sbsa(dp175
 g14
-I00
+I01
 sg15
 (lp176
 F451.43750000000074
@@ -547,7 +547,7 @@ Tiddler
 p177
 (dp178
 g21
-V\u000a\u000a\u000a\u000a\u000a\u000a\u000a\u000a\u000a\u000a\u000a\u000a\u000a\u000a\u000a\u000a\u000a\u000a<div align='center'>\u005c\u000a    [img[button][test1]]\u000a</div>\u000a<<script>>\u000awindow.creepin_beeps.play();\u000a<</script>>
+V\u000a\u000a\u000a\u000a\u000a\u000a\u000a\u000a\u000a\u000a\u000a\u000a\u000a\u000a\u000a\u000a\u000a\u000a<div align='center'>\u005c\u000a    [img[button][test1]]\u000a	[img[contributors50][Contributors]]\u000a</div>\u000a<<script>>\u000awindow.creepin_beeps.play();\u000a<</script>>
 p179
 sg23
 VBoot
@@ -557,9 +557,9 @@ g26
 ((I2018
 I6
 I4
-I18
-I6
-I51
+I20
+I34
+I56
 I0
 I155
 I1
@@ -1189,10 +1189,99 @@ S'Twine.image'
 p374
 asg33
 g372
+sbsa(dp375
+g14
+I00
+sg15
+(lp376
+F423.4375
+aF9.508333333333354
+asg17
+(itiddlywiki
+Tiddler
+p377
+(dp378
+g21
+VCreated By:\u000a<div align='center'>\u005c\u000a	<contributors>Students:</contributors>\u000a		Aaron Brackett\u000a		Cameron Woods\u000a		Jeffrey Woo\u000a		Kristel Bugayong\u000a		Maya Ziv\u000a		Rachelle Pabalan\u000a		Ronald Pritipaul\u000a		Sarina Wu\u000a		Will Gutzman\u000a\u000a	<contributors>Teaching Staff:</contributors>\u000a		Dennis Jeong\u000a		Matthew Mistele\u000a\u000a	<contributors>Instructors:</contributors>\u000a		Michael Shewmaker\u000a		Scott Hutchins\u000a</div>\u000aSpecial Thanks to the Stanford Creative Writing Department, Max Doty from Pixelberry Studios, and our playtesters\u000a\u000a[[Back to Main Menu|Boot]]
+p379
+sg23
+VContributors
+p380
+sg25
+g26
+((I2018
+I6
+I4
+I20
+I29
+I3
+I0
+I155
+I1
+tp381
+(dp382
+tp383
+Rp384
+sg31
+(lp385
+sg33
+g26
+((I2018
+I6
+I4
+I20
+I29
+I2
+I0
+I155
+I1
+tp386
+(dp387
+tp388
+Rp389
+sbsa(dp390
+g14
+I00
+sg15
+(lp391
+F388.6875
+aF586.5833333333334
+asg17
+(itiddlywiki
+Tiddler
+p392
+(dp393
+g21
+Vdata:image/png;base64,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
+p394
+sg23
+Vcontributors50
+p395
+sg25
+g26
+((I2018
+I6
+I4
+I20
+I34
+I47
+I0
+I155
+I1
+tp396
+(dp397
+tp398
+Rp399
+sg31
+(lp400
+S'Twine.image'
+p401
+asg33
+g399
 sbsasS'scale'
-p375
+p402
 F1.0300429184549356
 sS'snapping'
-p376
+p403
 I00
 ss.
