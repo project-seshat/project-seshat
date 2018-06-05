@@ -182,7 +182,6 @@ if(
 ) {
    // is Google Chrome
     window.ro = new ResizeObserver(entries => {
-        console.log("RESIZIGGMGNGN");
       window.passagesElement.scrollTop =
         window.passagesElement.scrollHeight;
     });
@@ -190,6 +189,11 @@ if(
 
 
 (async function loadJSON(){
+    const loading = document.getElementById("loading-button");
+    const next = document.getElementById("start-button");
+
+    next.classList.add("hidden-button");
+
     console.log('aiData loading!')
     window.aiData = await loadObjectFromJSONPath('json/aiData.json')
     window.SugarCube.State.setVar("$aiData", aiData)
@@ -199,4 +203,7 @@ if(
     console.log('aiData loaded!')
 
     window.scriptsLoaded = true;
+
+    loading.classList.add("hidden-button");
+    next.classList.remove("hidden-button");
 })();
