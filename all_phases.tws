@@ -5,7 +5,7 @@ VC:\u005cUsers\u005cDennis Jeong\u005cDocuments\u005ctwine\u005cvgw-2018\u005cas
 p2
 sS'saveDestination'
 p3
-V/Users/Jeff/Desktop/Stanford/Senior Year/Spring Quarter/English190T/Final Project/project-seshat/all_phases.tws
+V/Users/mattmistele/Developer/project-seshat/all_phases.tws
 p4
 sS'metadata'
 p5
@@ -536,7 +536,7 @@ tp173
 Rp174
 sbsa(dp175
 g14
-I01
+I00
 sg15
 (lp176
 F451.43750000000074
@@ -907,7 +907,7 @@ Tiddler
 p287
 (dp288
 g21
-VYour accuracy is <<nobr>>\u000a<<if $choiceNum eq 0>>\u000a0%.\u000a<<else>>\u000a<<print Math.ceil($numCorrect / ($numCorrect + $numWrong) * 100)>>%.\u000a<<set $percentage=Math.ceil($numCorrect / ($numCorrect + $numWrong) * 100)>>\u000a<</if>>\u000a<</nobr>>\u000aMinimum Needed: 60%\u000a\u000a<<set $order=random(1)>>\u005c\u000a<<if $choiceNum < $maxChoiceNum>>\u005c\u000a	<div id="passage-footer">\u005c\u000a	<<if $order eq 1>>\u005c\u000a		<span id="choice3"><<include "Question">></span>\u005c\u000a		<span id="margin"></span>\u005c\u000a		<span id="choice1"><<include "Correct">></span>\u005c\u000a		<span id="margin"></span>\u005c\u000a		<span id="choice2"><<include "Wrong">></span>\u000a		<<elseif $order eq 0>>\u005c\u000a		<span id="choice3"><<include "Question">></span>\u005c\u000a		<span id="margin"></span>\u005c\u000a		<span id="choice1"><<include "Wrong">></span>\u005c\u000a		<span id="margin"></span>\u005c\u000a		<span id="choice2"><<include "Correct">></span>\u000a	<</if>>\u000a	</div>\u000a<<else>>\u000a<<script>>\u000awindow.stopwatch.running = false;\u000a<</script>>\u000a	<b>\u000a	<<if $percentage gte 60>> Congratulations. You passed the unsupervised learning phase.\u000a     <b>\u000a	[[Continue|$finishPassage]]\u000a	<<else>>You didn't pass. How unfortunate. Begin termination. [[Try Again|Unsupervised Start]]\u000a	<</if>>\u000a	</b>\u000a<</if>>\u000a
+VYour accuracy is <<nobr>>\u000a<<if $choiceNum eq 0>>\u000a0%.\u000a<<else>>\u000a<<print Math.ceil($numCorrect / ($numCorrect + $numWrong) * 100)>>%.\u000a<<set $percentage=Math.ceil($numCorrect / ($numCorrect + $numWrong) * 100)>>\u000a<</if>>\u000a<</nobr>>\u000aMinimum Needed: 60%\u000a\u000a<<set $order=random(1)>>\u005c\u000a<<if $choiceNum < $maxChoiceNum>>\u005c\u000a	<div id="passage-footer">\u005c\u000a	<<if $order eq 1>>\u005c\u000a		<span id="choice3"><<include "Question">></span>\u005c\u000a		<span id="margin"></span>\u005c\u000a		<span id="choice1"><<include "Correct">></span>\u005c\u000a		<span id="margin"></span>\u005c\u000a		<span id="choice2"><<include "Wrong">></span>\u000a		<<elseif $order eq 0>>\u005c\u000a		<span id="choice3"><<include "Question">></span>\u005c\u000a		<span id="margin"></span>\u005c\u000a		<span id="choice1"><<include "Wrong">></span>\u005c\u000a		<span id="margin"></span>\u005c\u000a		<span id="choice2"><<include "Correct">></span>\u000a	<</if>>\u000a	</div>\u000a<<else>>\u000a<<script>>\u000awindow.stopwatch.running = false;\u000a<</script>>\u000a	<b>\u000a	<<if $percentage gte 60>> Congratulations. You passed the unsupervised learning phase.\u000a	[[Continue|$finishPassage]]\u000a	<<else>>You didn't pass. How unfortunate. Begin termination. [[Try Again|Unsupervised Start]]\u000a	<</if>>\u000a	</b>\u000a<</if>>\u000a
 p289
 sg23
 VTest
@@ -917,9 +917,9 @@ g26
 ((I2018
 I6
 I4
-I19
-I37
-I41
+I20
+I53
+I12
 I0
 I155
 I1
