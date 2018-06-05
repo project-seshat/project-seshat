@@ -1,5 +1,6 @@
 {
 	"type" : "CompanyMemo",
+	"filename" : "food-services-psa.txt",
 	"htmlTemplate" : "memotemplate.bars",
 	"receiver" : "Dining Staff of Qualia",
 	"date" : "May 30, 20XX",

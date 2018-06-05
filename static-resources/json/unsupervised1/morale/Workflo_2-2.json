@@ -1,5 +1,5 @@
 {
-	"filename" : "Workflo-2-2",
+	"filename" : "WorkFloMorale2.wfl",
 	"htmlTemplate" : "slacctemplate.bars",
 	"conversation" : [
 		{"from": "_Person1", "message" : "Hey _Person2, could you do some copy for some Memos we want to send out"},

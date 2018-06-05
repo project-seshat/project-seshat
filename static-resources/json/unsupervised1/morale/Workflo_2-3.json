@@ -1,5 +1,5 @@
 {
-	"filename" : "Workflo-2-3",
+	"filename" : "WorkFloMorale3.wfl",
 	"htmlTemplate" : "slacctemplate.bars",
 	"conversation" : [
 		{"from": "_CEO", "message" : "We need to boost morale before Project Sesh@"},
