@@ -8,4 +8,4 @@ window.sugarCubeImportScripts(
     ]
 );
 
-$('head').append('<link rel="stylesheet" type="text/css" href="http://localhost:11111/resources/css/default.css">');
+$('head').append('<link rel="stylesheet" type="text/css" href="'+window.resourcesPath+'css/default.css">');
