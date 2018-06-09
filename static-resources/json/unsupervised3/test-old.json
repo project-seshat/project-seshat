@@ -1,0 +1,18 @@
+{
+    "type": "UnsupervisedLearning",
+    "questions" : [
+        {
+            "DataPoint": "Who is cooler?",
+            "Choices": [
+                {
+                    "text": "A villain from the dragon ball Z universe",
+                    "correct": true
+                }, 
+                {
+                    "text": "A professional quake3 player",
+                    "correct": true
+                }
+            ]
+        }
+    ]
+}

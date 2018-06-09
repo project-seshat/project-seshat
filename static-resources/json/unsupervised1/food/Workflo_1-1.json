@@ -1,0 +1,23 @@
+{
+//removed from game	
+	"filename" : "Workflo 1-1",
+	"htmlTemplate" : "slacctemplate.bars",
+	"conversation" : [
+		{"from": "_Person1", "message" : "Yoooo, do you guys want to go out for lunch? Thai?"},
+		{"from": "_Person2", "message" : "Hmm I'm not sure I'm still swamped with work, I was thinking of just grabbing food from the cafeteria and working through my lunchbreak"},
+		{"from": "_Person3", "message" : "Winnimere I know it's Chip City, but you gotta take a break from the work "},
+		{"from": "_Person3", "message" : "Self care and all"},
+		{"from": "_Person3", "message" : "Plus, we can also get some boba afterwards"},
+		{"from": "_Person1", "message" : "They opened a new one next to the Thai place by Noogle"},
+		{"from": "_Person2", "message" : "Okay, you got me at boba"},
+		{"from": "_Person2", "message" : "Still I am stressed as hell, they gave me like three different projects to work on this week"},
+		{"from": "_Person2", "message" : "I swear, if the pay wasn't so good I'd be out of here in a heartbeat"},
+		{"from": "_Person1", "message" : "Be careful haha, if they see these logs you may just get your wish :P"},
+		{"from": "_Person3", "message" : "I for one welcome our new corporate overlords"},
+		{"from": "_Person2", "message" : "You guys are so dramatic lol, you think they have time to sift through these with all the projects?"},
+		{"from": "_Person2", "message" : "Any way, lets head out to lunch."},
+		{"from": "_Person1", "message" : "Shotgun."},
+		{"from": "_Person3", "message" : "Doesn't count until we're out the building knucklehead"},
+		{"from": "_Person1", "message" : "Booooooo"},
+	]
+}

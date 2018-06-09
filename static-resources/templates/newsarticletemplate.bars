@@ -1,0 +1,6 @@
+<div class = "news article">
+	<h2>{{headline}}</h2>
+	<h3>{{datePublished}}</h3>
+	<h3>{{author}}</h3>
+	<span class="ai-text">{{bodyText}}{{text}}</span>
+</div>

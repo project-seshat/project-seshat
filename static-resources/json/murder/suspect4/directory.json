@@ -1,0 +1,8 @@
+{
+    "type" : "MurderDirectory",
+    "title" : "Suspect 3",
+	"entries" : [
+		"json/murder/suspect4/profile.json",
+		"json/murder/suspect4/messages.json"
+	]
+}

@@ -1,0 +1,8 @@
+{
+    "type" : "UnsupervisedInvestigation",
+	"directories" : [
+		"json/unsupervisedExample/food/directory"
+	],
+	"timeLimit": 5,
+	"choices": ["Yes", "No", "Should we drink the Soylent Green?"]
+}

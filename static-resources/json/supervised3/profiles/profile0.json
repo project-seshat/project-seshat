@@ -1,0 +1,26 @@
+{
+	"image": {
+		"htmlTemplate": "templates/profilephototemplate.bars",
+		"imgPath": "/profiles/Swan.png"
+	},
+	"basicInfo": {
+		"htmlTemplate": "templates/texttemplate.bars",
+		"text": "Swan, 37\nSan Flamingo, California"
+	},
+	"sentiment": {
+		"htmlTemplate": "templates/texttemplate.bars",
+		"text": "Swan, 37\nSan Flamingo, California\nEducation: Unknown\nJournalist on crime for the Idoli Times\n\nKNOWN FACTS\n - Family immigrated recently\n - Interested in: privacy, journalism, dogs, cooking, history [ADVERTISEMENT DATA]\n- $30,000 debt, Revnu Loans\n- Likes: unknown [NO PUBLIC PROFILE]\n- Dislikes: unknown [NO PUBLIC PROFILE]"
+	},
+	"violence": {
+		"htmlTemplate": "templates/texttemplate.bars",
+		"text": "LAST KNOWN LOCATIONS:\nPier 39, San Flamingo, 3wk [VIDEO]\nRutherford Airport, Montvort, 2wk [WIFI]\nJFN, New Vista, 2wk [WIFI]\nTrivor International Airport, Filnan, 1wk [WIFI]\nSan Flamingo International Airport, 3d [WIFI]"
+	},
+	"association": {
+		"htmlTemplate": "templates/texttemplate.bars",
+		"text": " - Known relations: Sister - Lilah Taubert, Girlfriend - Rachel Gons\n\nTOP BROWSER HISTORY\n[1] Idoli.com\n[2] nyt.com\n[3] cheapairfare.com\n[4] wakapedia.com\n[5] dcpd.gov"
+	},
+	"action": {
+		"htmlTemplate": "templates/texttemplate.bars",
+		"text": "PULLED FROM CONVERSATION DATABASE\n\n[TRANSLATED]\n\nNo, mama, I promise, I’m fine. \n\nThese areas are dangerous! You have to keep your wits about you!\n\nI will, I will. \n\nI still don’t know why your boss sent you. You are a crime writer, not a scribe of riots.\n\nHistory is happening - someone’s gotta write it down."
+	}
+}

@@ -1,0 +1,26 @@
+{
+	"image": {
+		"htmlTemplate": "templates/profilephototemplate.bars",
+		"imgPath": "/profiles/Marli.png"
+	},
+	"basicInfo": {
+		"htmlTemplate": "templates/texttemplate.bars",
+		"text": "Marli Prisse, 20-30\n???????"
+	},
+	"sentiment": {
+		"htmlTemplate": "templates/texttemplate.bars",
+		"text": "Marli Prisse, 20-30\n???????\nLead Organizer, Protests 4 Change\nEducation: Unknown\n\nKNOWN FACTS FROM PROFILE\n- Interested in: activism, social change, fighting corruption\n- Recent Events:\n\t'March On Lolea Street', March 25, Event Organizer\n\t'Take Back The City: Rally for Infrastructure', April 16, Event Organizer\n- Likes: moon landing conspiracy, veganism, 'helping others'\n- Dislikes: Toxic monogamy, big government, the sound flip-flops make on asphalt"
+	},
+	"violence": {
+		"htmlTemplate": "templates/texttemplate.bars",
+		"text": "LAST KNOWN LOCATIONS:\nNorth Dakk City Hall, 3wk, 1d [PUBLIC RECORDS]\nSan Flamingo International Airport, 2wk [WIFI]\nJFN Airport, New Vista, 1wk [WIFI]\n\nRECENT POSTS:\n'Get ready for the big one. Change is coming. This time, we’re gonna get them for sure.'\n\n'Don’t ask me about my past. It was a struggle. Real shit went on back there.'\n\n'Sometimes I miss caviar!!! I know this isn't a real problem but just how I feel yo'"
+	},
+	"association": {
+		"htmlTemplate": "templates/texttemplate.bars",
+		"text": " - Known relations: Significant Other - Scarlett ????\n- Friends: [Plover]\n\nTOP BROWSER HISTORY\n[1] Protests4Change.com\n[2] NewYorkTimes.com\n[3] AmericaShmerica.org\n[4] DCNews.com\n[5] Leilo.com"
+	},
+	"action": {
+		"htmlTemplate": "templates/texttemplate.bars",
+		"text": "PULLED FROM CONVERSATION DATABASE\n\nDo you think we’ll be ok? \n\nGod, I sure hope so, Scarlett.\n\nHey, I love you.\n\nI love you too.\n\nWe’re gonna make it."
+	}
+}

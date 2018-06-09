@@ -1,0 +1,25 @@
+{
+    "type" : "UnsupervisedDirectory",
+    "filename" : "Interal Complaints",
+    "isDirectory" : false,
+    "entries" : [
+        {
+            "type" : "CompanyMemo",
+            "htmlTemplate" : "memotemplate.bars",
+            "receiver" : "Literally Everyone",
+            "date" : "Jun 17, 20XX",
+            "subject" : "Fuck This",
+            "from" : "Aras Findlay, Backend Engineer",
+            "text" : "I can’t fucking do this anymore.\nThis has gone too far! I have seen too much! All of you fucking sheep and your hivemind bullshit. You call these accomplishments? You people amaze me with your idiocy. This is wrong.   I used to believe in The Sorting, but they’re people too. Those people don’t deserve this treatment. I can’t keep being a part of this machine I swear.\nI have to get this out to the public before it’s too late. I have to let them know what we’re about to do. They need to know that Qualia is not as great as they think. I’m going to put an end to this, god help me. I’m going to destroy Qualia, and all you fucking psychos. By the time you see this, I’ll be long gone. I’ll have done it.\nFuck you all\nAras Findlay"
+        },
+        {
+            "type" : "CompanyMemo",
+            "htmlTemplate" : "memotemplate.bars",
+            "receiver" : "Aras Findlay",
+            "date" : "May 25, 20XX",
+            "subject" : "Response",
+            "from" : "Scarlett Townsend",
+            "text" : "Dear Aras,\nI have been thinking about what you wrote to me about your worries for the company. Here are my thoughts:\nWe must be careful. There is only so much we can do before they find out that you have these feelings.\nI do not know if I feel the same way though. Honestly, Qualia might have the right idea. Maybe these people deserve this? Have you thought about that?\nI went into the field today, and I also met some people. They seemed nice, but if Qualia is saying they are bad...I feel like we should believe them.\nYou have to remember, The Regime is powerful, they are watching us. They are motivating us.\nAras, I care about you, but I just cannot stand by you any longer."
+        }
+    ]
+}

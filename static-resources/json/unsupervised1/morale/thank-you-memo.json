@@ -1,0 +1,10 @@
+{
+	"type" : "CompanyMemo",
+	"filename" : "Thank You",
+	"htmlTemplate" : "memotemplate.bars",
+	"receiver" : "Employees of Qualia",
+	"date" : "April 2, 20XX",
+	"subject" : "Thank You!",
+	"from" : "Your Qualia Family",
+	"text" : "Dear Employees of Qualia,\nWe are so thankful to have you on this journey! Without you, we would not be able to complete our mission of being a bigger and brighter world. Here, we believe in the power of technology aiding the advancement of the future. Here, we believe that we can make real change. We just want to let you know that we are so appreciative of this, and we hope that you will stay with us on this path to incredible, revolutionary change.\nOn an unrelated note, please fill out your satisfication survey about the company dining hall. We have heard great things, but we would like to keep your feedback in mind. After all, we at Qualia care about you, and have your best interests in mind.\nSincerely,\nYour Qualia Family"
+}

@@ -1,0 +1,3 @@
+<div class="entry">
+    <img src="{{@imagesPath}}{{imgPath}}" height="60%" width="60%">
+</div>

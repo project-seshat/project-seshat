@@ -1,0 +1,18 @@
+{
+    "type" : "SupervisedLearning",
+    "title" : "papaya-egg detection exercise",
+    "questions" : [
+        {
+            "choices" : [
+                {
+                    "choiceText" : "Silver eyes",
+                    "correct" : true 
+                },
+                {
+                    "choiceText" : "Golden eyes",
+                    "correct" :false  
+                }
+            ]         
+        }
+    ]
+}
