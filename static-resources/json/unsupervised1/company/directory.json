@@ -1,9 +1,0 @@
-{
-    "type" : "UnsupervisedDirectory",
-    "isDirectory": true,
-    "filename" : "Company",
-	"files" : [
-        "json/unsupervised1/company/expedition-of-project-memo.json",
-		"json/unsupervised1/company/thoughts-on-the-future-memo.json"
-	]
-}

@@ -1,8 +1,0 @@
-{
-	"type" : "UnsupervisedDirectory",
-	"isDirectory": true,
-	"filename": "[archive]",
-	"files" : [
-		"json/unsupervisedNestedExample/chatlogs/[archive]/Workflo_2-1-1"
-	]
-}
