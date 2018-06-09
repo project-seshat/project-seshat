@@ -1,6 +1,0 @@
-{	
-	"htmlTemplate" : "templates/profiletemplate.bars",
-	"type" : "FacebookProfile" ,
-	"username" : "im a test" ,
-	"status": "am i working?" 
-}

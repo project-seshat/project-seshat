@@ -1,9 +1,0 @@
-{
-    "type" : "UnsupervisedDirectory",
-    "isDirectory" : true,
-    "filename" : "Home",
-	"files" : [
-		"json/unsupervisedNestedExample/memos/directory.json",
-		"json/unsupervisedNestedExample/chatlogs/directory.json"
-	]
-}
