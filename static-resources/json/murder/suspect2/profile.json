@@ -4,13 +4,13 @@
 	"title": "Profile",
 	"username" : "Chervil",
 	"status": "Happily Married :)",
-	"profilePicture": "<img class=\"img-fluid d-block my-3\" src=\"Pictures/Lysa.png\">",
+	"profilePicture": "<img class=\"img-fluid d-block my-3\" src=\"Pictures/Lysa.png\" height=\"20%\" width=\"20%\">>",
 	"posts" : [
 		{	
 			"type" 	: "FacebookPost" ,
 			"text"	: "Day trip to the beach, leaving my phone behind", 
 			"date"	: "Four days ago",
-			"photo" : "<img class=\"img-fluid d-block my-3\" src=\"Pictures/Lysa.png\">",
+			"photo" : "<img class=\"img-fluid d-block my-3\" src=\"Pictures/Lysa.png\" height=\"10%\" width=\"10%\">>",
 			"name" : "Chervil" 
 		},
 
@@ -18,35 +18,35 @@
 			"type" 	: "FacebookPost" ,
 			"text"	: "I love my husband so much", 
 			"date"	: "Four days ago",
-			"photo" : "<img class=\"img-fluid d-block my-3\" src=\"Pictures/Lysa.png\">",
+			"photo" : "<img class=\"img-fluid d-block my-3\" src=\"Pictures/Lysa.png\" height=\"10%\" width=\"10%\">>",
 			"name" : "Chervil" 
 		},
 		{	
 			"type" 	: "FacebookPost" ,
 			"text"	: "What a joy it is to find somebody who pushes you out of your comfort zone", 
 			"date"	: "A week ago",
-			"photo" : "<img class=\"img-fluid d-block my-3\" src=\"Pictures/Lysa.png\">",
+			"photo" : "<img class=\"img-fluid d-block my-3\" src=\"Pictures/Lysa.png\" height=\"10%\" width=\"10%\">>",
 			"name" : "Chervil" 
 		},
 		{	
 			"type" 	: "FacebookPost" ,
 			"text"	: "Hubby and I are off to the movies", 
 			"date"	: "A week ago",
-			"photo" : "<img class=\"img-fluid d-block my-3\" src=\"Pictures/Lysa.png\">",
+			"photo" : "<img class=\"img-fluid d-block my-3\" src=\"Pictures/Lysa.png\" height=\"10%\" width=\"10%\">>",
 			"name" : "Chervil" 
 		},
 		{	
 			"type" 	: "FacebookPost" ,
 			"text" 	: "Date Night <3", 
 			"date" 	: "A week ago", 
-			"photo" : "<img class=\"img-fluid d-block my-3\" src=\"Pictures/Lysa.png\">",
+			"photo" : "<img class=\"img-fluid d-block my-3\" src=\"Pictures/Lysa.png\" height=\"10%\" width=\"10%\"> >",
 			"name" : "Chervil"
 		},
 		{	
 			"type" 	: "FacebookPost" ,
 			"text" 	: "Never be afraid to try something new", 
 			"date" 	: "A week ago", 
-			"photo" : "<img class=\"img-fluid d-block my-3\" src=\"Pictures/Lysa.png\">",
+			"photo" : "<img class=\"img-fluid d-block my-3\" src=\"Pictures/Lysa.png\" height=\"10%\" width=\"10%\">>",
 			"name" : "Chervil"
 		}
 	]	

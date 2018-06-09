@@ -57,7 +57,7 @@
           </div>
           {{#each posts}}
           <div class="row bg-light mb-3">
-            <div class="col-md-2">
+            <!--<div class="col-md-2">
               {{{photo}}} </div>
             <div class="col-md-10">
               <p class="lead" contenteditable="true">
@@ -71,7 +71,11 @@
               <p class="bg-secondary">
                 <b style="font-weight: bold;">Liked by</b>
                 <b>: </b>Tempo, Plover, Etc.</p>
-            </div>
+            </div>-->
+            {{{photo}}}
+            <b>{{name}}</b>
+            {{text}}
+            <b>Liked by:</b> Tempo, Plover, Etc.
           </div>
           {{/each}}
           
