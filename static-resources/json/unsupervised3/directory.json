@@ -1,0 +1,10 @@
+{
+    "type" : "UnsupervisedDirectory",
+    "filename" : "Root",
+    "isDirectory" : true,
+	"files" : [
+        "json/unsupervised3/external-politics.json",
+        "json/unsupervised3/inside-politics.json",
+        "json/unsupervised3/project-sesh.json"
+    ]
+}

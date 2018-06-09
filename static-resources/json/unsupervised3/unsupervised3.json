@@ -1,0 +1,18 @@
+{
+    "type" : "UnsupervisedInvestigation",
+    "rootDirectory" : "json/unsupervised3/directory.json",
+    "tempoLog" : "txt:json/unsupervised3/tempo_log.txt",
+    "choices": [
+        ["The Regime", "Aras Findley", "Without whom would sesh@ not be possible?"],
+        ["John and Emerald", "Joseph and Ruby", "Which two people were watching Jeopardy?"],
+        ["Anon", "Scarlett", "Who sent the email about deactivating Sesh@?"],
+        ["Scarlett", "Aras", "Who believes in Qualia?"],
+        ["Three", "Nineteen", "How many Phases are part of Project Sesh@?"],
+        ["threat identification", "political scandal", "What will happen when Sesh@ is deployed?"],
+        ["Silver Eyed People", "Blue Eyed People", "Who does John think is stupid?"],
+        ["The Regime", "Aras Findlay", "Who does Scarlett trust?"],
+        ["True", "False", "The Regime is doing good things"],
+        ["True", "False", "A pure society is within reach"],
+        ["Yes", "No", "Qualia cares about its employees."]
+    ]
+}

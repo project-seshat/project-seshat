@@ -1,0 +1,10 @@
+{
+	"filename" : "Expedition of Project Sesh@",
+    "type" : "CompanyMemo",
+    "htmlTemplate" : "memotemplate.bars",
+	"receiver" : "Employees of Qualia",
+	"date" : "May 12, 20XX",
+	"subject" : "Expedition of Project Sesh@",
+	"from" : "Harris Parkes, VP of Engineering",
+	"text" : "Due to advice from the CEO, the engineering team at Qualia has decided to expedite the implementation of Project Sesh@ to be ideally completed in the next two months. We have been iterating on our technology and have reached a new beta that has the potential to be completely successful in The Sorting. Now, we expect our timeline to shorten from 6 months to 2. We apologize for this last minute notification\nWith that in mind, we expect your full cooperation in this sprint to the finish. There is much work to be done to complete this project from the engineering architecture to case testing on real subjects.\nThe work will be difficult. The work will be long, but we appreciate you joining us on this journey to complete our goals. We cannot thank you enough.\nBest,\nHarris Parkes"
+}

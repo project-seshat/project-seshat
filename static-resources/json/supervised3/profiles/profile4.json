@@ -1,0 +1,26 @@
+{	
+	"image": {
+		"htmlTemplate": "templates/profilephototemplate.bars",
+		"imgPath": "/profiles/Kavoy.png"
+	},
+	"basicInfo": {
+		"htmlTemplate": "templates/texttemplate.bars",
+		"text": "Kavoy Madrik, 32\nRupton District, D.C."
+	},
+	"sentiment": {
+		"htmlTemplate": "templates/texttemplate.bars",
+		"text": "Kavoy Madrik, 32\nRupton District, DC\nArchitect, employed by city\nEducation: Unknown\n\nKNOWN FACTS FROM PROFILE\n - Leader of Rupton Lilac Congregation, frequent event and service organizer\n - Tax records show donations to:\n \tLilac Church, Protests 4 Change, Sandy West Youth and Homeless Shelter \n - Known interests: \n \tStreet art/graffiti, improv theater, homebrew (beer, mead), meditation/worship"
+	},
+	"violence": {
+		"htmlTemplate": "templates/texttemplate.bars",
+		"text": "LAST KNOWN LOCATIONS:\n\tSerle’s Coffee on 5th and 49th, 1wk [PUBLIC PROFILE]\n\tLilac Church on Verit St., 3wk, 2wk, 1wk, 1d [CAMERA]\n\tWarehouse 39 in the Brivare District, DC, 3wk, 1wk, 5d, 4d, 2d [CAMERA, AUDIO]\n\tCity Hall, 2wk, 3d [PUBLIC RECORDS]\n\tRevMart on Rupton Ave., 3wk, 4d [CAMERA]"
+	},
+	"association": {
+		"htmlTemplate": "templates/texttemplate.bars",
+		"text": "TOP BROWSER HISTORY\n[1] LilacCongregation.org\n[2] Rupton.gov\n[3] Rinassi.com\n[4] HealthyPrayer.com\n[5] BlueGames.com"
+	},
+	"action": {
+		"htmlTemplate": "templates/texttemplate.bars",
+		"text": "PULLED FROM CONVERSATION DATABASE\n\nHey, can you open up the shop tonight?\n\nYou’ve all been there twice this week already. Are you sure that’s a good idea?\n\nWhat choice do we have? We’ve gotta be done by Saturday.\n\nAlright, alright. Just make sure to keep your lights off and go in from the back. We don’t want a repeat of a few weeks ago."
+	}
+}

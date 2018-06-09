@@ -1,0 +1,10 @@
+{
+	"type" : "UnsupervisedDirectory",
+	"filename": "Root",
+	"isDirectory": true,
+	"files" : [
+		"json/unsupervised2/memos/directory.json",
+		"json/unsupervised2/news/directory.json",
+		"json/unsupervised2/chatlogs/directory.json"
+	]
+}

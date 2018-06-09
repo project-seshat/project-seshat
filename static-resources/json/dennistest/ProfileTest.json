@@ -1,0 +1,20 @@
+{	
+	"type" : "FacebookProfile" ,
+	"username" : "im a test" ,
+	"status": "am i working?" ,
+	"profilePicture": null,
+	"posts" : [
+		{	
+			"type" 	: "FacebookPost" ,
+			"text"	: "Speak truth to power #ArtificialIgnorance!",
+			"date"	: "yesterday",
+			"photo" : "images/facebookposts/"
+		},
+		{	
+			"type" 	: "FacebookPost" ,
+			"text" 	: "Still unclear what Qualia's internal code of ethics is/was. but hey gotta get those ~internships~ #ArtificialIgnorance",
+			"date" 	: "2 weeks ago",
+			"photo" : null
+		}
+	]	
+}

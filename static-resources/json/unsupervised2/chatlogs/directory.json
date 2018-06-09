@@ -1,0 +1,10 @@
+{
+	"type" : "UnsupervisedDirectory",
+	"isDirectory": true,
+    "filename" : "Chatlogs",
+	"files" : [
+		"json/unsupervised2/chatlogs/Workflo_2-1-1",
+		"json/unsupervised2/chatlogs/Workflo_2-1-2",
+		"json/unsupervised2/chatlogs/Workflo_2-1-3"
+	]
+}

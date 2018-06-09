@@ -1,0 +1,18 @@
+{
+	"htmlTemplate" : "workflotemplate.bars",
+	"title" : "Messages", 
+	"conversation" : [
+		{"from": "Chervil", "message" : "Your sure this line is secure?", "picture" : "<img class=\"img-fluid d-block\" src=\"Pictures/Lysa.png\" width=\"200\" alt=\"Avatar\"> </div>"},
+		{"from": "Vanda", "message" : "Trust me, no one will be able to hack into this :)", "picture" : "<img class=\"img-fluid d-block\" src=\"Pictures/Breann.png\" width=\"200\" alt=\"Avatar\"> </div>"},
+		{"from": "Chervil", "message" : "Good", "picture" : "<img class=\"img-fluid d-block\" src=\"Pictures/Lysa.png\" width=\"200\" alt=\"Avatar\"> </div>"},
+		{"from": "Chervil", "message" : "No one can know about this", "picture" : "<img class=\"img-fluid d-block\" src=\"Pictures/Lysa.png\" width=\"200\" alt=\"Avatar\"> </div>"},
+		{"from": "Vanda", "message" : "You're way too paranoid", "picture" : "<img class=\"img-fluid d-block\" src=\"Pictures/Breann.png\" width=\"200\" alt=\"Avatar\"> </div>"},
+		{"from": "Vanda", "message" : "Besides, the fuse is already lit", "picture" : "<img class=\"img-fluid d-block\" src=\"Pictures/Breann.png\" width=\"200\" alt=\"Avatar\"> </div>"},
+		{"from": "Chervil", "message" : "No going back?", "picture" : "<img class=\"img-fluid d-block\" src=\"Pictures/Lysa.png\" width=\"200\" alt=\"Avatar\"> </div>"},
+		{"from": "Vanda", "message" : "No going back :)", "picture" : "<img class=\"img-fluid d-block\" src=\"Pictures/Breann.png\" width=\"200\" alt=\"Avatar\"> </div>"},
+		{"from": "Chervil", "message" : "I hope your plan works", "picture" : "<img class=\"img-fluid d-block\" src=\"Pictures/Lysa.png\" width=\"200\" alt=\"Avatar\"> </div>"},
+		{"from": "Vanda", "message" : "I got us this far, didn't I?", "picture" : "<img class=\"img-fluid d-block\" src=\"Pictures/Breann.png\" width=\"200\" alt=\"Avatar\"> </div>"},
+		{"from": "Chervil", "message" : "True, just never thought I'd go to back to the stadium", "picture" : "<img class=\"img-fluid d-block\" src=\"Pictures/Lysa.png\" width=\"200\" alt=\"Avatar\"> </div>"},
+		{"from": "Chervil", "message" : "Least of all without my husband or any other man with me", "picture" : "<img class=\"img-fluid d-block\" src=\"Pictures/Lysa.png\" width=\"200\" alt=\"Avatar\"> </div>"}
+	]
+}

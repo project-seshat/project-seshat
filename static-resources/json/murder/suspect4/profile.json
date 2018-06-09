@@ -1,0 +1,53 @@
+{	
+	"type" : "FacebookProfile" ,
+	"htmlTemplate": "templates/profiletemplate.bars",
+	"title": "Profile",
+	"username" : "Esserom",
+	"status": "hopeful",
+	"profilePicture": "<img class=\"img-fluid d-block my-3\" src=\"Pictures/Devon.png\">",
+	"posts" : [
+		{	
+			"type" 	: "FacebookPost" ,
+			"text"	: "Finally gonna shoot tomorrow :)", 
+			"date"	: "Four days ago",
+			"photo" : "<img class=\"img-fluid d-block my-3\" src=\"Pictures/Devon.png\">",
+			"name" : "Esserom"  
+		},
+
+		{	
+			"type" 	: "FacebookPost" ,
+			"text"	: "Man I miss all my old childhood shows", 
+			"date"	: "Four days ago",
+			"photo" : "<img class=\"img-fluid d-block my-3\" src=\"Pictures/Devon.png\">",
+			"name" : "Esserom"  
+		},
+		{	
+			"type" 	: "FacebookPost" ,
+			"text"	: "Is tomorrow a dress down day?", 
+			"date"	: "A week ago",
+			"photo" : "<img class=\"img-fluid d-block my-3\" src=\"Pictures/Devon.png\">",
+			"name" : "Esserom"  
+		},
+		{	
+			"type" 	: "FacebookPost" ,
+			"text"	: "Even if the morrow is barren of promises, nothing shall forestall my return", 
+			"date"	: "A week ago",
+			"photo" : "<img class=\"img-fluid d-block my-3\" src=\"Pictures/Devon.png\">",
+			"name" : "Esserom"  
+		},
+		{	
+			"type" 	: "FacebookPost" ,
+			"text" 	: "If anybody's tryna join my student film <i>perogative</i> let me know!!!", 
+			"date" 	: "A week ago", 
+			"photo" : "<img class=\"img-fluid d-block my-3\" src=\"Pictures/Devon.png\">",
+			"name" : "Esserom" 
+		},
+		{	
+			"type" 	: "FacebookPost" ,
+			"text" 	: "Pre-Calc didn't prepare for my Calculus at alllllll", 
+			"date" 	: "A week ago", 
+			"photo" : "<img class=\"img-fluid d-block my-3\" src=\"Pictures/Devon.png\">",
+			"name" : "Esserom" 
+		}
+	]	
+}
