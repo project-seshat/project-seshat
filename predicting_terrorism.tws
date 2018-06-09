@@ -5,7 +5,7 @@ S''
 p2
 sS'saveDestination'
 p3
-S'C:\\Users\\Dennis Jeong\\Documents\\twine\\project-seshat\\predicting_terrorism.tws'
+S'C:\\Users\\peace\\Documents\\GitHub\\project-seshat\\predicting_terrorism.tws'
 p4
 sS'metadata'
 p5
@@ -1247,7 +1247,7 @@ Tiddler
 p387
 (dp388
 g21
-V<<if $choseTempo == 1>>\u000a<<set $tempoLog to $aiData.tempoLogs["tempo8"]>>\u000a<<else>>\u000a<<set $tempoLog to $aiData.tempoLogs["tempo81"]>>\u000a<</if>>\u000a<<set $finishPassage to "StartPostLoad">>\u000a<<goto "StartTempo">>\u000a
+V<<if $choseTempo == 1>>\u000a<<set $tempoLog to $aiData.tempoLogs["tempo8"]>>\u000a<<else>>\u000a<<set $tempoLog to $aiData.tempoLogs["tempo81"]>>\u000a<</if>>\u000a<<set $finishPassage to "Start">>\u000a<<goto "StartTempo">>\u000a
 p389
 sg23
 VEnd
@@ -1256,12 +1256,12 @@ sg25
 g26
 ((I2018
 I6
-I4
-I11
-I17
+I8
 I21
-I0
-I155
+I41
+I45
+I4
+I159
 I1
 tp391
 (dp392
