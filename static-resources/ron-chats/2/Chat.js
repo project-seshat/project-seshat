@@ -1,9 +1,9 @@
 
 var me = {};
-me.avatar = "Tempo.png";
+me.avatar = "Tempo_GF.png";
 
 var you = {};
-you.avatar = "Tempo_Gf.png";
+you.avatar = "Tempo.png";
 
 function formatAMPM(date) {
     var hours = date.getHours();
@@ -23,7 +23,7 @@ function insertChat(who, text, time){
     if (time === undefined){
         time = 0;
     }
-    timePassed += Math.sqrt(text.length)*400;
+    timePassed += Math.sqrt(text.length) * 400 + time;
     var control = "";
     var date = formatAMPM(new Date());
 
@@ -33,7 +33,7 @@ function insertChat(who, text, time){
                         '<div class="avatar"><img class="img-circle" style="width:100%;" src="'+ me.avatar +'" /></div>' +
                             '<div class="text text-l">' +
                                 '<p>'+ text +'</p>' +
-                                '<p><small>'+date+'</small></p>' +
+                                '<p><small>'+"Fermatta"+'</small></p>' +
                             '</div>' +
                         '</div>' +
                     '</li>';
@@ -42,7 +42,7 @@ function insertChat(who, text, time){
                         '<div class="msj-rta macro">' +
                             '<div class="text text-r">' +
                                 '<p>'+text+'</p>' +
-                                '<p><small>'+date+'</small></p>' +
+                                '<p><small>'+"Tempo"+'</small></p>' +
                             '</div>' +
                         '<div class="avatar" style="padding:0px 0px 0px 10px !important"><img class="img-circle" style="width:100%;" src="'+you.avatar+'" /></div>' +
                   '</li>';
@@ -62,7 +62,7 @@ $(".mytext").on("keydown", function(e){
     if (e.which == 13){
         var text = $(this).val();
         if (text !== ""){
-            insertChat("me", text);
+            insertChat("you", text);
             $(this).val('');
         }
     }
@@ -76,36 +76,34 @@ $('body > div > div > div:nth-child(2) > span').click(function(){
 resetChat();
 
 //-- Print Messages
-insertChat("you", "Hey! How was your day?", 2700)
-insertChat("me", "Great! First day and nothing exploded. :) How are you?", 2700)
-insertChat("you", "miss you ):", 2700)
-insertChat("me", "miss you too Fstop", 2700)
-insertChat("you", "Does Sesh@ talk to you?", 2700)
-insertchat("me", "Yeah, she beep-boops sweet nothings in my ear", 2700)
-insertChat("you", "It's been like what 3 weeks and you already have a mistress :)", 2700)
-insertChat("me", "Her GUI is verrrrry symmetrical", 2700)
-insertChat("you", "Why are you going for the silicone when the real thing's right here :)", 2700)
-insertChat("me", "Cuz ''right here'' is actually a 6 hour plane flight away", 2700)
-insertChat("you", "D: only 2 hours on the NTrain", 2700)
-insertChat("me", "I can't afford a plane ticket, let alone that fancy travel", 2700)
-insertChat("me", "But that's okay, I trust you to keep DC warm for me while I'm interning for Qualia :)", 2700)
-insertChat("you", "but campus is so booooring without you!!", 2700)
-insertChat("you", "who's going to bring me papayegg ramen when I get hungry at 3am", 2700)
-insertChat("you", "or go to the Protests4Change events with me???", 2700)
-insertChat("me", "I'm sure you'll survive :P", 2700)
-insertChat("you", "You have it easy, you have Sesh@ to keep you company", 2700)
-insertChat("me", "ha ha very funny", 2700)
-insertChat("me", "Jokes aside, Sesh@'s getting really smart", 2700)
-insertchat("you", "What do you mean", 2700)
-insertchat("me", "She's going to start learning by herself.", 2700)
-insertChat("me", "Like I'll give her documents and files and she's gonna process them on her own.", 2700)
-insertChat("you", "What kind of stuff are you gonna give her?", 2700)
-insertChat("me", "News, company memos, that kind of stuff.", 2700)
-insertChat("you", "Sounds so cool! Your baby is learning to read", 2700)
-insertChat("you", "I really wish I was there to see it ):", 2700)
-insertChat("me", "wish you were here too, Fstop ):", 2700)
-insertchat("you", "Keep up the hard work", 2700)
-insertChat("you", "I gotta head out, talk to you soon temp <3", 2700)
-insertchat("me", "Miss you <3", 2700)
+insertChat("me", "Hey! How was your day?", 100)
+insertChat("you", "Great! First day and nothing exploded. :)", 100)
+insertChat("me", "miss you ):", 100)
+insertChat("you", "miss you too Fstop", 100)
+insertChat("me", "Does Sesh@ talk to you?", 100)
+insertChat("you", "Yeah, she beep-boops sweet nothings in my ear", 100)
+insertChat("me", "You already have a mistress?", 100)
+insertChat("you", "Her GUI is verrrrry symmetrical", 100)
+insertChat("me", "Why are you going for the silicone when the real thing's right here :)", 100)
+insertChat("you", "Cuz ''right here'' is actually a 6 hour plane flight away", 100)
+insertChat("me", "D: only 2 hours on the NTrain", 100)
+insertChat("you", "I can't afford a plane ticket, let alone that fancy travel", 100)
+insertChat("you", "But that's okay, I trust you to keep DC warm for me while I'm interning for Qualia :)", 100)
+insertChat("me", "but campus is so booooring without you!!", 100)
+insertChat("me", "who's going to bring me papayegg ramen when I get hungry at 3am", 100)
+insertChat("me", "or go to the Protests4Change events with me???", 100)
+insertChat("you", "I'm sure you'll survive :P", 100)
+insertChat("me", "You have it easy, you have Sesh@ to keep you company", 100)
+insertChat("you", "ha ha very funny", 100)
+insertChat("you", "Jokes aside, Sesh@'s getting really smart", 100)
+insertChat("me", "What do you mean", 100)
+insertChat("you", "She's going to start learning by herself.", 100)
+insertChat("you", "Like I'll give her documents and files and she's gonna process them on her own.", 100)
+insertChat("me", "What kind of stuff are you gonna give her?", 100)
+insertChat("you", "News, company memos, that kind of stuff.", 100)
+insertChat("me", "Your baby is learning to read", 100)
+insertChat("me", "I really wish I was there to see it ):", 100)
+insertChat("you", "wish you were here too, Fstop ):", 100)
+insertChat("me", "Keep up the hard work babe", 100)
 
 //-- NOTE: No use time on insertChat.

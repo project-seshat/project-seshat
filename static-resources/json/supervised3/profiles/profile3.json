@@ -5,11 +5,11 @@
 	},
 	"basicInfo": {
 		"htmlTemplate": "templates/texttemplate.bars",
-		"text": "Grajie Litne, 24\nPhiladelphia, Pennsylvania"
+		"text": "Grajie Litne, 24\nFinnsadel, PA"
 	},
 	"sentiment": {
 		"htmlTemplate": "templates/texttemplate.bars",
-		"text": "Grajie Litne, 24\nPhiladelphia, Pennsylvania, family immigrated\nFinancial Consultant at Allura\nEducation: Wharton Business School\n\nRECENT POSTS\n - Running on two cups of coffee and a five hour energy, how’s your day going?\n - Strategy meeting went well. We’re hitting all our target benchmarks and our ready to start our launch.\n - I swear to god some of these companies are so fucking stupid.\n - Note to self: network with James\n - It’s so fucking gloomy."
+		"text": "Grajie Litne, 24\nFinnsadel, PA, family immigrated\nFinancial Consultant at Allura\nEducation: Wharton Business School\n\nRECENT POSTS\n - Running on two cups of coffee and a five hour energy, how’s your day going?\n - Strategy meeting went well. We’re hitting all our target benchmarks and our ready to start our launch.\n - I swear to god some of these companies are so fucking stupid.\n - I got robbed!!!! I bet it was a fucking silv. If anyone's offended by that, they can get off my friends list! \n - Note to self: network with James\n - It’s so fucking gloomy."
 	},
 	"violence": {
 		"htmlTemplate": "templates/texttemplate.bars",

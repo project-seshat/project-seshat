@@ -1,9 +1,9 @@
 
 var me = {};
-me.avatar = "Tempo.png";
+me.avatar = "Tempo_GF.png";
 
 var you = {};
-you.avatar = "Tempo_Gf.png";
+you.avatar = "Tempo.png";
 
 function formatAMPM(date) {
     var hours = date.getHours();
@@ -23,7 +23,7 @@ function insertChat(who, text, time){
     if (time === undefined){
         time = 0;
     }
-    timePassed += time;
+    timePassed += Math.sqrt(text.length) * 400 + time;
     var control = "";
     var date = formatAMPM(new Date());
 
@@ -33,7 +33,7 @@ function insertChat(who, text, time){
                         '<div class="avatar"><img class="img-circle" style="width:100%;" src="'+ me.avatar +'" /></div>' +
                             '<div class="text text-l">' +
                                 '<p>'+ text +'</p>' +
-                                '<p><small>'+date+'</small></p>' +
+                                '<p><small>'+"Fermatta"+'</small></p>' +
                             '</div>' +
                         '</div>' +
                     '</li>';
@@ -42,7 +42,7 @@ function insertChat(who, text, time){
                         '<div class="msj-rta macro">' +
                             '<div class="text text-r">' +
                                 '<p>'+text+'</p>' +
-                                '<p><small>'+date+'</small></p>' +
+                                '<p><small>'+"Tempo"+'</small></p>' +
                             '</div>' +
                         '<div class="avatar" style="padding:0px 0px 0px 10px !important"><img class="img-circle" style="width:100%;" src="'+you.avatar+'" /></div>' +
                   '</li>';
@@ -62,7 +62,7 @@ $(".mytext").on("keydown", function(e){
     if (e.which == 13){
         var text = $(this).val();
         if (text !== ""){
-            insertChat("me", text);
+            insertChat("you", text);
             $(this).val('');
         }
     }
@@ -76,16 +76,28 @@ $('body > div > div > div:nth-child(2) > span').click(function(){
 resetChat();
 
 //-- Print Messages
-insertChat("me", "Fuck", 0)
-insertChat("me", "The government is contracting Sesh@ again", 2700)
-insertChat("me", "For something big this time, some large-scale threat classification", 2700)
-insertChat("me", "The Sorting? It sounds fucking ominous", 2700)
-insertChat("me", "They're moving me off the project", 2700)
-insertChat("me", "Because of a 'conflict of interest'", 2700)
-insertChat("me", "Somebody said the word 'internment'", 2700)
-insertChat("me", "Fstop I'm so scared", 2700)
-insertChat("me", "I'm still gonna try to stop it", 2700)
-insertChat("me", "Wish me luck", 2700)
+insertChat("me", "Hey love, how are you?", 0)
+insertChat("you", "I'm doing okay", 100)
+insertChat("you", "Rough day with Sesh@", 100)
+insertChat("you", "So that government contract, apparently it was to identify potential terrorists", 100)
+insertChat("me", "woah", 100)
+insertChat("you", "Sesh@ didn't do very well though", 100)
+insertChat("you", "Apparently she didn't find anything", 100)
+insertChat("you", "So we probably won't get anymore contracts from the government", 100)
+insertChat("me", "Aw, that sucks.", 100)
+insertChat("me", "I'm sure it wasn't your fault.", 100)
+insertChat("you", "Honestly, things will be a lot less stressful here now", 100)
+insertChat("you", "Maybe I can come visit", 100)
+insertChat("you", "I miss home anyways", 100)
+insertChat("me", "That would be great!!", 100)
+insertChat("me", "Home misses you too.", 100)
+insertChat("me", "Glad the craziness is over. Hopefully you can be a little less stressed from now on.", 100)
+insertChat("you", "I hope so <3", 100)
+insertChat("you", "I love you, Fstop", 100)
+insertChat("me", "Love you too, Temp.", 100)
+insertChat("me", "Hey", 100)
+insertChat("me", "I'm proud of you.", 100)
+insertChat("me", "You did the best you could.", 100)
 
 
 //-- NOTE: No use time on insertChat.

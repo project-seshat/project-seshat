@@ -23,7 +23,8 @@ const globalData = {
     'imagesPath' : window.resourcesPath + 'images/',
     'jsonPath' : window.resourcesPath + 'json/',
     // Important: textPath also goes into json so you can keep your .txt files close to the relevant .json file
-    'textPath' : window.resourcesPath + 'json/'
+    'textPath' : window.resourcesPath + 'json/',
+    'chatsPath' : window.resourcesPath + 'ron-chats/',
 }
 
 window.renderJsonObject = async function(jsonObject, handlebarsTemplatePartialUrl){

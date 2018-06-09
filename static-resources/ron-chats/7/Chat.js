@@ -1,9 +1,9 @@
 
 var me = {};
-me.avatar = "Tempo.png";
+me.avatar = "Tempo_GF.png";
 
 var you = {};
-you.avatar = "Tempo_Gf.png";
+you.avatar = "Tempo.png";
 
 function formatAMPM(date) {
     var hours = date.getHours();
@@ -23,7 +23,7 @@ function insertChat(who, text, time){
     if (time === undefined){
         time = 0;
     }
-    timePassed += time;
+    timePassed += Math.sqrt(text.length) * 400 + time;
     var control = "";
     var date = formatAMPM(new Date());
 
@@ -33,7 +33,7 @@ function insertChat(who, text, time){
                         '<div class="avatar"><img class="img-circle" style="width:100%;" src="'+ me.avatar +'" /></div>' +
                             '<div class="text text-l">' +
                                 '<p>'+ text +'</p>' +
-                                '<p><small>'+date+'</small></p>' +
+                                '<p><small>'+"Fermatta"+'</small></p>' +
                             '</div>' +
                         '</div>' +
                     '</li>';
@@ -42,7 +42,7 @@ function insertChat(who, text, time){
                         '<div class="msj-rta macro">' +
                             '<div class="text text-r">' +
                                 '<p>'+text+'</p>' +
-                                '<p><small>'+date+'</small></p>' +
+                                '<p><small>'+"Tempo"+'</small></p>' +
                             '</div>' +
                         '<div class="avatar" style="padding:0px 0px 0px 10px !important"><img class="img-circle" style="width:100%;" src="'+you.avatar+'" /></div>' +
                   '</li>';
@@ -62,7 +62,7 @@ $(".mytext").on("keydown", function(e){
     if (e.which == 13){
         var text = $(this).val();
         if (text !== ""){
-            insertChat("me", text);
+            insertChat("you", text);
             $(this).val('');
         }
     }
@@ -76,45 +76,39 @@ $('body > div > div > div:nth-child(2) > span').click(function(){
 resetChat();
 
 //-- Print Messages
-insertChat("me", "Fstop", 0)
-insertChat("you", "Hey", 2700)
-insertChat("me", "How's it going", 2700)
-insertChat("me", "I'm not doing so well", 2700)
-insertChat("me", "I miss you", 2700)
-insertChat("me", "How are you?", 2700)
-insertChat("you", "I'm getting by, this week has been rough.", 2700)
-insertChat("you", "I really wish you were here with me right now", 2700)
-insertChat("you", "The whole neighborhood feels like someone sucked all the life out of it" , 2700)
-insertChat("me", "I wish we were together too", 2700)
-insertChat("you", "How are things at work?" , 2700)
-insertChat("me", "Complicated", 2700)
-insertChat("me", "To say the least", 2700)
-insertChat("you", "What do you mean?", 2700)
-insertChat("me", "The Regime was really impressed with how Sesh@ handled the case", 2700)
-insertChat("me", "And they are giving us a new contract", 2700)
-insertChat("you", "That doesn't sound too complicated. Isn't that a good thing?", 2700)
-insertChat("me", "I guess", 2700)
-insertChat("me", "Just I have this really intense feeling in my gut that something isn't right", 2700)
-insertChat("me", "I don't know too much about what's happening", 2700)
-insertChat("me", "But the data sets we are parsing through are insane", 2700)
-insertChat("me", "ThisIs profiles, personal chat logs, facial scans", 2700)
-insertChat("you", "What do you think they want you guys to do?", 2700)
-insertChat("me", "I really don't know, they keep referencing something called 'The Sorting'", 2700)
-insertChat("me", "And I peeked into the data sets and they are a lot of people from DC", 2700)
-insertChat("you", "From here?", 2700)
-insertChat("you", "I thought they caught the guy why are they investigating here again?", 2700)
-insertChat("me", "I don't know ", 2700)
-insertChat("me", "F, am I freaking out?", 2700)
-insertChat("you", "I don't know. I don't think I really understand what's happening", 2700)
-insertChat("me", "Me neither", 2700)
-insertChat("me", "I'm probably just freaking out because of the attack", 2700)
-insertChat("me", "Its probably going to be ok", 2700)
-insertChat("me", "The airports should be opening up soon", 2700)
-insertChat("me", "I want you to come as soon as you can", 2700)
-insertChat("me", "I think something bad might be happening in DC", 2700)
-insertChat("you", "I'll buy the first ticket out.", 2700)
-insertChat("me", "I have to go, they're calling an emergency meeting", 2700)
-insertChat("me", "I love you babe", 2700)
+insertChat("you", "Fstop", 0)
+insertChat("me", "Hey", 100)
+insertChat("you", "How's it going", 100)
+insertChat("you", "I'm not doing so well", 100)
+insertChat("you", "I miss you", 100)
+insertChat("you", "How are you?", 100)
+insertChat("me", "I'm getting by, this week has been rough.", 100)
+insertChat("me", "I really wish you were here with me right now", 100)
+insertChat("me", "The whole neighborhood feels like someone sucked all the life out of it" , 2700)
+insertChat("you", "I wish we were together too", 100)
+insertChat("me", "How are things at work?" , 2700)
+insertChat("you", "Complicated", 100)
+insertChat("you", "To say the least", 100)
+insertChat("me", "What do you mean?", 100)
+insertChat("you", "The Regime was really impressed with how Sesh@ handled the case", 100)
+insertChat("you", "And they are giving us a new contract", 100)
+insertChat("me", "That doesn't sound too complicated. Isn't that a good thing?", 100)
+insertChat("you", "I guess", 100)
+insertChat("you", "Just I have this really intense feeling in my gut that something isn't right", 100)
+insertChat("you", "I don't know too much about what's happening", 100)
+insertChat("you", "But the data sets we are parsing through are insane", 100)
+insertChat("you", "ThisIs profiles, personal chat logs, facial scans", 100)
+insertChat("me", "What do you think they want you guys to do?", 100)
+insertChat("you", "I really don't know, they keep referencing something called 'The Sorting'", 100)
+insertChat("you", "And I peeked into the data sets and they are a lot of people from DC", 100)
+insertChat("me", "From here?", 300)
+insertChat("me", "I thought they caught the guy why are they investigating here again?", 100)
+insertChat("you", "I don't know ", 100)
+insertChat("you", "F, am I freaking out?", 100)
+insertChat("you", "The airports should be opening up soon", 900)
+insertChat("you", "I want you to come as soon as you can", 100)
+insertChat("you", "I think something bad might be happening in DC", 100)
+insertChat("me", "I'll buy the first ticket out.", 100)
 
 
 //-- NOTE: No use time on insertChat.

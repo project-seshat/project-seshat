@@ -1,2 +1,2 @@
-<iframe src="{{this.text}}" width="325" height="450"></iframe>
+<iframe src="{{@chatsPath}}{{this.text}}" width="325" height="450"></iframe>
 <<script>>document.body.classList.add("{{this.backgroundclass}}");<</script>>

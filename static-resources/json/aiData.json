@@ -11,55 +11,55 @@
     "intro": "json/intro/intro.json",
     "tempoLogs": {
         "tempo1": {
-        	"text": "http://web.stanford.edu/~ronaldp2//Chat/1/Fullscreen.html",
+        	"text": "1/Fullscreen.html",
         	"backgroundclass": "tempoA"
         },
         "tempo2": {
-        	"text": "http://web.stanford.edu/~ronaldp2//Chat/2/Fullscreen.html",
+        	"text": "2/Fullscreen.html",
         	"backgroundclass": "tempoC"
         },
         "tempo3": {
-        	"text":"http://web.stanford.edu/~ronaldp2//Chat/3/Fullscreen.html",
+        	"text":"3/Fullscreen.html",
         	"backgroundclass": "tempoB"
         },
         "tempo4": {
-        	"text":"http://web.stanford.edu/~ronaldp2//Chat/4/Fullscreen.html",
+        	"text":"4/Fullscreen.html",
         	"backgroundclass": "tempoD"
         },
         "tempo5": {
-        	"text":"http://web.stanford.edu/~ronaldp2//Chat/5/Fullscreen.html",
+        	"text":"5/Fullscreen.html",
         	"backgroundclass":"tempoA"
         },
         "tempo6": {
-        	"text": "http://web.stanford.edu/~ronaldp2//Chat/6/Fullscreen.html",
+        	"text": "6/Fullscreen.html",
         	"backgroundclass": "tempoC"
         },
         "tempo7": {
-        	"text": "http://web.stanford.edu/~ronaldp2//Chat/7/Fullscreen.html",
+        	"text": "7/Fullscreen.html",
         	"backgroundclass": "tempoB"
         },
         "tempo71": {
-        	"text": "http://web.stanford.edu/~ronaldp2//Chat/71/Fullscreen.html",
+        	"text": "71/Fullscreen.html",
         	"backgroundclass": "tempoD"
         },
         "tempo72": {
-        	"text": "http://web.stanford.edu/~ronaldp2//Chat/72/Fullscreen.html",
+        	"text": "72/Fullscreen.html",
         	"backgroundclass": "tempoA"
         },
         "tempo73": {
-        	"text": "http://web.stanford.edu/~ronaldp2//Chat/73/Fullscreen.html",
+        	"text": "73/Fullscreen.html",
         	"backgroundclass": "tempoC"
         },
         "tempo74": {
-        	"text": "http://web.stanford.edu/~ronaldp2//Chat/74/Fullscreen.html",
+        	"text": "74/Fullscreen.html",
         	"backgroundclass": "tempoB"
         },
         "tempo8": {
-        	"text": "http://web.stanford.edu/~ronaldp2//Chat/8/Fullscreen.html",
+        	"text": "8/Fullscreen.html",
         	"backgroundclass": "tempoM"
         },
         "tempo81": {
-        	"text": "http://web.stanford.edu/~ronaldp2//Chat/81/Fullscreen.html",
+        	"text": "81/Fullscreen.html",
         	"backgroundclass": "fermatta"
         }
     },

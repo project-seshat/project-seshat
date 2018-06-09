@@ -6,8 +6,8 @@
 		"json/supervised3/profiles/profile1",
 		"json/supervised3/profiles/profile2",
 		"json/supervised3/profiles/profile3",
-		"json/supervised3/profiles/profile4",
-		"json/supervised3/profiles/profile5"
+		"json/supervised3/profiles/profile5",
+		"json/supervised3/profiles/profile4"
 	],
 	"correct": [
 		"json/supervised3/correct/0",

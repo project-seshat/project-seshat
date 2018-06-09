@@ -1,9 +1,9 @@
 
 var me = {};
-me.avatar = "Tempo.png";
+me.avatar = "Tempo_GF.png";
 
 var you = {};
-you.avatar = "Tempo_Gf.png";
+you.avatar = "Tempo.png";
 
 function formatAMPM(date) {
     var hours = date.getHours();
@@ -32,8 +32,8 @@ function insertChat(who, text, time){
                         '<div class="msj macro">' +
                         '<div class="avatar"><img class="img-circle" style="width:100%;" src="'+ me.avatar +'" /></div>' +
                             '<div class="text text-l">' +
-                                '<p>'+ text +'</p>' +
-                                '<p><small>'+date+'</small></p>' +
+                                '<p>'+text+'</p>' +
+                                '<p><small>'+"Fermatta"+'</small></p>' +
                             '</div>' +
                         '</div>' +
                     '</li>';
@@ -42,7 +42,7 @@ function insertChat(who, text, time){
                         '<div class="msj-rta macro">' +
                             '<div class="text text-r">' +
                                 '<p>'+text+'</p>' +
-                                '<p><small>'+date+'</small></p>' +
+                                '<p><small>'+"Tempo"+'</small></p>' +
                             '</div>' +
                         '<div class="avatar" style="padding:0px 0px 0px 10px !important"><img class="img-circle" style="width:100%;" src="'+you.avatar+'" /></div>' +
                   '</li>';
@@ -62,7 +62,7 @@ $(".mytext").on("keydown", function(e){
     if (e.which == 13){
         var text = $(this).val();
         if (text !== ""){
-            insertChat("you", text);
+            insertChat("me", text);
             $(this).val('');
         }
     }
@@ -76,15 +76,15 @@ $('body > div > div > div:nth-child(2) > span').click(function(){
 resetChat();
 
 //-- Print Messages
-insertChat("you", "Hey are you ok?", 0)
-insertChat("you", "Tempo?", 2700)
-insertChat("you", "Temp?", 4000)
-insertChat("you", "Please text back if you are ok", 6000)
-insertChat("you", "If someone has this phone, please text confirming that Fermatta is ok", 8000)
-insertChat("you", "I tried messaging you on facebook too lol i know you never use it but", 2700)
-insertChat("you", "Temp?", 8000)
-insertChat("you", "I love you", 8000)
-insertChat("you", "Tempo", 8000)
+insertChat("me", "Hey are you ok?", 0)
+insertChat("me", "Tempo?", 2700)
+insertChat("me", "Temp?", 4000)
+insertChat("me", "Please text back if you are ok", 6000)
+insertChat("me", "If someone has this phone, please text confirming that Tempo is ok", 8000)
+insertChat("me", "I tried messaging you on ThisIs too lol i know you never use it but", 2700)
+insertChat("me", "Temp?", 8000)
+insertChat("me", "I love you", 8000)
+insertChat("me", "Tempo", 8000)
 
 
 //-- NOTE: No use time on insertChat.

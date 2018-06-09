@@ -5,15 +5,15 @@
 	},
 	"basicInfo": {
 		"htmlTemplate": "templates/texttemplate.bars",
-		"text": "Kavoy Madrik, 32\nWashington D.C."
+		"text": "Kavoy Madrik, 32\nRupton District, D.C."
 	},
 	"sentiment": {
 		"htmlTemplate": "templates/texttemplate.bars",
-		"text": "Kavoy Madrik, 32\nWashington D.C., Rupton District\nArchitect, employed by city\nEducation: Unknown\n\nKNOWN FACTS FROM PROFILE\n - Leader of Rupton Lilac Congregation, frequent event and service organizer\n - Tax records show donations to:\n \tLilac Church, Protests 4 Change, Sandy West Youth and Homeless Shelter \n - Known interests: \n \tStreet art/graffiti, improv theater, homebrew (beer, mead), meditation/worship"
+		"text": "Kavoy Madrik, 32\nRupton District, DC\nArchitect, employed by city\nEducation: Unknown\n\nKNOWN FACTS FROM PROFILE\n - Leader of Rupton Lilac Congregation, frequent event and service organizer\n - Tax records show donations to:\n \tLilac Church, Protests 4 Change, Sandy West Youth and Homeless Shelter \n - Known interests: \n \tStreet art/graffiti, improv theater, homebrew (beer, mead), meditation/worship"
 	},
 	"violence": {
 		"htmlTemplate": "templates/texttemplate.bars",
-		"text": "LAST KNOWN LOCATIONS:\n\tSerle’s Coffee on 5th and 49th, 1wk [PUBLIC PROFILE]\n\tLilac Church on Verit St., 3wk, 2wk, 1wk, 1d [CAMERA]\n\tWarehouse 39 in the Brivare District, 3wk, 1wk, 5d, 4d, 2d [CAMERA, AUDIO]\n\tCity Hall, 2wk, 3d [PUBLIC RECORDS]\n\tRevMart on Rupton Ave., 3wk, 4d [CAMERA]"
+		"text": "LAST KNOWN LOCATIONS:\n\tSerle’s Coffee on 5th and 49th, 1wk [PUBLIC PROFILE]\n\tLilac Church on Verit St., 3wk, 2wk, 1wk, 1d [CAMERA]\n\tWarehouse 39 in the Brivare District, DC, 3wk, 1wk, 5d, 4d, 2d [CAMERA, AUDIO]\n\tCity Hall, 2wk, 3d [PUBLIC RECORDS]\n\tRevMart on Rupton Ave., 3wk, 4d [CAMERA]"
 	},
 	"association": {
 		"htmlTemplate": "templates/texttemplate.bars",
