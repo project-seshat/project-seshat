@@ -22,13 +22,13 @@
               </p>
             </div>
           </div>
-          <div class="row">
+          <!--<div class="row">
             <div class="col-md-12">
               <p class="lead bg-light m-0">Photos and Videos</p>
               <img class="img-fluid d-block" src="placeholder.png">
               <p class="lead bg-light mt-3 mb-0">Friends</p>
               <img class="img-fluid d-block p-0" src="placeholder.png"> </div>
-          </div>
+          </div>-->
         </div>
         <div class="col-md-9">
           <h4 class="" contenteditable="true">
@@ -48,12 +48,12 @@
             <div class="col-md-2">
               <p class="lead text-center py-2">| More |</p>
             </div>
-            <div class="col-md-2">
+            <!--<div class="col-md-2">
               <p class="lead text-center py-2"></p>
             </div>
             <div class="col-md-2">
               <p class="lead text-center py-2"></p>
-            </div>
+            </div>-->
           </div>
           {{#each posts}}
           <div class="row bg-light mb-3">

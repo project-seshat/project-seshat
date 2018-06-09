@@ -2,16 +2,16 @@
 	"htmlTemplate" : "workflotemplate.bars", 
 	"title" : "Messages",
 	"conversation" : [
-		{"from": "Trevally", "message" : "You read the news today", "picture" : "<img class=\"img-fluid d-block\" src=\"Pictures/Stanley.png\" width=\"200\" alt=\"Avatar\"> </div>"},
-		{"from": "Remora", "message" : "No.. that's what I have you for", "picture" : "<img class=\"img-fluid d-block\" src=\"Pictures/Kyra.png\" width=\"200\" alt=\"Avatar\"> </div>"},
-		{"from": "Trevally", "message" : "The government is at it again, K", "picture" : "<img class=\"img-fluid d-block\" src=\"Pictures/Stanley.png\" width=\"200\" alt=\"Avatar\"> </div>"},
-		{"from": "Remora", "message" : "What did they do this time?", "picture" : "<img class=\"img-fluid d-block\" src=\"Pictures/Kyra.png\" width=\"200\" alt=\"Avatar\"> </div>"},
-		{"from": "Trevally", "message" : "What didn't they do?", "picture" : "<img class=\"img-fluid d-block\" src=\"Pictures/Stanley.png\" width=\"200\" alt=\"Avatar\"> </div>"},
-		{"from": "Trevally", "message" : "It was bad enough when they came for the net", "picture" : "<img class=\"img-fluid d-block\" src=\"Pictures/Stanley.png\" width=\"200\" alt=\"Avatar\"> </div>"},
-		{"from": "Trevally", "message" : "Now they are trying to come for our food, too?", "picture" : "<img class=\"img-fluid d-block\" src=\"Pictures/Stanley.png\" width=\"200\" alt=\"Avatar\"> </div>"},
-		{"from": "Remora", "message" : "Oh the whole blob thing?", "picture" : "<img class=\"img-fluid d-block\" src=\"Pictures/Kyra.png\" width=\"200\" alt=\"Avatar\"> </div>"},
-		{"from": "Remora", "message" : "I thought you didn't even like the stuff", "picture" : "<img class=\"img-fluid d-block\" src=\"Pictures/Kyra.png\" width=\"200\" alt=\"Avatar\"> </div>"},
-		{"from": "Trevally", "message" : "It's about the principal, Kyra", "picture" : "<img class=\"img-fluid d-block\" src=\"Pictures/Stanley.png\" width=\"200\" alt=\"Avatar\"> </div>"},
-		{"from": "Trevally", "message" : "They've gone after our bread, and our circuses are next", "picture" : "<img class=\"img-fluid d-block\" src=\"Pictures/Stanley.png\" width=\"200\" alt=\"Avatar\"> </div>"}
+		{"from": "Trevally", "message" : "You read the news today", "picture" : "<img class=\"img-fluid d-block\" src=\"Pictures/Stanley.png\" width=\"200\" alt=\"Avatar\"> "},
+		{"from": "Remora", "message" : "No.. that's what I have you for", "picture" : "<img class=\"img-fluid d-block\" src=\"Pictures/Kyra.png\" width=\"200\" alt=\"Avatar\"> "},
+		{"from": "Trevally", "message" : "The government is at it again, K", "picture" : "<img class=\"img-fluid d-block\" src=\"Pictures/Stanley.png\" width=\"200\" alt=\"Avatar\"> "},
+		{"from": "Remora", "message" : "What did they do this time?", "picture" : "<img class=\"img-fluid d-block\" src=\"Pictures/Kyra.png\" width=\"200\" alt=\"Avatar\"> "},
+		{"from": "Trevally", "message" : "What didn't they do?", "picture" : "<img class=\"img-fluid d-block\" src=\"Pictures/Stanley.png\" width=\"200\" alt=\"Avatar\"> "},
+		{"from": "Trevally", "message" : "It was bad enough when they came for the net", "picture" : "<img class=\"img-fluid d-block\" src=\"Pictures/Stanley.png\" width=\"200\" alt=\"Avatar\"> "},
+		{"from": "Trevally", "message" : "Now they are trying to come for our food, too?", "picture" : "<img class=\"img-fluid d-block\" src=\"Pictures/Stanley.png\" width=\"200\" alt=\"Avatar\"> "},
+		{"from": "Remora", "message" : "Oh the whole blob thing?", "picture" : "<img class=\"img-fluid d-block\" src=\"Pictures/Kyra.png\" width=\"200\" alt=\"Avatar\"> "},
+		{"from": "Remora", "message" : "I thought you didn't even like the stuff", "picture" : "<img class=\"img-fluid d-block\" src=\"Pictures/Kyra.png\" width=\"200\" alt=\"Avatar\"> "},
+		{"from": "Trevally", "message" : "It's about the principal, Kyra", "picture" : "<img class=\"img-fluid d-block\" src=\"Pictures/Stanley.png\" width=\"200\" alt=\"Avatar\"> "},
+		{"from": "Trevally", "message" : "They've gone after our bread, and our circuses are next", "picture" : "<img class=\"img-fluid d-block\" src=\"Pictures/Stanley.png\" width=\"200\" alt=\"Avatar\"> "}
 	]
 }
