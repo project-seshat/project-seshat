@@ -2,7 +2,7 @@
 	"htmlTemplate" : "workflotemplate.bars", 
 	"title" : "Messages",
 	"conversation" : [
-		{"from": "Abertam", "message" : "No doubt, today is the day", "picture" : "<img class=\"img-fluid d-block\" src=\"Pictures/George.png\" width=\"200\" alt=\"Avatar\"> </div>"},
+		{"from": "Abertam", "message" : "No doubt, today is the day", "picture" : "<img class=\"img-fluid d-block\" src=\"Pictures/George.png\" width=\"200\" alt=\"Avatar\">"},
 		{"from": "Wensleydale", "message" : "You're out of your mind, man", "picture" : "<img class=\"img-fluid d-block\" src=\"Pictures/Matt.png\" width=\"200\" alt=\"Avatar\"> </div>"}, 
 		{"from": "Wensleydale", "message" : "I'm going to have to have to commit you to a mental asylum", "picture" : "<img class=\"img-fluid d-block\" src=\"Pictures/Matt.png\" width=\"200\" alt=\"Avatar\"> </div>"},
 		{"from": "Abertam", "message" : "Faith is the most important thing", "picture" : "<img class=\"img-fluid d-block\" src=\"Pictures/George.png\" width=\"200\" alt=\"Avatar\"> </div>"},
