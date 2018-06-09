@@ -4,13 +4,13 @@
 	"title": "Profile",
 	"username" : "Abertam",
 	"status": "heartbroken",
-	"profilePicture": "<img class=\"img-fluid d-block my-3\" src=\"Pictures/George.png\">", 
+	"profilePicture": "<img class=\"img-fluid d-block my-3\" src=\"Pictures/George.png\" height=\"20%\" width=\"20%\">", 
 	"posts" : [
 		{	
 			"type" 	: "FacebookPost" ,
 			"text"	: "Going to see my Boys live! Their trash performance isn't worth my money, but God finds a way!", 
 			"date"	: "Four days ago",
-			"photo" : "<img class=\"img-fluid d-block my-3\" src=\"Pictures/George.png\">",
+			"photo" : "<img class=\"img-fluid d-block my-3\" src=\"Pictures/George.png\" height=\"20%\" width=\"20%\">",
 			"name" : "Abertam" 
 		},
 
@@ -18,34 +18,34 @@
 			"type" 	: "FacebookPost" ,
 			"text"	: "I swear KXLQ ALWAYS has my old jams on", 
 			"date"	: "Four days ago",
-			"photo" : "<img class=\"img-fluid d-block my-3\" src=\"Pictures/George.png\">",
+			"photo" : "<img class=\"img-fluid d-block my-3\" src=\"Pictures/George.png\" height=\"20%\" width=\"20%\">",
 			"name" : "Abertam"
 		},
 		{	
 			"type" 	: "FacebookPost" ,
 			"text"	: "If your boyfriend's gun isn't semi-auto or a shotgun, do your periods sync up?", 
 			"date"	: "A week ago",
-			"photo" : "<img class=\"img-fluid d-block my-3\" src=\"Pictures/George.png\">" ,
+			"photo" : "<img class=\"img-fluid d-block my-3\" src=\"Pictures/George.png\" height=\"20%\" width=\"20%\">" ,
 			"name" : "Abertam"
 		},
 		{	
 			"type" 	: "FacebookPost" ,
 			"text"	: "When I die, I want the Boys in Blue to be my pallbearers so they can let me down one last time", 
 			"date"	: "A week ago",
-			"photo" : "<img class=\"img-fluid d-block my-3\" src=\"Pictures/George.png\">" 
+			"photo" : "<img class=\"img-fluid d-block my-3\" src=\"Pictures/George.png\" height=\"20%\" width=\"20%\">" 
 		},
 		{	
 			"type" 	: "FacebookPost" ,
 			"text" 	: "Gonna take them to the bar to get their first drink and watch my other boys break their losing streak", 
 			"date" 	: "A week ago", 
-			"photo" : "<img class=\"img-fluid d-block my-3\" src=\"Pictures/George.png\">",
+			"photo" : "<img class=\"img-fluid d-block my-3\" src=\"Pictures/George.png\" height=\"20%\" width=\"20%\">",
 			"name" : "Abertam"
 		},
 		{	
 			"type" 	: "FacebookPost" ,
 			"text" 	: "So proud of my boys for graduating high school today", 
 			"date" 	: "A week ago", 
-			"photo" : "<img class=\"img-fluid d-block my-3\" src=\"Pictures/George.png\">",
+			"photo" : "<img class=\"img-fluid d-block my-3\" src=\"Pictures/George.png\" height=\"20%\" width=\"20%\">",
 			"name" : "Abertam"
 		}
 	]	
