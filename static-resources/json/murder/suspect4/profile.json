@@ -1,6 +1,6 @@
 {	
 	"type" : "FacebookProfile" ,
-	"htmlTemplate": "templates/profiletemplate.bars",
+	"htmlTemplate": "templates/newprofiletemplate.bars",
 	"title": "Profile",
 	"username" : "Esserom",
 	"status": "hopeful",

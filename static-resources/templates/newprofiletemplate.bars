@@ -1,0 +1,16 @@
+<div class="ai-text">
+    {{{profilePicture}}}
+    <b>{{username}}</b>
+    {{status}}
+    <br>
+    | About | Photos | Friends | More |
+    <br>
+    {{#each posts}}
+          <div class="ai-text">
+            {{{photo}}}
+            <b>{{name}}</b>
+            {{text}}
+            <b>Liked by:</b> Tempo, Plover, Etc.
+          </div>
+    {{/each}}
+</div>
