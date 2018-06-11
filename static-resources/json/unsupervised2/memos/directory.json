@@ -7,6 +7,7 @@
 		"json/unsupervised2/memos/memo2",
 		{
 			"htmlTemplate": "memotemplate.bars",
+			"filename" : "Project Sesh@ Abstract.txt",
 			"type" : "CompanyMemo",
 			"receiver" : "Company Archives",
 			"date" : "May 1, 20XX",
@@ -16,6 +17,7 @@
 		}, 
 		{
 			"htmlTemplate": "memotemplate.bars",
+			"filename" : "Project Sesh@ Conclusion.txt",
 			"type" : "CompanyMemo",
 			"receiver" : "Company Archives",
 			"date" : "May 5, 20XX",
@@ -26,6 +28,7 @@
 		{
 			"htmlTemplate": "memotemplate.bars",
 			"type" : "CompanyMemo",
+			"filename" : "PICK IT UP.txt",
 			"receiver" : "Whoever Left Trash In The Hallway",
 			"date" : "June 1, 20XX",
 			"subject" : "PICK IT UP",
@@ -35,6 +38,7 @@
 		{
 			"htmlTemplate": "memotemplate.bars",
 			"type" : "CompanyMemo",
+			"filename" : "Re: PICK IT UP.txt",
 			"receiver" : "Employees of Qualia",
 			"date" : "June 2, 20XX",
 			"subject" : "Re: PICK IT UP",
