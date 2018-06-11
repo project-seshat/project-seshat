@@ -936,7 +936,7 @@ tp293
 Rp294
 sbsa(dp295
 g14
-I01
+I00
 sg15
 (lp296
 I990
@@ -997,7 +997,7 @@ Tiddler
 p312
 (dp313
 g21
-V<<nobr>><<script>>window.tempoTerror2Audio.stop(); window.creepin_beeps.play();<</script>>\u000a<</nobr>><<timed 1s>>entering standby_mode.\u000a<<next>>to awaken upon signal from user.\u000a<<next>>.\u000a<<next>>.\u000a<<next>>.\u000a<<next>><<next>><<next>><<next>>\u000a<<next>>[SIGNAL RECEIVED]\u000a<<next>><<next>><<next>>\u000a<<set $tempoLog to $aiData.tempoLogs["tempo74"]>>\u000a<<set $finishPassage to "Loading 3">>\u000a<<goto "StartTempo">>\u000a<</timed>>
+V<<nobr>><<script>>window.tempoTerror2Audio.stop();<</script>>\u000a<</nobr>><<timed 1s>>entering standby_mode.\u000a<<next>>to awaken upon signal from user.\u000a<<next>>.\u000a<<next>>.\u000a<<next>>.\u000a<<next>><<next>><<next>><<next>>\u000a<<next>>[SIGNAL RECEIVED]\u000a<<next>><<next>><<next>>\u000a<<set $tempoLog to $aiData.tempoLogs["tempo74"]>>\u000a<<set $finishPassage to "Loading 3">>\u000a<<script>>\u000awindow.tempoTerror2Audio.play();<</script>>\u000a<<goto "StartTempo">>\u000a<</timed>>
 p314
 sg23
 VCorrect Path
@@ -1007,8 +1007,8 @@ g26
 ((I2018
 I6
 I11
+I13
 I12
-I57
 I37
 I0
 I162
@@ -1047,7 +1047,7 @@ Tiddler
 p327
 (dp328
 g21
-V<<nobr>><<script>>window.tempoTerror2Audio.stop(); window.creepin_beeps.play();<</script>><</nobr>>\u000a<<timed 1s>>entering standby_mode.\u000a<<next>>to awaken upon signal from user.\u000a<<next>>.\u000a<<next>>.\u000a<<next>>.\u000a<<next>><<next>><<next>><<next>>\u000a<<next>>[SIGNAL RECEIVED]\u000a<<next>><<next>><<next>>\u000a<<set $tempoLog to $aiData.tempoLogs["tempo74"]>>\u000a<<set $finishPassage to "Loading 3">>\u000a<<goto "StartTempo">>\u000a<</timed>>
+V<<nobr>><<script>>window.tempoTerror2Audio.stop(); <</script>><</nobr>>\u000a<<timed 1s>>entering standby_mode.\u000a<<next>>to awaken upon signal from user.\u000a<<next>>.\u000a<<next>>.\u000a<<next>>.\u000a<<next>><<next>><<next>><<next>>\u000a<<next>>[SIGNAL RECEIVED]\u000a<<next>><<next>><<next>>\u000a<<set $tempoLog to $aiData.tempoLogs["tempo74"]>>\u000a<<set $finishPassage to "Loading 3">>\u000a<<nobr>><<script>>window.tempoTerror2Audio.play(); <</script>><</nobr>>\u000a<<goto "StartTempo">>\u000a<</timed>>
 p329
 sg23
 VMany Path
@@ -1057,9 +1057,9 @@ g26
 ((I2018
 I6
 I11
-I12
-I57
-I26
+I13
+I13
+I23
 I0
 I162
 I1
@@ -1247,7 +1247,7 @@ Tiddler
 p387
 (dp388
 g21
-V<<nobr>><<script>>window.creepin_beeps.stop()<</script>><</nobr>>\u000a<<if $choseTempo == 1>>\u000a<<set $tempoLog to $aiData.tempoLogs["tempo8"]>>\u000a<<else>>\u000a<<set $tempoLog to $aiData.tempoLogs["tempo81"]>>\u000a<</if>>\u000a<<set $finishPassage to "Start">>\u000a<<goto "StartTempo">>\u000a
+V<<nobr>><<script>>window.tempoTerror2Audio.stop();<</script>><</nobr>>\u000a<<if $choseTempo == 1>>\u000a<<set $tempoLog to $aiData.tempoLogs["tempo8"]>>\u000a<<else>>\u000a<<set $tempoLog to $aiData.tempoLogs["tempo81"]>>\u000a<</if>>\u000a<<set $finishPassage to "Start">>\u000a<<goto "StartTempo">>\u000a
 p389
 sg23
 VEnd
@@ -1257,9 +1257,9 @@ g26
 ((I2018
 I6
 I11
-I12
-I45
-I58
+I13
+I15
+I8
 I0
 I162
 I1
