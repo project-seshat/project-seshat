@@ -5,7 +5,7 @@ VC:\u005cUsers\u005cDennis Jeong\u005cDocuments\u005ctwine\u005cproject-seshat\u
 p2
 sS'saveDestination'
 p3
-S'C:\\Users\\peace\\Documents\\GitHub\\project-seshat\\all_phases.tws'
+V/Users/mattmistele/Developer/project-seshat/all_phases.tws
 p4
 sS'metadata'
 p5
@@ -1104,7 +1104,7 @@ tp347
 Rp348
 sbsa(dp349
 g14
-I00
+I01
 sg15
 (lp350
 F175.1041666666668
@@ -1115,7 +1115,7 @@ Tiddler
 p351
 (dp352
 g21
-V/% Passage that redirects player to the next level in the sequence. %/\u000a\u000a<<set $doingSearchTask = false>>\u000a<<set $finishPassage to "Next Level">>\u000a\u000a<<script>> \u000awindow.creepin_beeps.stop();\u000awindow.tempo1Audio.stop();\u000awindow.tempo2Audio.stop();\u000awindow.tempo3Audio.stop();\u000awindow.tempo6Audio.stop();\u000awindow.tempo7Audio.stop();\u000a<</script>>\u000a\u000a/% Hack - do this in the transition to this passage instead %/\u000a<<set $passageNum = $passageNum + 1>>\u000a\u000a<<switch $passageNum>>\u000a<<case 0>> /% Boot Intro Sequence %/\u000a	<<goto "Boot">>\u000a<<case 1>> /% Tempo 1: Exposition %/\u000a	<<set $tempoLog to $aiData.tempoLogs["tempo1"]>>\u000a    <<script>>window.tempo1Audio.play();<</script>>\u000a	<<goto "StartTempo">>\u000a<<case 2>> /% Facial Orientation %/\u000a    <<script>>window.creepin_beeps.play();<</script>>\u000a	<<goto "StartFacialOrientation">>\u000a\u000a<<case 3>> /% Tempo 2: What Unsupervised Is %/\u000a	<<set $tempoLog to $aiData.tempoLogs["tempo2"]>>\u000a    <<script>>window.tempo2Audio.play();<</script>>\u000a	<<goto "StartTempo">>\u000a<<case 4>> /% Unsupervised 1 %/\u000a	<<set $unsupervised to $aiData.unsupervised[0]>>\u000a	<<goto "Unsupervised Start">>\u000a\u000a<<case 5>> /% Tempo 3: Food Advertising %/\u000a	<<set $tempoLog to $aiData.tempoLogs["tempo3"]>>\u000a    <<script>>window.tempo3Audio.play();<</script>>\u000a	<<goto "StartTempo">>\u000a<<case 6>> /% Advertising Task %/\u000a    <<script>>window.creepin_beeps.play();<</script>>\u000a	<<goto "StartAdvertising">>\u000a<<case 7>> /% Unsupervised 2 %/\u000a	<<set $unsupervised to $aiData.unsupervised[1]>>\u000a    <<script>>window.creepin_beeps.play();<</script>>\u000a	<<goto "Unsupervised Start">>\u000a\u000a<<case 8>> /% Tempo 4: Before Murder %/\u000a	<<set $tempoLog to $aiData.tempoLogs["tempo4"]>>\u000a    <<script>>window.tempo3Audio.play();<</script>>\u000a	<<goto "StartTempo">>\u000a<<case 9>> /% Unsupervised 1 %/\u000a	<<set $unsupervised to $aiData.murder>>\u000a    <<script>>window.creepin_beeps.play();<</script>>\u000a	<<goto "Murder Start">>\u000a\u000a<<case 10>> /% Tempo 6: After Murder %/\u000a	<<set $tempoLog to $aiData.tempoLogs["tempo6"]>>\u000a    <<script>>window.tempo6Audio.play();<</script>>\u000a	<<goto "StartTempo">>\u000a<<case 11>> /% Unsupervised 1 %/\u000a	<<set $unsupervised to $aiData.unsupervised[2]>>\u000a    <<script>>window.creepin_beeps.play();<</script>>\u000a	<<goto "Unsupervised Start">>\u000a\u000a<<case 12>> /% Tempo 7: Classifying %/\u000a	<<set $tempoLog to $aiData.tempoLogs["tempo7"]>>\u000a    <<script>>window.tempo7Audio.play();<</script>>\u000a	<<goto "StartTempo">>\u000a<<case 13>> /% Unsupervised 1 %/\u000a	<<goto "StartPredictingTerrorism">>\u000a\u000a<</switch>>
+V/% Passage that redirects player to the next level in the sequence. %/\u000a\u000a<<set $doingSearchTask = false>>\u000a<<set $finishPassage to "Next Level">>\u000a\u000a<<script>> \u000awindow.creepin_beeps.stop();\u000awindow.tempo1Audio.stop();\u000awindow.tempo2Audio.stop();\u000awindow.tempo3Audio.stop();\u000awindow.tempo6Audio.stop();\u000awindow.tempo7Audio.stop();\u000awindow.tempoTerror2Audio.stop();\u000a<</script>>\u000a\u000a/% Hack - do this in the transition to this passage instead %/\u000a<<set $passageNum = $passageNum + 1>>\u000a\u000a<<switch $passageNum>>\u000a<<case 0>> /% Boot Intro Sequence %/\u000a	<<goto "Boot">>\u000a<<case 1>> /% Tempo 1: Exposition %/\u000a	<<set $tempoLog to $aiData.tempoLogs["tempo1"]>>\u000a    <<script>>window.tempo1Audio.play();<</script>>\u000a	<<goto "StartTempo">>\u000a<<case 2>> /% Facial Orientation %/\u000a    <<script>>window.creepin_beeps.play();<</script>>\u000a	<<goto "StartFacialOrientation">>\u000a\u000a<<case 3>> /% Tempo 2: What Unsupervised Is %/\u000a	<<set $tempoLog to $aiData.tempoLogs["tempo2"]>>\u000a    <<script>>window.tempo2Audio.play();<</script>>\u000a	<<goto "StartTempo">>\u000a<<case 4>> /% Unsupervised 1 %/\u000a	<<set $unsupervised to $aiData.unsupervised[0]>>\u000a	<<goto "Unsupervised Start">>\u000a\u000a<<case 5>> /% Tempo 3: Food Advertising %/\u000a	<<set $tempoLog to $aiData.tempoLogs["tempo3"]>>\u000a    <<script>>window.tempo3Audio.play();<</script>>\u000a	<<goto "StartTempo">>\u000a<<case 6>> /% Advertising Task %/\u000a    <<script>>window.creepin_beeps.play();<</script>>\u000a	<<goto "StartAdvertising">>\u000a<<case 7>> /% Unsupervised 2 %/\u000a	<<set $unsupervised to $aiData.unsupervised[1]>>\u000a    <<script>>window.creepin_beeps.play();<</script>>\u000a	<<goto "Unsupervised Start">>\u000a\u000a<<case 8>> /% Tempo 4: Before Murder %/\u000a	<<set $tempoLog to $aiData.tempoLogs["tempo4"]>>\u000a    <<script>>window.tempo3Audio.play();<</script>>\u000a	<<goto "StartTempo">>\u000a<<case 9>> /% Unsupervised 1 %/\u000a	<<set $unsupervised to $aiData.murder>>\u000a    <<script>>window.creepin_beeps.play();<</script>>\u000a	<<goto "Murder Start">>\u000a\u000a<<case 10>> /% Tempo 6: After Murder %/\u000a	<<set $tempoLog to $aiData.tempoLogs["tempo6"]>>\u000a    <<script>>window.tempo6Audio.play();<</script>>\u000a	<<goto "StartTempo">>\u000a<<case 11>> /% Unsupervised 1 %/\u000a	<<set $unsupervised to $aiData.unsupervised[2]>>\u000a    <<script>>window.creepin_beeps.play();<</script>>\u000a	<<goto "Unsupervised Start">>\u000a\u000a<<case 12>> /% Tempo 7: Classifying %/\u000a	<<set $tempoLog to $aiData.tempoLogs["tempo7"]>>\u000a    <<script>>window.tempo7Audio.play();<</script>>\u000a	<<goto "StartTempo">>\u000a<<case 13>> /% Unsupervised 1 %/\u000a	<<goto "StartPredictingTerrorism">>\u000a\u000a<</switch>>
 p353
 sg23
 VNext Level
@@ -1124,12 +1124,12 @@ sg25
 g26
 ((I2018
 I6
-I8
-I21
-I41
-I14
-I4
-I159
+I11
+I11
+I34
+I18
+I0
+I162
 I1
 tp355
 (dp356
