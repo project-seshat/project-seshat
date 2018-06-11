@@ -28,23 +28,23 @@
         },
         "tempo5": {
         	"text":"5/Fullscreen.html",
-        	"backgroundclass":"tempoA"
+        	"backgroundclass":"tempoM"
         },
         "tempo6": {
         	"text": "6/Fullscreen.html",
-        	"backgroundclass": "tempoC"
+        	"backgroundclass": "tempoA"
         },
         "tempo7": {
         	"text": "7/Fullscreen.html",
-        	"backgroundclass": "tempoB"
+        	"backgroundclass": "tempoC"
         },
         "tempo71": {
         	"text": "71/Fullscreen.html",
-        	"backgroundclass": "tempoD"
+        	"backgroundclass": "tempoB"
         },
         "tempo72": {
         	"text": "72/Fullscreen.html",
-        	"backgroundclass": "tempoA"
+        	"backgroundclass": "tempoD"
         },
         "tempo73": {
         	"text": "73/Fullscreen.html",
@@ -60,7 +60,7 @@
         },
         "tempo81": {
         	"text": "81/Fullscreen.html",
-        	"backgroundclass": "fermatta"
+        	"backgroundclass": "tempoM"
         }
     },
 	"supervised1": "json/supervised1",
