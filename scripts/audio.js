@@ -40,4 +40,28 @@ window.tempoTerror2Audio = new Howl({
   loop: true,
   volume: 1.0
 });
+
+window.theSortingAudio = new Howl({
+  src: [window.resourcesPath + 'audio/the-sorting.wav', window.resourcesPath + 'mp3_audio/the-sorting.mp3'],
+  loop: true,
+  volume: 1.0
+});
+
+window.tempoFastScaredAudio = new Howl({
+  src: [window.resourcesPath + 'audio/Tempo_Terror_.wav', window.resourcesPath + 'mp3_audio/Tempo_Terror.mp3'],
+  loop: true,
+  volume: 1.0
+});
+
+window.tempoMediumScaredAudio = new Howl({
+  src: [window.resourcesPath + 'audio/Tempo_Dark.wav', window.resourcesPath + 'mp3_audio/Tempo_Dark.mp3'],
+  loop: true,
+  volume: 1.0
+});
+
+window.tempoSlowScaredAudio = new Howl({
+  src: [window.resourcesPath + 'audio/Tempo_Dark_Slow.wav', window.resourcesPath + 'mp3_audio/Tempo_Dark_Slow.mp3'],
+  loop: true,
+  volume: 1.0
+});
 // window.creepin_beeps.play();
