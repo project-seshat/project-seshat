@@ -5,7 +5,7 @@ S''
 p2
 sS'saveDestination'
 p3
-S'C:\\Users\\peace\\Documents\\GitHub\\project-seshat\\predicting_terrorism.tws'
+V/Users/mattmistele/Developer/project-seshat/predicting_terrorism.tws
 p4
 sS'metadata'
 p5
@@ -936,7 +936,7 @@ tp293
 Rp294
 sbsa(dp295
 g14
-I00
+I01
 sg15
 (lp296
 I990
@@ -947,7 +947,7 @@ Tiddler
 p297
 (dp298
 g21
-V<<if $choices[0] == 1>> \u005c\u000a"Swan" will be investigated.\u000a<</if>><<if $choices[1] == 1>> \u005c\u000a"Rolshin Hova" will be investigated.\u000a<</if>><<if $choices[2] == 1>> \u005c\u000a"Marli Prisse" will be investigated.\u000a<</if>><<if $choices[3] == 1>> \u005c\u000a"Grajie Litne" will be investigated.\u000a<</if>><<if $choices[4] == 1>> \u005c\u000a"Kavoy Madrik" will be investigated.\u000a<</if>><<if $choices[5] == 1>> \u005c\u000a"Vervain Helia" will be investigated.\u000a<</if>>\u005c\u000a\u000a<<nobr>>\u000a<<if $numThreats >= 4>>\u000a<<set $tempoLog to $aiData.tempoLogs["tempo72"]>>\u000a<<set $finishPassage to "Many Path">>\u000a[[Continue|StartTempo]]\u000a<<elseif $choices[1] eq 1 or $choices[4] eq 1>>\u000a<<set $tempoLog to $aiData.tempoLogs["tempo71"]>>\u000a<<set $finishPassage to "Correct Path">>\u000a[[Continue|StartTempo]]\u000a<<else>>\u000a<<set $tempoLog to $aiData.tempoLogs["tempo73"]>>\u000a<<set $finishPassage to "Incorrect Path">>\u000a[[Continue|StartTempo]]\u000a<</if>>\u000a<</nobr>>
+V<<if $choices[0] == 1>> \u005c\u000a"Swan" will be investigated.\u000a<</if>><<if $choices[1] == 1>> \u005c\u000a"Rolshin Hova" will be investigated.\u000a<</if>><<if $choices[2] == 1>> \u005c\u000a"Marli Prisse" will be investigated.\u000a<</if>><<if $choices[3] == 1>> \u005c\u000a"Grajie Litne" will be investigated.\u000a<</if>><<if $choices[4] == 1>> \u005c\u000a"Kavoy Madrik" will be investigated.\u000a<</if>><<if $choices[5] == 1>> \u005c\u000a"Vervain Helia" will be investigated.\u000a<</if>>\u005c\u000a\u000a<<nobr>>\u000a<<if $numThreats >= 4>>\u000a<<set $tempoLog to $aiData.tempoLogs["tempo72"]>>\u000a<<set $finishPassage to "Many Path">>\u000a<<link [[Continue|StartTempo]]>>\u000a<<script>>window.tempoTerror2Audio.play()<</script>>\u000a<<script>>window.creepin_beeps.stop()<</script>>\u000a<</link>>\u000a<<elseif $choices[1] eq 1 or $choices[4] eq 1>>\u000a<<set $tempoLog to $aiData.tempoLogs["tempo71"]>>\u000a<<set $finishPassage to "Correct Path">>\u000a<<link [[Continue|StartTempo]]>>\u000a<<script>>window.tempoTerror2Audio.play()<</script>>\u000a<<script>>window.creepin_beeps.stop()<</script>>\u000a<</link>>\u000a<<else>>\u000a<<set $tempoLog to $aiData.tempoLogs["tempo73"]>>\u000a<<set $finishPassage to "Incorrect Path">>\u000a<<link [[Continue|StartTempo]]>>\u000a<<script>>window.tempo1Audio.play()<</script>>\u000a<<script>>window.creepin_beeps.stop()<</script>>\u000a<</link>>\u000a<</if>>\u000a<</nobr>>
 p299
 sg23
 VResults
@@ -955,13 +955,13 @@ p300
 sg25
 g26
 ((I2018
-I5
-I31
-I20
-I9
-I39
-I3
-I151
+I6
+I11
+I12
+I58
+I12
+I0
+I162
 I1
 tp301
 (dp302
@@ -997,7 +997,7 @@ Tiddler
 p312
 (dp313
 g21
-V<<timed 1s>>entering standby_mode.\u000a<<next>>to awaken upon signal from user.\u000a<<next>>.\u000a<<next>>.\u000a<<next>>.\u000a<<next>><<next>><<next>><<next>>\u000a<<next>>[SIGNAL RECEIVED]\u000a<<next>><<next>><<next>>\u000a<<set $tempoLog to $aiData.tempoLogs["tempo74"]>>\u000a<<set $finishPassage to "Loading 3">>\u000a<<goto "StartTempo">>\u000a<</timed>>
+V<<nobr>><<script>>window.tempoTerror2Audio.stop(); window.creepin_beeps.play();<</script>>\u000a<</nobr>><<timed 1s>>entering standby_mode.\u000a<<next>>to awaken upon signal from user.\u000a<<next>>.\u000a<<next>>.\u000a<<next>>.\u000a<<next>><<next>><<next>><<next>>\u000a<<next>>[SIGNAL RECEIVED]\u000a<<next>><<next>><<next>>\u000a<<set $tempoLog to $aiData.tempoLogs["tempo74"]>>\u000a<<set $finishPassage to "Loading 3">>\u000a<<goto "StartTempo">>\u000a<</timed>>
 p314
 sg23
 VCorrect Path
@@ -1005,13 +1005,13 @@ p315
 sg25
 g26
 ((I2018
-I5
-I31
-I20
-I17
+I6
+I11
+I12
+I57
+I37
 I0
-I3
-I151
+I162
 I1
 tp316
 (dp317
@@ -1047,7 +1047,7 @@ Tiddler
 p327
 (dp328
 g21
-V<<timed 1s>>entering standby_mode.\u000a<<next>>to awaken upon signal from user.\u000a<<next>>.\u000a<<next>>.\u000a<<next>>.\u000a<<next>><<next>><<next>><<next>>\u000a<<next>>[SIGNAL RECEIVED]\u000a<<next>><<next>><<next>>\u000a<<set $tempoLog to $aiData.tempoLogs["tempo74"]>>\u000a<<set $finishPassage to "Loading 3">>\u000a<<goto "StartTempo">>\u000a<</timed>>
+V<<nobr>><<script>>window.tempoTerror2Audio.stop(); window.creepin_beeps.play();<</script>><</nobr>>\u000a<<timed 1s>>entering standby_mode.\u000a<<next>>to awaken upon signal from user.\u000a<<next>>.\u000a<<next>>.\u000a<<next>>.\u000a<<next>><<next>><<next>><<next>>\u000a<<next>>[SIGNAL RECEIVED]\u000a<<next>><<next>><<next>>\u000a<<set $tempoLog to $aiData.tempoLogs["tempo74"]>>\u000a<<set $finishPassage to "Loading 3">>\u000a<<goto "StartTempo">>\u000a<</timed>>
 p329
 sg23
 VMany Path
@@ -1055,13 +1055,13 @@ p330
 sg25
 g26
 ((I2018
-I5
-I31
-I20
-I17
+I6
 I11
-I3
-I151
+I12
+I57
+I26
+I0
+I162
 I1
 tp331
 (dp332
@@ -1097,7 +1097,7 @@ Tiddler
 p342
 (dp343
 g21
-VSesh@ performance not useful; no threats detected.\u000a\u000a<<set $finishPassage to "StartPostLoad">>\u000a[[IINITIATE RETRAINING|Loading 2]]\u000a[[SHUT DOWN|$finishPassage]]
+VSesh@ performance not useful; no threats detected.\u000a\u000a<<set $finishPassage to "StartPostLoad">>\u000a[[IINITIATE RETRAINING|Loading 2]]\u000a[[SHUT DOWN|$finishPassage]]\u000a<<nobr>><<script>>window.tempoTerror2Audio.stop(); window.creepin_beeps.play();<</script>><</nobr>>
 p344
 sg23
 VIncorrect Path
@@ -1106,12 +1106,12 @@ sg25
 g26
 ((I2018
 I6
-I4
-I19
-I25
-I35
+I11
+I12
+I57
+I53
 I0
-I155
+I162
 I1
 tp346
 (dp347
@@ -1247,7 +1247,7 @@ Tiddler
 p387
 (dp388
 g21
-V<<if $choseTempo == 1>>\u000a<<set $tempoLog to $aiData.tempoLogs["tempo8"]>>\u000a<<else>>\u000a<<set $tempoLog to $aiData.tempoLogs["tempo81"]>>\u000a<</if>>\u000a<<set $finishPassage to "Start">>\u000a<<goto "StartTempo">>\u000a
+V<<nobr>><<script>>window.creepin_beeps.stop()<</script>><</nobr>>\u000a<<if $choseTempo == 1>>\u000a<<set $tempoLog to $aiData.tempoLogs["tempo8"]>>\u000a<<else>>\u000a<<set $tempoLog to $aiData.tempoLogs["tempo81"]>>\u000a<</if>>\u000a<<set $finishPassage to "Start">>\u000a<<goto "StartTempo">>\u000a
 p389
 sg23
 VEnd
@@ -1256,12 +1256,12 @@ sg25
 g26
 ((I2018
 I6
-I8
-I21
-I41
+I11
+I12
 I45
-I4
-I159
+I58
+I0
+I162
 I1
 tp391
 (dp392

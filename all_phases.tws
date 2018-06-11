@@ -395,7 +395,7 @@ Tiddler
 p131
 (dp132
 g21
-V<<nobr>><<set $doingSearchTask = false>>\u000a<</nobr>>[[Boot Sequence|Boot][$finishPassage to "StartPostLoad"]]\u000a[[Tempo 1: Intro|StartTempo][$tempoLog to $aiData.tempoLogs["tempo1"], $finishPassage to "StartPostLoad"]]\u000a[[Face Supervised Task|StartFacialOrientation][$finishPassage to "StartPostLoad"]]\u000a\u000a[[Tempo 2: What is Unsupervised Learning|StartTempo][$tempoLog to $aiData.tempoLogs["tempo2"], $finishPassage to "StartPostLoad"]]\u000a[[Unsupervised 1|Unsupervised Start][$unsupervised to $aiData.unsupervised[0], $finishPassage to "StartPostLoad"]]\u000a\u000a[[Tempo 3: Food Advertising|StartTempo][$tempoLog to $aiData.tempoLogs["tempo3"], $finishPassage to "StartPostLoad"]]\u000a[[Advertising Task|StartAdvertising][$finishPassage to "StartPostLoad"]]\u000a[[Unsupervised 2|Unsupervised Start][$unsupervised to $aiData.unsupervised[1], $finishPassage to "StartPostLoad"]]\u000a\u000a[[Tempo 4: Before the Investigation|StartTempo][$tempoLog to $aiData.tempoLogs["tempo4"], $finishPassage to "StartPostLoad"]]\u000a[[Incident Investigation|Murder Start][$unsupervised to $aiData.murder, $finishPassage to "StartPostLoad"]]\u000a\u000a[[Tempo 6: After the Investigation|StartTempo][$tempoLog to $aiData.tempoLogs["tempo6"], $finishPassage to "StartPostLoad"]]\u000a[[Unsupervised 3|Unsupervised Start][$unsupervised to $aiData.unsupervised[2], $finishPassage to "StartPostLoad"]]\u000a\u000a[[Tempo 7: Classifying|StartTempo][$tempoLog to $aiData.tempoLogs["tempo7"], $finishPassage to "StartPostLoad"]]\u000a[[Predicting Terrorism|StartPredictingTerrorism][$finishPassage to "StartPostLoad"]]\u000a
+V<<nobr>><<set $doingSearchTask = false>>\u000a<</nobr>>[[Boot Sequence|Boot][$finishPassage to "StartPostLoad"]]\u000a[[Tempo 1: Intro|StartTempo][$tempoLog to $aiData.tempoLogs["tempo1"], $finishPassage to "StartPostLoad"]]\u000a[[Face Supervised Task|StartFacialOrientation][$finishPassage to "StartPostLoad"]]\u000a\u000a[[Tempo 2: What is Unsupervised Learning|StartTempo][$tempoLog to $aiData.tempoLogs["tempo2"], $finishPassage to "StartPostLoad"]]\u000a[[Unsupervised 1|Unsupervised Start][$unsupervised to $aiData.unsupervised[0], $finishPassage to "StartPostLoad"]]\u000a\u000a[[Tempo 3: Food Advertising|StartTempo][$tempoLog to $aiData.tempoLogs["tempo3"], $finishPassage to "StartPostLoad"]]\u000a[[Advertising Task|StartAdvertising][$finishPassage to "StartPostLoad"]]\u000a[[Unsupervised 2|Unsupervised Start][$unsupervised to $aiData.unsupervised[1], $finishPassage to "StartPostLoad"]]\u000a\u000a[[Tempo 4: Before the Investigation|StartTempo][$tempoLog to $aiData.tempoLogs["tempo4"], $finishPassage to "StartPostLoad"]]\u000a[[Incident Investigation|Murder Start][$unsupervised to $aiData.murder, $finishPassage to "StartPostLoad"]]\u000a\u000a[[Tempo 6: After the Investigation|StartTempo][$tempoLog to $aiData.tempoLogs["tempo6"], $finishPassage to "StartPostLoad"]]\u000a[[Unsupervised 3|Unsupervised Start][$unsupervised to $aiData.unsupervised[2], $finishPassage to "StartPostLoad"]]\u000a\u000a[[Tempo 7: Classifying|StartTempo][$tempoLog to $aiData.tempoLogs["tempo7"], $finishPassage to "StartPostLoad"]]\u000a[[Predicting Terrorism|StartPredictingTerrorism][$finishPassage to "StartPostLoad"]]\u000a\u000a<<script>> \u000awindow.creepin_beeps.stop();\u000awindow.tempo1Audio.stop();\u000awindow.tempo2Audio.stop();\u000awindow.tempo3Audio.stop();\u000awindow.tempo6Audio.stop();\u000awindow.tempo7Audio.stop();\u000a<</script>>\u000a
 p133
 sg23
 VStartPostLoad
@@ -406,8 +406,8 @@ g26
 I6
 I11
 I12
-I12
-I58
+I50
+I23
 I0
 I162
 I1
@@ -445,7 +445,7 @@ Tiddler
 p146
 (dp147
 g21
-V<div id="loading-button">\u000aLoading...\u000a<br>\u000a<div class="lds-default"><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div>\u000a</div>\u000a<div id="start-button" class="hidden-button">\u000a[[Play|Next Level]] <br>\u000a[[Level Select|StartPostLoad]]\u000a</div>\u000a\u000a<<set $passageNum to -1>>
+V<div id="loading-button">\u000aLoading...\u000a<br>\u000a<div class="lds-default"><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div>\u000a</div>\u000a<div id="start-button" class="hidden-button">\u000a[[Play|Next Level]] <br>\u000a[[Level Select|StartPostLoad]]\u000a</div>\u000a\u000a<<set $passageNum to 12>>
 p148
 sg23
 VStart
@@ -456,8 +456,8 @@ g26
 I6
 I11
 I12
-I27
-I2
+I51
+I20
 I0
 I162
 I1
@@ -1104,7 +1104,7 @@ tp347
 Rp348
 sbsa(dp349
 g14
-I00
+I01
 sg15
 (lp350
 F175.1041666666668
@@ -1115,7 +1115,7 @@ Tiddler
 p351
 (dp352
 g21
-V/% Passage that redirects player to the next level in the sequence. %/\u000a\u000a<<set $doingSearchTask = false>>\u000a<<set $finishPassage to "Next Level">>\u000a\u000a<<script>> \u000awindow.creepin_beeps.stop();\u000awindow.tempo1Audio.stop();\u000awindow.tempo2Audio.stop();\u000awindow.tempo3Audio.stop();\u000awindow.tempo6Audio.stop();\u000awindow.tempo7Audio.stop();\u000a<</script>>\u000a\u000a/% Hack - do this in the transition to this passage instead %/\u000a<<set $passageNum = $passageNum + 1>>\u000a\u000a<<switch $passageNum>>\u000a<<case 0>> /% Boot Intro Sequence %/\u000a    <<script>>window.creepin_beeps.play();<</script>>\u000a	<<goto "Boot">>\u000a<<case 1>> /% Tempo 1: Exposition %/\u000a	<<set $tempoLog to $aiData.tempoLogs["tempo1"]>>\u000a    <<script>>window.tempo1Audio.play();<</script>>\u000a	<<goto "StartTempo">>\u000a<<case 2>> /% Facial Orientation %/\u000a    <<script>>window.creepin_beeps.play();<</script>>\u000a	<<goto "StartFacialOrientation">>\u000a\u000a<<case 3>> /% Tempo 2: What Unsupervised Is %/\u000a	<<set $tempoLog to $aiData.tempoLogs["tempo2"]>>\u000a    <<script>>window.tempo2Audio.play();<</script>>\u000a	<<goto "StartTempo">>\u000a<<case 4>> /% Unsupervised 1 %/\u000a	<<set $unsupervised to $aiData.unsupervised[0]>>\u000a	<<goto "Unsupervised Start">>\u000a\u000a<<case 5>> /% Tempo 3: Food Advertising %/\u000a	<<set $tempoLog to $aiData.tempoLogs["tempo3"]>>\u000a    <<script>>window.tempo3Audio.play();<</script>>\u000a	<<goto "StartTempo">>\u000a<<case 6>> /% Advertising Task %/\u000a    <<script>>window.creepin_beeps.play();<</script>>\u000a	<<goto "StartAdvertising">>\u000a<<case 7>> /% Unsupervised 2 %/\u000a	<<set $unsupervised to $aiData.unsupervised[1]>>\u000a    <<script>>window.creepin_beeps.play();<</script>>\u000a	<<goto "Unsupervised Start">>\u000a\u000a<<case 8>> /% Tempo 4: Before Murder %/\u000a	<<set $tempoLog to $aiData.tempoLogs["tempo4"]>>\u000a    <<script>>window.tempo3Audio.play();<</script>>\u000a	<<goto "StartTempo">>\u000a<<case 9>> /% Unsupervised 1 %/\u000a	<<set $unsupervised to $aiData.murder>>\u000a    <<script>>window.creepin_beeps.play();<</script>>\u000a	<<goto "Murder Start">>\u000a\u000a<<case 10>> /% Tempo 6: After Murder %/\u000a	<<set $tempoLog to $aiData.tempoLogs["tempo6"]>>\u000a    <<script>>window.tempo6Audio.play();<</script>>\u000a	<<goto "StartTempo">>\u000a<<case 11>> /% Unsupervised 1 %/\u000a	<<set $unsupervised to $aiData.unsupervised[2]>>\u000a    <<script>>window.creepin_beeps.play();<</script>>\u000a	<<goto "Unsupervised Start">>\u000a\u000a<<case 12>> /% Tempo 7: Classifying %/\u000a	<<set $tempoLog to $aiData.tempoLogs["tempo7"]>>\u000a    <<script>>window.tempo7Audio.play();<</script>>\u000a	<<goto "StartTempo">>\u000a<<case 13>> /% Unsupervised 1 %/\u000a	<<goto "StartPredictingTerrorism">>\u000a\u000a<</switch>>
+V/% Passage that redirects player to the next level in the sequence. %/\u000a\u000a<<set $doingSearchTask = false>>\u000a<<set $finishPassage to "Next Level">>\u000a\u000a<<script>> \u000awindow.creepin_beeps.stop();\u000awindow.tempo1Audio.stop();\u000awindow.tempo2Audio.stop();\u000awindow.tempo3Audio.stop();\u000awindow.tempo6Audio.stop();\u000awindow.tempo7Audio.stop();\u000a<</script>>\u000a\u000a/% Hack - do this in the transition to this passage instead %/\u000a<<set $passageNum = $passageNum + 1>>\u000a\u000a<<switch $passageNum>>\u000a<<case 0>> /% Boot Intro Sequence %/\u000a    <<script>>window.creepin_beeps.play();<</script>>\u000a	<<goto "Boot">>\u000a<<case 1>> /% Tempo 1: Exposition %/\u000a	<<set $tempoLog to $aiData.tempoLogs["tempo1"]>>\u000a    <<script>>window.tempo1Audio.play();<</script>>\u000a	<<goto "StartTempo">>\u000a<<case 2>> /% Facial Orientation %/\u000a    <<script>>window.creepin_beeps.play();<</script>>\u000a	<<goto "StartFacialOrientation">>\u000a\u000a<<case 3>> /% Tempo 2: What Unsupervised Is %/\u000a	<<set $tempoLog to $aiData.tempoLogs["tempo2"]>>\u000a    <<script>>window.tempo2Audio.play();<</script>>\u000a	<<goto "StartTempo">>\u000a<<case 4>> /% Unsupervised 1 %/\u000a	<<set $unsupervised to $aiData.unsupervised[0]>>\u000a	<<goto "Unsupervised Start">>\u000a\u000a<<case 5>> /% Tempo 3: Food Advertising %/\u000a	<<set $tempoLog to $aiData.tempoLogs["tempo3"]>>\u000a    <<script>>window.tempo3Audio.play();<</script>>\u000a	<<goto "StartTempo">>\u000a<<case 6>> /% Advertising Task %/\u000a    <<script>>window.creepin_beeps.play();<</script>>\u000a	<<goto "StartAdvertising">>\u000a<<case 7>> /% Unsupervised 2 %/\u000a	<<set $unsupervised to $aiData.unsupervised[1]>>\u000a    <<script>>window.creepin_beeps.play();<</script>>\u000a	<<goto "Unsupervised Start">>\u000a\u000a<<case 8>> /% Tempo 4: Before Murder %/\u000a	<<set $tempoLog to $aiData.tempoLogs["tempo4"]>>\u000a    <<script>>window.tempo3Audio.play();<</script>>\u000a	<<goto "StartTempo">>\u000a<<case 9>> /% Unsupervised 1 %/\u000a	<<set $unsupervised to $aiData.murder>>\u000a    <<script>>window.creepin_beeps.play();<</script>>\u000a	<<goto "Murder Start">>\u000a\u000a<<case 10>> /% Tempo 6: After Murder %/\u000a	<<set $tempoLog to $aiData.tempoLogs["tempo6"]>>\u000a    <<script>>window.tempo6Audio.play();<</script>>\u000a	<<goto "StartTempo">>\u000a<<case 11>> /% Unsupervised 1 %/\u000a	<<set $unsupervised to $aiData.unsupervised[2]>>\u000a    <<script>>window.creepin_beeps.play();<</script>>\u000a	<<goto "Unsupervised Start">>\u000a\u000a<<case 12>> /% Tempo 7: Classifying %/\u000a	<<set $tempoLog to $aiData.tempoLogs["tempo7"]>>\u000a    <<script>>window.tempo7Audio.play();<</script>>\u000a	<<goto "StartTempo">>\u000a<<case 13>> /% Unsupervised 1 %/\u000a	<<script>>window.creepin_beeps.play();<</script>>\u000a	<<goto "StartPredictingTerrorism">>\u000a<</switch>>
 p353
 sg23
 VNext Level
@@ -1126,8 +1126,8 @@ g26
 I6
 I11
 I12
-I21
-I49
+I51
+I57
 I0
 I162
 I1
