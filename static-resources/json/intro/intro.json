@@ -26,5 +26,7 @@
         ["   50%",200],
         ["   99%",100],
         ["COMPLETE",1000],
-        ["LAUNCHING sesh@.exe", 250]]
+        ["LAUNCHING sesh@.exe...", 500],
+        ["[[Continue|$finishPassage]]", 0],
+        [" ", 0]]
 }
