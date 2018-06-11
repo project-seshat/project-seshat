@@ -434,7 +434,7 @@ tp142
 Rp143
 sbsa(dp144
 g14
-I00
+I01
 sg15
 (lp145
 F17.475
@@ -445,7 +445,7 @@ Tiddler
 p146
 (dp147
 g21
-V<div id="loading-button">\u000aLoading...\u000a<br>\u000a<div class="lds-default"><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div>\u000a</div>\u000a<div id="start-button" class="hidden-button">\u000a[[Play|Next Level]] <br>\u000a[[Level Select|StartPostLoad]]\u000a</div>\u000a\u000a<<set $passageNum to 12>>
+V<div id="loading-button">\u000aLoading...\u000a<br>\u000a<div class="lds-default"><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div>\u000a</div>\u000a<div id="start-button" class="hidden-button">\u000a[[Play|Next Level]] <br>\u000a[[Level Select|StartPostLoad]]\u000a</div>\u000a\u000a<<set $passageNum to -1>>
 p148
 sg23
 VStart
@@ -455,9 +455,9 @@ g26
 ((I2018
 I6
 I11
-I12
-I51
-I20
+I13
+I2
+I7
 I0
 I162
 I1
@@ -1104,7 +1104,7 @@ tp347
 Rp348
 sbsa(dp349
 g14
-I01
+I00
 sg15
 (lp350
 F175.1041666666668
