@@ -5,7 +5,7 @@ VG:\u005cTeam Drives\u005cVideoGameWriting\u005cHTML Template Sketches (only tho
 p2
 sS'saveDestination'
 p3
-S'C:\\Users\\Dennis Jeong\\Documents\\twine\\project-seshat\\murder.tws'
+S'C:\\Users\\peace\\Documents\\GitHub\\project-seshat\\murder.tws'
 p4
 sS'metadata'
 p5
@@ -143,7 +143,7 @@ Tiddler
 p55
 (dp56
 g21
-V<<set $directories to $aiData.murder.directories>>\u000a<<for $i to 0; $i lt $directories.length; $i++>>\u000a<<capture $i>>\u000a[[$directories[$i].title|Murder Directory][$directoryIndex to $i]]<br>\u000a<</capture>>\u000a<</for>>\u000a<br>\u000a[[I know who it is!]]
+V<<set $directories to $aiData.murder.directories>>\u000a<<for $i to 0; $i lt $directories.length; $i++>>\u000a<<capture $i>>\u000a[[$directories[$i].title|Murder Directory][$directoryIndex to $i]]<br>\u000a<</capture>>\u000a<</for>>\u000a<br>\u000a[[Submit Answer|I know who it is!]]
 p57
 sg23
 VChoose a Murder Directory
@@ -152,12 +152,12 @@ sg25
 g26
 ((I2018
 I6
-I4
-I14
-I53
-I59
-I0
-I155
+I12
+I17
+I54
+I25
+I1
+I163
 I1
 tp59
 (dp60
@@ -338,7 +338,7 @@ tp114
 Rp115
 sbsa(dp116
 g14
-I00
+I01
 sg15
 (lp117
 F692.7583333333333
@@ -349,7 +349,7 @@ Tiddler
 p118
 (dp119
 g21
-VAlright, we're moving in to arrest the suspect now. \u000a<br>\u000a<br>\u000a<<if $right>>\u000aI think this is the right one!\u000a<<else>>\u000aI don't think this is the right person...\u000a<</if>>\u000a<br>\u000a<br>\u000a[[Continue|$finishPassage]]
+VTransferring subject profile data to authorities.<br>\u000aSubject will be investigated.\u000a<br>\u000a<br>\u000aInvestigation result:\u000a<<timed 2s>>\u000a<<if $right>>\u000aCORRECT <br>\u000adev.log("Yes I knew Sesh@ could do it!")\u000a<<else>>\u000aINCORRECT <br>\u000adev.log("I hope we got the right person...")\u000a<</if>>\u000a<br>\u000a<br>\u000a[[Continue|$finishPassage]]\u000a<</timed>>
 p120
 sg23
 VFinished
@@ -358,12 +358,12 @@ sg25
 g26
 ((I2018
 I6
-I4
-I15
-I0
-I32
-I0
-I155
+I12
+I17
+I57
+I55
+I1
+I163
 I1
 tp122
 (dp123
