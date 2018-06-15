@@ -58,8 +58,8 @@ window.musicClips = {
     src: [window.resourcesPath + 'audio/Tempo_Dark_Slow.wav', window.resourcesPath + 'mp3_audio/Tempo_Dark_Slow.mp3'],
     loop: true,
     volume: 1.0
-  })
-  ,"tempo-missing" : new Howl({
+  }),
+  "tempo-missing" : new Howl({
     src: [window.resourcesPath + 'mp3_audio/Fermatta-Missing.mp3'], // same for now
     loop: false,
     volume: 1.0
