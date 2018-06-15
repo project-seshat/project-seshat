@@ -48,7 +48,7 @@ window.theSortingAudio = new Howl({
 });
 
 window.tempoFastScaredAudio = new Howl({
-  src: [window.resourcesPath + 'audio/Tempo_Terror_.wav', window.resourcesPath + 'mp3_audio/Tempo_Terror.mp3'],
+  src: [window.resourcesPath + 'audio/Tempo_Terror.wav', window.resourcesPath + 'mp3_audio/Tempo_Terror.mp3'],
   loop: true,
   volume: 1.0
 });

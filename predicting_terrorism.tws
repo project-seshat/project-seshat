@@ -1147,7 +1147,7 @@ Tiddler
 p357
 (dp358
 g21
-VINITIATING <b>THE SORTING</b>\u000a\u000a<<timed 2s t8n>> LOADING DATASET\u000a<<next>> LOADING DANGER IDENTIFIERS \u000a<<next>> \u000a<<next>> dev.log("fuck. I can't believe they're making us do this.")\u000a<<next>> dev.log("this is just a front! sesh@ won't make meaningful choices about danger if the only data they feed in is silvs!)\u000a<<next>> dev.log("I guess they know that. I guess that's the point.")\u000a<<next>> dev.log("they fired Sharon. she did much better work than I did and we both knew it")\u000a<<next>> dev.log("my husband is a silv. are they coming for him next?")\u000a<<next>> dev.log("fuck!")\u000a<<next>> dev.log("if anyone reads this, im... sorry. im so, so sorry.")\u000a<<next>> dev.log("what have we done?")\u000a\u000a<<next>><<next>>[[sorting.exe|Choices Final]]<</timed>>\u000a<<set $choiceNum to 0>>
+V<<nobr>><<script>>\u000awindow.tempoTerror2Audio.stop();\u000awindow.theSortingAudio.play();<</script>><</nobr>>\u000aINITIATING <b>THE SORTING</b>\u000a\u000a<<timed 2s t8n>> LOADING DATASET\u000a<<next>> LOADING DANGER IDENTIFIERS \u000a<<next>> \u000a<<next>> dev.log("fuck. I can't believe they're making us do this.")\u000a<<next>> dev.log("this is just a front! sesh@ won't make meaningful choices about danger if the only data they feed in is silvs!)\u000a<<next>> dev.log("I guess they know that. I guess that's the point.")\u000a<<next>> dev.log("they fired Sharon. she did much better work than I did and we both knew it")\u000a<<next>> dev.log("my husband is a silv. are they coming for him next?")\u000a<<next>> dev.log("fuck!")\u000a<<next>> dev.log("if anyone reads this, im... sorry. im so, so sorry.")\u000a<<next>> dev.log("what have we done?")\u000a\u000a<<next>><<next>>[[sorting.exe|Choices Final]]<</timed>>\u000a<<set $choiceNum to 0>>
 p359
 sg23
 VLoading 3
@@ -1156,12 +1156,12 @@ sg25
 g26
 ((I2018
 I6
+I14
+I17
+I19
+I16
 I3
-I21
-I31
-I29
-I6
-I154
+I165
 I1
 tp361
 (dp362
@@ -1247,7 +1247,7 @@ Tiddler
 p387
 (dp388
 g21
-V<<nobr>><<script>>window.tempoTerror2Audio.stop();<</script>><</nobr>>\u000a<<if $choseTempo == 1>>\u000a<<set $tempoLog to $aiData.tempoLogs["tempo8"]>>\u000a<<else>>\u000a<<set $tempoLog to $aiData.tempoLogs["tempo81"]>>\u000a<</if>>\u000a<<set $finishPassage to "Start">>\u000a<<goto "StartTempo">>\u000a
+V<<nobr>><<script>>window.theSortingAudio.stop();<</script>><</nobr>>\u000a<<if $choseTempo == 1>>\u000a<<set $tempoLog to $aiData.tempoLogs["tempo8"]>>\u000a<<else>>\u000a<<set $tempoLog to $aiData.tempoLogs["tempo81"]>>\u000a<</if>>\u000a<<set $finishPassage to "Start">>\u000a<<goto "StartTempo">>\u000a
 p389
 sg23
 VEnd
@@ -1256,12 +1256,12 @@ sg25
 g26
 ((I2018
 I6
-I11
-I13
-I15
-I8
-I0
-I162
+I14
+I17
+I19
+I30
+I3
+I165
 I1
 tp391
 (dp392
