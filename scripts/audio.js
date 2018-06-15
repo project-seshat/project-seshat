@@ -40,12 +40,12 @@ window.musicClips = {
     volume: 1.0
   }),
   "tempoDread" : new Howl({
-    src: [window.resourcesPath + 'audio/Tempo_Terror_2.wav', window.resourcesPath + 'mp3_audio/Tempo_Terror_2.mp3'],
+    src: [window.resourcesPath + 'audio/Tempo_Terror.wav', window.resourcesPath + 'mp3_audio/Tempo_Terror.mp3'],
     loop: true,
     volume: 1.0
   }),
-  "tempoHolyF***" : new Howl({
-    src: [window.resourcesPath + 'audio/Tempo_Terror.wav', window.resourcesPath + 'mp3_audio/Tempo_Terror.mp3'],
+  "tempoPanic" : new Howl({
+    src: [window.resourcesPath + 'audio/Tempo_Terror_2.wav', window.resourcesPath + 'mp3_audio/Tempo_Terror_2.mp3'],
     loop: true,
     volume: 1.0
   }),
@@ -116,8 +116,7 @@ window.sfx = {
     src: [window.resourcesPath + 'audio/Failed.wav', window.resourcesPath + 'mp3_audio/Failed.mp3'],
     loop: false,
     volume: 1.0
-  }),
-  "sort" : new Howl({
+  }), "sort-sound" : new Howl({
     src: [window.resourcesPath + 'audio/sort.wav', window.resourcesPath + 'mp3_audio/sort.mp3'],
     loop: false,
     volume: 1.0

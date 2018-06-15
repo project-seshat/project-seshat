@@ -5,7 +5,7 @@ S''
 p2
 sS'saveDestination'
 p3
-S'C:\\Users\\peace\\Documents\\GitHub\\vgw-2018\\advertising_task.tws'
+V/Users/mattmistele/Developer/project-seshat/advertising_task.tws
 p4
 sS'metadata'
 p5
@@ -1172,7 +1172,7 @@ Tiddler
 p354
 (dp355
 g21
-V<<if $order is 0>>\u000a<<set $correct to $correct + 1>>\u000a<<set $prevcorrect to true>>\u000a<<goto "test1A">>\u000a<<endif>>\u000a<<if $order is 1>>\u000a<<set $prevcorrect to false>>\u000a<<goto "adv_error">>\u000a<<endif>>\u000a\u000a
+V<<if $order is 0>>\u000a<<set $correct to $correct + 1>>\u000a<<set $prevcorrect to true>>\u000a<<script>>window.playSFX("correct");<</script>>\u000a<<goto "test1A">>\u000a<<endif>>\u000a<<if $order is 1>>\u000a<<set $prevcorrect to false>>\u000a<<goto "adv_error">>\u000a<<endif>>\u000a\u000a
 p356
 sg23
 Vleft1
@@ -1181,12 +1181,12 @@ sg25
 g26
 ((I2018
 I6
-I3
-I22
-I12
-I8
-I6
-I154
+I15
+I1
+I16
+I0
+I4
+I166
 I1
 tp358
 (dp359
@@ -1222,7 +1222,7 @@ Tiddler
 p369
 (dp370
 g21
-V<<if $order is 0>>\u000a<<set $prevcorrect to false>>\u000a<<goto "adv_error">>\u000a<<endif>>\u000a<<if $order is 1>>\u000a<<set $correct to $correct + 1>>\u000a<<set $prevcorrect to true>>\u000a<<goto "test1A">>\u000a<<endif>>\u000a\u000a
+V<<if $order is 0>>\u000a<<set $prevcorrect to false>>\u000a<<goto "adv_error">>\u000a<<endif>>\u000a<<if $order is 1>>\u000a<<set $correct to $correct + 1>>\u000a<<script>>window.playSFX("correct");<</script>>\u000a<<set $prevcorrect to true>>\u000a<<goto "test1A">>\u000a<<endif>>\u000a\u000a
 p371
 sg23
 Vright1
@@ -1231,12 +1231,12 @@ sg25
 g26
 ((I2018
 I6
-I3
-I22
-I16
-I50
-I6
-I154
+I15
+I1
+I15
+I47
+I4
+I166
 I1
 tp373
 (dp374
@@ -1374,7 +1374,7 @@ Tiddler
 p415
 (dp416
 g21
-V<<if $order is 0>>\u000a<<set $correct to $correct + 1>>\u000a<<set $prevcorrect to true>>\u000a<<goto "test2A">>\u000a<<endif>>\u000a<<if $order is 1>>\u000a<<set $prevcorrect to false>>\u000a<<goto "adv_error">>\u000a<<endif>>\u000a\u000a
+V<<if $order is 0>>\u000a<<set $correct to $correct + 1>>\u000a<<script>>window.playSFX("correct");<</script>>\u000a<<set $prevcorrect to true>>\u000a<<goto "test2A">>\u000a<<endif>>\u000a<<if $order is 1>>\u000a<<set $prevcorrect to false>>\u000a<<goto "adv_error">>\u000a<<endif>>\u000a\u000a
 p417
 sg23
 Vleft2
@@ -1383,12 +1383,12 @@ sg25
 g26
 ((I2018
 I6
-I3
-I22
-I18
-I28
-I6
-I154
+I15
+I1
+I16
+I17
+I4
+I166
 I1
 tp419
 (dp420
@@ -1424,7 +1424,7 @@ Tiddler
 p430
 (dp431
 g21
-V<<if $order is 0>>\u000a<<set $prevcorrect to false>>\u000a<<goto "adv_error">>\u000a<<endif>>\u000a<<if $order is 1>>\u000a<<set $correct to $correct + 1>>\u000a<<set $prevcorrect to true>><<goto "test2A">>\u000a<<endif>>\u000a\u000a
+V<<if $order is 0>>\u000a<<set $prevcorrect to false>>\u000a<<goto "adv_error">>\u000a<<endif>>\u000a<<if $order is 1>>\u000a<<set $correct to $correct + 1>>\u000a<<script>>window.playSFX("correct");<</script>>\u000a<<set $prevcorrect to true>><<goto "test2A">>\u000a<<endif>>\u000a\u000a
 p432
 sg23
 Vright2
@@ -1433,12 +1433,12 @@ sg25
 g26
 ((I2018
 I6
-I3
-I22
-I18
-I21
-I6
-I154
+I15
+I1
+I16
+I8
+I4
+I166
 I1
 tp434
 (dp435
@@ -1515,7 +1515,7 @@ tp457
 Rp458
 sbsa(dp459
 g14
-I01
+I00
 sg15
 (lp460
 F523.0
@@ -1526,7 +1526,7 @@ Tiddler
 p461
 (dp462
 g21
-Vtest2_accuracy: <<print $accuracy>> %\u000a<<set $test3acc to $accuracy>>\u000a\u000a<b>Progress Log</b>\u000apratice_accuracy: <<print $test1acc>> %\u000atest1_accuracy: <<print $test2acc>> %\u000atest2_accuracy: <<print $test3acc>> %\u000a<<set $avgacc to ($test2acc + $test3acc) / 2>>\u005c\u000atotal_accuracy: <<print $avgacc>> %\u000a\u000a<<if $avgacc >= $finalgreatacc>>\u005c\u000afinal_accuracy > minimum_accuracy resolves to true \u000afinal_accuracy > high_accuracy resolves to true\u000a\u000adev.log: "Sesh@ did extremely well! Note this result for investors."\u000a\u000aexiting\u000a<<elseif $avgacc <= $finalfailacc and $test3acc >= $recoveryacc>>\u005c\u000afinal_accuracy > minimum_accuracy resolves to false\u000atest2_accuracy > minimum_accuracy resolves to true\u000adev.log: "Sesh@ was slow on the uptake but got there eventually. Further development required."\u000a\u000aexiting\u000a<<elseif $avgacc <= $noteventryingaccuracy>>\u005c\u000afinal_accuracy > minimum_accuracy resolves to false\u000adev.log: "damn, I guess Sharon was right. shoulda done more testing. guess it's back to the scrap heap with Sesh@"\u000a\u000ashutting down\u000a[[Try Again|StartAdvertising]]\u000a<<elseif $avgacc <= $finalfailacc>>\u005c\u000afinal_accuracy > minimum_accuracy resolves to false\u000adev.log: "damn, I guess Sharon was right. shoulda done more testing. guess it's back to the scrap heap with Sesh@"\u000a\u000ashutting down\u000a[[Try Again|StartAdvertising]]\u000a<<else>>\u005c\u000atest1_accuracy > minimum_accuracy resolves to true \u000adev.log: "Sesh@ passed the minimum tests. Product ready for deployment."\u000a\u000aexiting\u000a<<endif>>\u005c\u000a\u000a[[Continue|$finishPassage]]
+Vtest2_accuracy: <<print $accuracy>> %\u000a<<set $test3acc to $accuracy>>\u000a\u000a<b>Progress Log</b>\u000apratice_accuracy: <<print $test1acc>> %\u000atest1_accuracy: <<print $test2acc>> %\u000atest2_accuracy: <<print $test3acc>> %\u000a<<set $avgacc to ($test2acc + $test3acc) / 2>>\u005c\u000atotal_accuracy: <<print $avgacc>> %\u000a\u000a<<if $avgacc >= $finalgreatacc>>\u005c\u000afinal_accuracy > minimum_accuracy resolves to true \u000afinal_accuracy > high_accuracy resolves to true\u000a\u000adev.log: "Sesh@ did extremely well! Note this result for investors."\u000a\u000aexiting\u000a[[Continue|$finishPassage]]\u000a<<elseif $avgacc <= $finalfailacc and $test3acc >= $recoveryacc>>\u005c\u000afinal_accuracy > minimum_accuracy resolves to false\u000atest2_accuracy > minimum_accuracy resolves to true\u000adev.log: "Sesh@ was slow on the uptake but got there eventually. Further development required."\u000a\u000aexiting\u000a[[Continue|$finishPassage]]\u000a<<elseif $avgacc <= $noteventryingaccuracy>>\u005c\u000afinal_accuracy > minimum_accuracy resolves to false\u000adev.log: "damn, I guess Sharon was right. shoulda done more testing. guess it's back to the scrap heap with Sesh@"\u000a\u000ashutting down\u000a[[Try Again|StartAdvertising]]\u000a<<elseif $avgacc <= $finalfailacc>>\u005c\u000afinal_accuracy > minimum_accuracy resolves to false\u000adev.log: "damn, I guess Sharon was right. shoulda done more testing. guess it's back to the scrap heap with Sesh@"\u000a\u000ashutting down\u000a[[Try Again|StartAdvertising]]\u000a<<else>>\u005c\u000atest1_accuracy > minimum_accuracy resolves to true \u000adev.log: "Sesh@ passed the minimum tests. Product ready for deployment."\u000a\u000aexiting\u000a[[Continue|$finishPassage]]\u000a<<endif>>\u005c
 p463
 sg23
 Vexit3
@@ -1535,12 +1535,12 @@ sg25
 g26
 ((I2018
 I6
-I4
+I15
+I1
 I19
-I34
-I45
-I0
-I155
+I47
+I4
+I166
 I1
 tp465
 (dp466
@@ -1576,7 +1576,7 @@ Tiddler
 p476
 (dp477
 g21
-V<<if $order is 0>>\u000a<<set $correct to $correct + 1>>\u000a<<set $prevcorrect to true>>\u000a<<goto "test3A">>\u000a<<endif>>\u000a<<if $order is 1>>\u000a<<set $prevcorrect to false>>\u000a<<goto "adv_error">>\u000a<<endif>>\u000a\u000a
+V<<if $order is 0>>\u000a<<set $correct to $correct + 1>>\u000a<<script>>window.playSFX("correct");<</script>>\u000a<<set $prevcorrect to true>>\u000a<<goto "test3A">>\u000a<<endif>>\u000a<<if $order is 1>>\u000a<<set $prevcorrect to false>>\u000a<<goto "adv_error">>\u000a<<endif>>\u000a\u000a
 p478
 sg23
 Vleft3
@@ -1585,12 +1585,12 @@ sg25
 g26
 ((I2018
 I6
-I3
-I22
-I18
-I40
-I6
-I154
+I15
+I1
+I16
+I24
+I4
+I166
 I1
 tp480
 (dp481
@@ -1626,7 +1626,7 @@ Tiddler
 p491
 (dp492
 g21
-V<<if $order is 0>>\u000a<<set $prevcorrect to false>>\u000a<<goto "adv_error">>\u000a<<endif>>\u000a<<if $order is 1>>\u000a<<set $correct to $correct + 1>>\u000a<<set $prevcorrect to true>>\u000a<<goto "test3A">>\u000a<<endif>>\u000a
+V<<if $order is 0>>\u000a<<set $prevcorrect to false>>\u000a<<goto "adv_error">>\u000a<<endif>>\u000a<<if $order is 1>>\u000a<<set $correct to $correct + 1>>\u000a<<script>>window.playSFX("correct");<</script>>\u000a<<set $prevcorrect to true>>\u000a<<goto "test3A">>\u000a<<endif>>\u000a
 p493
 sg23
 Vright3
@@ -1635,12 +1635,12 @@ sg25
 g26
 ((I2018
 I6
-I3
-I22
-I18
+I15
+I1
+I16
 I34
-I6
-I154
+I4
+I166
 I1
 tp495
 (dp496
@@ -1728,7 +1728,7 @@ Tiddler
 p522
 (dp523
 g21
-V+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+\u000a+ Developer's log 1.3.0\u000a+\u000a+ Process will be presented three sets of image pairs.\u000a+ It must select one image from each pair. \u000a+ Static memory of which images are correct is implemented; the process should remember which images are correct. \u000a+ This knowledge will transfer between sets of image pairs.\u000a+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+\u000a\u000a[[practice.subp|test1A]]\u000a<<nobr>>\u000a<<set $accuracy to 0>>\u000a<<set $trials to 0>>\u000a<<set $correct to 0>>\u000a<<set $maxtrials to 12>>\u000a<<set $extremefeedbackthreshold to 8>>\u000a<<set $prevcorrect to true>>\u000a<<set $reallybadaccuracy to 40>>\u000a<<set $reallygoodaccuracy to 80>>\u000a<<set $noteventryingaccuracy to 20>>\u000a<<set $test1acc to 0>>\u000a<<set $test2acc to 0>>\u000a<<set $test3acc to 0>>\u000a<<set $avgacc to 0>>\u000a<<set $finalgreatacc to 90>>\u000a<<set $finalfailacc to 65>>\u000a<<set $recoveryacc to 95>>\u000a<<set $streak to 0>>\u000a\u000a<<set $goodimages1= [\u000a"h", \u000a"m", \u000a"q", \u000a"t",  \u000a"y",\u000a]>>\u000a\u000a<<set $threatimages1= [\u000a"f", \u000a"i", \u000a"o", \u000a"r",\u000a]>>\u000a\u000a<<set $goodimages2= [\u000a"h", \u000a"j", \u000a"k", \u000a"m", \u000a"n",\u000a"p",\u000a"q", \u000a"t",  \u000a"v", \u000a"x", \u000a"y",\u000a]>>\u000a\u000a<<set $threatimages2= [\u000a"f", \u000a"g", \u000a"i", \u000a"l", \u000a"o", \u000a"r",\u000a"s",\u000a"u", \u000a"w", \u000a]>>\u000a\u000a<<set $goodimages3= [\u000a"a",\u000a"c",\u000a"h", \u000a"j", \u000a"k", \u000a"m", \u000a"n",\u000a"p",\u000a"q", \u000a"t",  \u000a"v", \u000a"x", \u000a"y",\u000a"papayegg",\u000a"z",\u000a]>>\u000a\u000a<<set $threatimages3= [\u000a"b",\u000a"f", \u000a"g", \u000a"i", \u000a"l", \u000a"o", \u000a"r",\u000a"s",\u000a"u", \u000a"w", \u000a]>>\u000a\u000a<<set $goodresponses= [\u000a"retval: CORRECT"\u000a]>>\u000a\u000a<<set $reallygoodresponses= [\u000a"retval: CORRECT\u005cnprocess flag = high success"\u000a]>>\u000a\u000a<<set $badresponses= [\u000a"retval: INCORRECT"\u000a]>>\u000a\u000a<<set $reallybadresponses= [\u000a"retval: INCORRECT"\u000a]>>\u000a\u000a<<set $noteventryingresponses= [\u000a"retval: INCORRECT\u005cnprocess at risk of termination"\u000a]>>\u000a<</nobr>>
+V+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+\u000a+ Developer's log 1.3.0\u000a+\u000a+ Process will be presented several sets of image pairs.\u000a+ It must select one image from each pair. \u000a+ Static memory of which images are correct is implemented; the process should remember which images are correct. \u000a+ This knowledge will transfer between sets of image pairs.\u000a+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+\u000a\u000a[[practice.subp|test1A]]\u000a<<nobr>>\u000a<<set $accuracy to 0>>\u000a<<set $trials to 0>>\u000a<<set $correct to 0>>\u000a<<set $maxtrials to 12>>\u000a<<set $extremefeedbackthreshold to 8>>\u000a<<set $prevcorrect to true>>\u000a<<set $reallybadaccuracy to 40>>\u000a<<set $reallygoodaccuracy to 80>>\u000a<<set $noteventryingaccuracy to 20>>\u000a<<set $test1acc to 0>>\u000a<<set $test2acc to 0>>\u000a<<set $test3acc to 0>>\u000a<<set $avgacc to 0>>\u000a<<set $finalgreatacc to 90>>\u000a<<set $finalfailacc to 65>>\u000a<<set $recoveryacc to 95>>\u000a<<set $streak to 0>>\u000a\u000a<<set $goodimages1= [\u000a"h", \u000a"m", \u000a"q", \u000a"t",  \u000a"y",\u000a]>>\u000a\u000a<<set $threatimages1= [\u000a"f", \u000a"i", \u000a"o", \u000a"r",\u000a]>>\u000a\u000a<<set $goodimages2= [\u000a"h", \u000a"j", \u000a"k", \u000a"m", \u000a"n",\u000a"p",\u000a"q", \u000a"t",  \u000a"v", \u000a"x", \u000a"y",\u000a]>>\u000a\u000a<<set $threatimages2= [\u000a"f", \u000a"g", \u000a"i", \u000a"l", \u000a"o", \u000a"r",\u000a"s",\u000a"u", \u000a"w", \u000a]>>\u000a\u000a<<set $goodimages3= [\u000a"a",\u000a"c",\u000a"h", \u000a"j", \u000a"k", \u000a"m", \u000a"n",\u000a"p",\u000a"q", \u000a"t",  \u000a"v", \u000a"x", \u000a"y",\u000a"papayegg",\u000a"z",\u000a]>>\u000a\u000a<<set $threatimages3= [\u000a"b",\u000a"f", \u000a"g", \u000a"i", \u000a"l", \u000a"o", \u000a"r",\u000a"s",\u000a"u", \u000a"w", \u000a]>>\u000a\u000a<<set $goodresponses= [\u000a"retval: CORRECT"\u000a]>>\u000a\u000a<<set $reallygoodresponses= [\u000a"retval: CORRECT\u005cnprocess flag = high success"\u000a]>>\u000a\u000a<<set $badresponses= [\u000a"retval: INCORRECT"\u000a]>>\u000a\u000a<<set $reallybadresponses= [\u000a"retval: INCORRECT"\u000a]>>\u000a\u000a<<set $noteventryingresponses= [\u000a"retval: INCORRECT\u005cnprocess at risk of termination"\u000a]>>\u000a<</nobr>>
 p524
 sg23
 VStartAdvertising
@@ -1736,13 +1736,13 @@ p525
 sg25
 g26
 ((I2018
-I5
-I31
-I13
-I45
-I49
-I3
-I151
+I6
+I15
+I1
+I20
+I42
+I4
+I166
 I1
 tp526
 (dp527
@@ -1778,7 +1778,7 @@ Tiddler
 p537
 (dp538
 g21
-Vsys_error: incorrect value chosen\u000a\u000a<<if $test is 1>>\u000a<<timed 1s>><<goto "test1A">><</timed>>\u000a<<elseif $test is 2>>\u000a<<timed 1s>><<goto "test2A">><</timed>>\u000a<<else>>\u000a<<timed 1s>><<goto "test3A">><</timed>>\u000a<</if>>
+Vsys_error: incorrect value chosen\u000a\u000a<<if $test is 1>>\u000a<<timed 1s>><<goto "test1A">><</timed>>\u000a<<elseif $test is 2>>\u000a<<timed 1s>><<goto "test2A">><</timed>>\u000a<<else>>\u000a<<timed 1s>><<goto "test3A">><</timed>>\u000a<</if>>\u000a<<script>>window.playSFX("incorrect")<</script>>
 p539
 sg23
 Vadv_error
@@ -1787,12 +1787,12 @@ sg25
 g26
 ((I2018
 I6
-I3
-I22
-I11
-I46
-I6
-I154
+I15
+I1
+I15
+I8
+I4
+I166
 I1
 tp541
 (dp542
