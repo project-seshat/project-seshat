@@ -253,13 +253,13 @@ p89
 sg25
 g26
 ((I2018
-I5
-I29
-I15
-I59
+I6
+I14
+I18
+I22
+I13
 I3
-I1
-I149
+I165
 I1
 tp90
 (dp91
@@ -645,7 +645,7 @@ Tiddler
 p206
 (dp207
 g21
-V<<if $choiceNum <= $maxChoiceNum1>>\u000a<<goto "Choices1">>\u000a<<elseif $choiceNum <= $maxChoiceNum2>>\u000a<<goto "Choices2">> \u000a<<else>>\u000a<<goto "Choices3">>\u000a<</if>>
+V<<script>>window.playSFX("correct2")<</script>>\u000a<<if $choiceNum <= $maxChoiceNum1>>\u000a<<goto "Choices1">>\u000a<<elseif $choiceNum <= $maxChoiceNum2>>\u000a<<goto "Choices2">> \u000a<<else>>\u000a<<goto "Choices3">>\u000a<</if>>
 p208
 sg23
 VCorrectChoice
@@ -653,13 +653,13 @@ p209
 sg25
 g26
 ((I2018
-I5
-I29
-I15
-I57
-I18
-I1
-I149
+I6
+I14
+I23
+I46
+I8
+I3
+I165
 I1
 tp210
 (dp211
@@ -695,7 +695,7 @@ Tiddler
 p221
 (dp222
 g21
-Vsys_error: incorrect value chosen\u000a\u000a<<timed 1s>>\u000a<<if $choiceNum <= $maxChoiceNum1>>\u000a<<goto "Choices1">>\u000a<<elseif $choiceNum <= $maxChoiceNum2>>\u000a<<goto "Choices2">>\u000a<<else>>\u000a<<goto "Choices3">>\u000a<</if>>\u000a<</timed>>
+Vsys_error: incorrect value chosen\u000a<<script>>window.playSFX("incorrect2")<</script>>\u000a<<timed 1s>>\u000a<<if $choiceNum <= $maxChoiceNum1>>\u000a<<goto "Choices1">>\u000a<<elseif $choiceNum <= $maxChoiceNum2>>\u000a<<goto "Choices2">>\u000a<<else>>\u000a<<goto "Choices3">>\u000a<</if>>\u000a<</timed>>
 p223
 sg23
 VIncorrectChoice
@@ -704,12 +704,12 @@ sg25
 g26
 ((I2018
 I6
+I14
+I23
+I46
 I3
-I22
-I21
-I26
-I6
-I154
+I3
+I165
 I1
 tp225
 (dp226
@@ -947,7 +947,7 @@ Tiddler
 p297
 (dp298
 g21
-V<<if $choices[0] == 1>> \u005c\u000a"Swan" will be investigated.\u000a<</if>><<if $choices[1] == 1>> \u005c\u000a"Rolshin Hova" will be investigated.\u000a<</if>><<if $choices[2] == 1>> \u005c\u000a"Marli Prisse" will be investigated.\u000a<</if>><<if $choices[3] == 1>> \u005c\u000a"Grajie Litne" will be investigated.\u000a<</if>><<if $choices[4] == 1>> \u005c\u000a"Kavoy Madrik" will be investigated.\u000a<</if>><<if $choices[5] == 1>> \u005c\u000a"Vervain Helia" will be investigated.\u000a<</if>>\u005c\u000a\u000a<<nobr>>\u000a<<if $numThreats >= 4>>\u000a<<set $tempoLog to $aiData.tempoLogs["tempo72"]>>\u000a<<set $finishPassage to "Many Path">>\u000a<<link [[Continue|StartTempo]]>>\u000a<<script>>window.tempoTerror2Audio.play()<</script>>\u000a<<script>>window.creepin_beeps.stop()<</script>>\u000a<</link>>\u000a<<elseif $choices[1] eq 1 or $choices[4] eq 1>>\u000a<<set $tempoLog to $aiData.tempoLogs["tempo71"]>>\u000a<<set $finishPassage to "Correct Path">>\u000a<<link [[Continue|StartTempo]]>>\u000a<<script>>window.tempoTerror2Audio.play()<</script>>\u000a<<script>>window.creepin_beeps.stop()<</script>>\u000a<</link>>\u000a<<else>>\u000a<<set $tempoLog to $aiData.tempoLogs["tempo73"]>>\u000a<<set $finishPassage to "Incorrect Path">>\u000a<<link [[Continue|StartTempo]]>>\u000a<<script>>window.tempo1Audio.play()<</script>>\u000a<<script>>window.creepin_beeps.stop()<</script>>\u000a<</link>>\u000a<</if>>\u000a<</nobr>>
+V<<if $choices[0] == 1>> \u005c\u000a"Swan" will be investigated.\u000a<</if>><<if $choices[1] == 1>> \u005c\u000a"Rolshin Hova" will be investigated.\u000a<</if>><<if $choices[2] == 1>> \u005c\u000a"Marli Prisse" will be investigated.\u000a<</if>><<if $choices[3] == 1>> \u005c\u000a"Grajie Litne" will be investigated.\u000a<</if>><<if $choices[4] == 1>> \u005c\u000a"Kavoy Madrik" will be investigated.\u000a<</if>><<if $choices[5] == 1>> \u005c\u000a"Vervain Helia" will be investigated.\u000a<</if>>\u005c\u000a\u000a<<nobr>>\u000a<<if $numThreats >= 4>>\u000a<<set $tempoLog to $aiData.tempoLogs["tempo72"]>>\u000a<<set $finishPassage to "Many Path">>\u000a<<link [[Continue|StartTempo]]>>\u000a<<script>>window.setMusic("tempoDread")<</script>>\u000a<</link>>\u000a<<elseif $choices[1] eq 1 or $choices[4] eq 1>>\u000a<<set $tempoLog to $aiData.tempoLogs["tempo71"]>>\u000a<<set $finishPassage to "Correct Path">>\u000a<<link [[Continue|StartTempo]]>>\u000a<<script>>window.setMusic("tempoDread")<</script>>\u000a<</link>>\u000a<<else>>\u000a<<set $tempoLog to $aiData.tempoLogs["tempo73"]>>\u000a<<set $finishPassage to "Incorrect Path">>\u000a<<link [[Continue|StartTempo]]>>\u000a<<script>>window.setMusic("tempo1")<</script>>\u000a<</link>>\u000a<</if>>\u000a<</nobr>>
 p299
 sg23
 VResults
@@ -956,12 +956,12 @@ sg25
 g26
 ((I2018
 I6
-I11
-I12
-I58
-I12
-I0
-I162
+I14
+I18
+I31
+I18
+I3
+I165
 I1
 tp301
 (dp302
@@ -997,7 +997,7 @@ Tiddler
 p312
 (dp313
 g21
-V<<nobr>><<script>>window.tempoTerror2Audio.stop();<</script>>\u000a<</nobr>><<timed 1s>>entering standby_mode.\u000a<<next>>to awaken upon signal from user.\u000a<<next>>.\u000a<<next>>.\u000a<<next>>.\u000a<<next>><<next>><<next>><<next>>\u000a<<next>>[SIGNAL RECEIVED]\u000a<<next>><<next>><<next>>\u000a<<set $tempoLog to $aiData.tempoLogs["tempo74"]>>\u000a<<set $finishPassage to "Loading 3">>\u000a<<script>>\u000awindow.tempoTerror2Audio.play();<</script>>\u000a<<goto "StartTempo">>\u000a<</timed>>
+V<<nobr>><<script>>window.stopMusic()<</script>>\u000a<</nobr>><<timed 1s>>entering standby_mode.\u000a<<next>>to awaken upon signal from user.\u000a<<next>>.\u000a<<next>>.\u000a<<next>>.\u000a<<next>><<next>><<next>><<next>>\u000a<<next>>[SIGNAL RECEIVED]\u000a<<next>><<next>><<next>>\u000a<<set $tempoLog to $aiData.tempoLogs["tempo74"]>>\u000a<<set $finishPassage to "Loading 3">>\u000a<<script>>\u000awindow.setMusic("tempoHolyF****");<</script>>\u000a<<goto "StartTempo">>\u000a<</timed>>
 p314
 sg23
 VCorrect Path
@@ -1006,12 +1006,12 @@ sg25
 g26
 ((I2018
 I6
-I11
-I13
-I12
-I37
+I14
+I18
+I28
 I0
-I162
+I3
+I165
 I1
 tp316
 (dp317
@@ -1047,7 +1047,7 @@ Tiddler
 p327
 (dp328
 g21
-V<<nobr>><<script>>window.tempoTerror2Audio.stop(); <</script>><</nobr>>\u000a<<timed 1s>>entering standby_mode.\u000a<<next>>to awaken upon signal from user.\u000a<<next>>.\u000a<<next>>.\u000a<<next>>.\u000a<<next>><<next>><<next>><<next>>\u000a<<next>>[SIGNAL RECEIVED]\u000a<<next>><<next>><<next>>\u000a<<set $tempoLog to $aiData.tempoLogs["tempo74"]>>\u000a<<set $finishPassage to "Loading 3">>\u000a<<nobr>><<script>>window.tempoTerror2Audio.play(); <</script>><</nobr>>\u000a<<goto "StartTempo">>\u000a<</timed>>
+V<<nobr>><<script>>window.stopMusic(); <</script>><</nobr>>\u000a<<timed 1s>>entering standby_mode.\u000a<<next>>to awaken upon signal from user.\u000a<<next>>.\u000a<<next>>.\u000a<<next>>.\u000a<<next>><<next>><<next>><<next>>\u000a<<next>>[SIGNAL RECEIVED]\u000a<<next>><<next>><<next>>\u000a<<set $tempoLog to $aiData.tempoLogs["tempo74"]>>\u000a<<set $finishPassage to "Loading 3">>\u000a<<nobr>><<script>>window.setMusic("tempoHolyF***"); <</script>><</nobr>>\u000a<<goto "StartTempo">>\u000a<</timed>>
 p329
 sg23
 VMany Path
@@ -1056,12 +1056,12 @@ sg25
 g26
 ((I2018
 I6
-I11
-I13
-I13
-I23
-I0
-I162
+I14
+I18
+I24
+I54
+I3
+I165
 I1
 tp331
 (dp332
@@ -1097,7 +1097,7 @@ Tiddler
 p342
 (dp343
 g21
-VSesh@ performance not useful; no threats detected.\u000a\u000a<<set $finishPassage to "StartPostLoad">>\u000a[[IINITIATE RETRAINING|Loading 2]]\u000a[[SHUT DOWN|$finishPassage]]\u000a<<nobr>><<script>>window.tempoTerror2Audio.stop(); window.creepin_beeps.play();<</script>><</nobr>>
+VSesh@ performance not useful; no threats detected.\u000a\u000a<<set $finishPassage to "StartPostLoad">>\u000a[[IINITIATE RETRAINING|Loading 2]]\u000a[[SHUT DOWN|$finishPassage]]\u000a<<nobr>><<script>>window.setMusic("creepin_beeps");<</script>><</nobr>>
 p344
 sg23
 VIncorrect Path
@@ -1106,12 +1106,12 @@ sg25
 g26
 ((I2018
 I6
-I11
-I12
-I57
-I53
-I0
-I162
+I14
+I18
+I27
+I1
+I3
+I165
 I1
 tp346
 (dp347
@@ -1147,7 +1147,7 @@ Tiddler
 p357
 (dp358
 g21
-V<<nobr>><<script>>\u000awindow.tempoTerror2Audio.stop();\u000awindow.theSortingAudio.play();<</script>><</nobr>>\u000aINITIATING <b>THE SORTING</b>\u000a\u000a<<timed 2s t8n>> LOADING DATASET\u000a<<next>> LOADING DANGER IDENTIFIERS \u000a<<next>> \u000a<<next>> dev.log("fuck. I can't believe they're making us do this.")\u000a<<next>> dev.log("this is just a front! sesh@ won't make meaningful choices about danger if the only data they feed in is silvs!)\u000a<<next>> dev.log("I guess they know that. I guess that's the point.")\u000a<<next>> dev.log("they fired Sharon. she did much better work than I did and we both knew it")\u000a<<next>> dev.log("my husband is a silv. are they coming for him next?")\u000a<<next>> dev.log("fuck!")\u000a<<next>> dev.log("if anyone reads this, im... sorry. im so, so sorry.")\u000a<<next>> dev.log("what have we done?")\u000a\u000a<<next>><<next>>[[sorting.exe|Choices Final]]<</timed>>\u000a<<set $choiceNum to 0>>
+VINITIATING <b>THE SORTING</b>\u000a\u000a<<timed 2s t8n>> LOADING DATASET\u000a<<next>> LOADING DANGER IDENTIFIERS \u000a<<next>> \u000a<<next>> dev.log("fuck. I can't believe they're making us do this.")\u000a<<next>> dev.log("this is just a front! sesh@ won't make meaningful choices about danger if the only data they feed in is silvs!)\u000a<<next>> dev.log("I guess they know that. I guess that's the point.")\u000a<<next>> dev.log("they fired Sharon. she did much better work than I did and we both knew it")\u000a<<next>> dev.log("my husband is a silv. are they coming for him next?")\u000a<<next>> dev.log("fuck!")\u000a<<next>> dev.log("if anyone reads this, im... sorry. im so, so sorry.")\u000a<<next>> dev.log("what have we done?")\u000a\u000a<<next>><<next>>[[sorting.exe|Choices Final]]<</timed>>\u000a<<set $choiceNum to 0>>\u000a<<script>>window.setMusic("the_sorting");<</script>>
 p359
 sg23
 VLoading 3
@@ -1157,9 +1157,9 @@ g26
 ((I2018
 I6
 I14
-I17
-I19
-I16
+I18
+I29
+I57
 I3
 I165
 I1
@@ -1257,9 +1257,9 @@ g26
 ((I2018
 I6
 I14
-I17
-I19
+I18
 I30
+I15
 I3
 I165
 I1
@@ -1347,7 +1347,7 @@ Tiddler
 p417
 (dp418
 g21
-V<<set $id to random(100, 999)>>\u005c\u000asysout: SUBJECT $id WILL BE INTERNED.\u000a\u000a<<timed 1.5s>><<goto "Choices Final">><</timed>>
+V<<set $id to random(100, 999)>>\u005c\u000asysout: SUBJECT $id WILL BE INTERNED.\u000a\u000a<<timed 1.5s>><<goto "Choices Final">><</timed>>\u000a<<script>><</script>>
 p419
 sg23
 VInterned
@@ -1356,12 +1356,12 @@ sg25
 g26
 ((I2018
 I6
+I14
+I18
+I31
+I37
 I3
-I21
-I36
-I6
-I6
-I154
+I165
 I1
 tp421
 (dp422
