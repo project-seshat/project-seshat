@@ -59,6 +59,16 @@ window.musicClips = {
     loop: true,
     volume: 1.0
   })
+  ,"tempo-missing" : new Howl({
+    src: [window.resourcesPath + 'mp3_audio/Fermatta-Missing.mp3'], // same for now
+    loop: false,
+    volume: 1.0
+  }),
+  "fermatta-missing" : new Howl({
+    src: [window.resourcesPath + 'mp3_audio/Fermatta-Missing.mp3'],
+    loop: false,
+    volume: 1.0
+  })
 }
 
 window.musicPlayingName = ""
@@ -116,8 +126,9 @@ window.sfx = {
     src: [window.resourcesPath + 'audio/Failed.wav', window.resourcesPath + 'mp3_audio/Failed.mp3'],
     loop: false,
     volume: 1.0
-  }), "sort-sound" : new Howl({
-    src: [window.resourcesPath + 'audio/sort.wav', window.resourcesPath + 'mp3_audio/sort.mp3'],
+  }), 
+  "sort-sound" : new Howl({
+    src: [window.resourcesPath + 'mp3_audio/sort.mp3'],
     loop: false,
     volume: 1.0
   })

@@ -986,7 +986,7 @@ tp308
 Rp309
 sbsa(dp310
 g14
-I01
+I00
 sg15
 (lp311
 I990
@@ -1247,7 +1247,7 @@ Tiddler
 p387
 (dp388
 g21
-V<<nobr>><<script>>window.theSortingAudio.stop();<</script>><</nobr>>\u000a<<if $choseTempo == 1>>\u000a<<set $tempoLog to $aiData.tempoLogs["tempo8"]>>\u000a<<else>>\u000a<<set $tempoLog to $aiData.tempoLogs["tempo81"]>>\u000a<</if>>\u000a<<set $finishPassage to "Start">>\u000a<<goto "StartTempo">>\u000a
+V<<if $choseTempo == 1>>\u000a<<set $tempoLog to $aiData.tempoLogs["tempo8"]>>\u000a<<script>>window.setMusic("fermatta-missing")<</script>>\u000a<<else>>\u000a<<script>>window.setMusic("tempo-missing")<</script>>\u000a<<set $tempoLog to $aiData.tempoLogs["tempo81"]>>\u000a<</if>>\u000a<<set $finishPassage to "Contributors">>\u000a<<set $passageNum to 0>>\u000a<<goto "StartTempo">>\u000a
 p389
 sg23
 VEnd
@@ -1256,12 +1256,12 @@ sg25
 g26
 ((I2018
 I6
-I14
-I18
-I30
 I15
 I3
-I165
+I8
+I4
+I4
+I166
 I1
 tp391
 (dp392
